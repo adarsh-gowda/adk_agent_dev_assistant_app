@@ -1,0 +1,17 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+langchain_community
+beautifulsoup4
+markdown
+unstructured
+PyMuPDF
+beautifulsoup4
+requests
+lxml 
+html2
