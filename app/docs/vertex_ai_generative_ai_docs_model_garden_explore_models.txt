@@ -1,0 +1,223 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Advantages of Model Garden
+Explore models in the Google Cloud console
+Model security scanning
+Pricing
+Control access to specific models
+Additional resources
+Deployment and serving options
+Model tuning resources
+Model evaluation resources
+General resources and notebooks
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Overview of Model Garden
+bookmark_border
+Release Notes
+
+Model Garden is an AI/ML model library that helps you discover, test, customize, and deploy models and assets from Google and Google partners.
+
+Advantages of Model Garden
+
+When you're working with AI models, Model Garden provides the following advantages:
+
+Available models are all grouped in a single location.
+Model Garden provides a consistent deployment pattern for different types of models.
+Model Garden provides built-in integration with other parts of Vertex AI such as model tuning, evaluation, and serving.
+Serving generative AI models can be difficult—Vertex AI handles model deployment and serving for you.
+Explore models in the Google Cloud console
+
+To view the list of available Vertex AI and open source foundation, tunable, and task-specific models, go to the Model Garden page in the Google Cloud console.
+
+Go to Model Garden
+
+The model categories available in Model Garden are:
+
+Category	Description
+Foundation models	Pretrained multitask large models that can be tuned or customized for specific tasks using Vertex AI Studio, Vertex AI API, and the Vertex AI SDK for Python.
+Fine-tunable models	Models that you can fine-tune using a custom notebook or pipeline.
+Task-specific solutions	Most of these prebuilt models are ready to use. Many can be customized using your own data.
+
+To filter models in the filter pane, specify the following:
+
+Tasks: Click the task that you want the model to perform.
+Model collections: Click to choose models that are managed by Google, partners, or you.
+Providers: Click the provider of the model.
+Features: Click the features that you want in the model.
+
+To learn more about each model, click its model card.
+
+For a list of models available in Model Garden, see Models available in Model Garden.
+
+Model security scanning
+
+Google does thorough testing and benchmarking on the serving and tuning containers that we provide. Active vulnerability scanning is also applied to container artifacts.
+
+Third-party models from featured partners undergo model checkpoint scans to check authenticity. Third-party models from HuggingFace Hub are scanned directly by HuggingFace and their third-party scanner for malware, pickle files, Keras Lambda layers, and secrets. Models deemed unsafe from these scans are flagged by HuggingFace and blocked from deployment in Model Garden. Models deemed suspicious or those that have the ability to potentially execute remote code are indicated in Model Garden but can still be deployed. We recommend you perform a thorough review of any suspicious model before deploying it within your Model Garden.
+
+Pricing
+
+For the open source models in Model Garden, you are charged for use of following on Vertex AI:
+
+Model tuning: You are charged for the compute resources used at the same rate as custom training. See custom training pricing.
+Model deployment: You are charged for the compute resources used to deploy the model to an endpoint. See predictions pricing.
+Colab Enterprise: See Colab Enterprise pricing.
+Control access to specific models
+
+You can set a Model Garden organization policy at the organization, folder, or project level to control access to specific models in Model Garden. For example, you can allow access to specific models that you've vetted and deny access to all others.
+
+Additional resources
+
+This section provides links to tutorials, reference materials, notebooks, and videos to help you deploy, tune, and evaluate models from Model Garden.
+
+Troubleshooting
+
+If you encounter issues with code snippets or setup, refer to the Troubleshooting Guide.
+
+Deployment and serving options
+
+Vertex AI offers several options for deploying and serving open models, each optimized for different use cases, hardware, and performance requirements. Use the following table to decide which option is best for you.
+
+Deployment Option	Description	Best For
+Vertex AI SDK, CLI, & REST API	Standard methods to deploy open models with a consistent interface.	General-purpose deployment, getting started, and integrating with existing Vertex AI workflows.
+vLLM Container	An open-source library for fast LLM inference and serving, optimized for throughput on GPUs.	High-performance serving for text-only and multimodal language models on GPUs.
+Hex-LLM Container	A container optimized for serving large models on Cloud TPUs.	Serving very large models efficiently on TPU hardware.
+xDiT Container	A specialized serving container for diffusion transformer models (DiT).	High-performance image and video generation tasks.
+Hugging Face TGI DLC	Deep Learning Containers with Hugging Face Text Generation Inference for PyTorch.	Leveraging Hugging Face ecosystem features, like serving multiple LoRA adapters on a single GPU.
+
+After choosing an option, use the following tabs to find relevant tutorials and resources.
+
+SDK, CLI, & REST API
+vLLM on GPUs
+Hex-LLM on TPUs
+xDiT for Image/Video
+More
+Deploy and serve an open source model
+Developer blog: Introducing the new Vertex AI Model Garden CLI and SDK
+Tutorial notebook: Deploy open models by using the SDK
+Tutorial notebook: Get started with Vertex AI Model Garden SDK
+Tutorial notebook: Deploy and serve a model that uses Spot VMs or a Compute Engine reservation
+Tutorial: Deploying Gemma and making predictions
+YouTube: Deploying and fine-tuning Gemma 3 in Model Garden
+Model tuning resources
+
+Learn more about tuning models to tailor responses for specific use cases.
+
+Tutorial notebook: Fine-tuning and evaluation
+Tutorial notebook: Workbench fine-tuning
+YouTube: Deploying and fine-tuning Gemma 3 in Model Garden
+Model evaluation resources
+
+Learn more about assessing model responses with Vertex AI.
+
+YouTube: Evaluate Gemma 2 with the generative AI evaluation service
+General resources and notebooks
+Model and user journey-specific Model Garden notebooks
+Vertex AI open model serving, fine-tuning and evaluation notebooks
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

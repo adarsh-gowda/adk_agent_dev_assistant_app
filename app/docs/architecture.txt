@@ -1,0 +1,226 @@
+Skip to main content
+Overview
+Solutions
+Products
+Pricing
+Resources
+/
+Docs
+Support
+Console
+Sign in
+Contact Us
+Start free
+Cloud Architecture Center
+Discover reference architectures, design guidance, and best practices for building, migrating, and managing your cloud workloads.
+See what's new!
+Design well-architected cloud topologies
+Design and operate a cloud deployment that's secure, efficient, resilient, high-performing, and cost-effective.
+construction
+Operational excellence
+security
+Security, privacy, compliance
+restore
+Reliability
+payment
+Cost optimization
+speed
+Performance optimization
+Explore the Well-Architected Framework
+Get started architecting on Google Cloud
+Review and adopt fundamental guidance to start architecting your enterprise deployments.
+Deployment archetypes
+Learn about the basic archetypes for building cloud architectures, and the use cases and design considerations for each archetype: zonal, regional, multi-regional, global, hybrid, and multicloud.
+Infrastructure reliability guide
+Design and build infrastructure to run your workloads reliably in the cloud.
+Landing zone design
+Design and build a landing zone that includes identity onboarding, resource hierarchy, network design, and security controls.
+Enterprise foundations blueprint
+Design and build a foundation that enables consistent governance, security controls, scale, visibility, and access.
+AI and machine learning  28
+account_tree
+
+Infrastructure for a RAG-capable generative AI application using Vertex AI and Vector Search
+
+book
+
+Build and deploy generative AI and machine learning models in an enterprise
+
+forward_circle
+
+Generative AI RAG with Cloud SQL
+
+More
+ 
+arrow_forward
+Application development  66
+book
+
+Microservices overview
+
+account_tree
+
+Patterns for scalable and resilient apps
+
+More
+ 
+arrow_forward
+Databases  13
+book
+
+Multi-cloud database management
+
+More
+ 
+arrow_forward
+Hybrid and multicloud  23
+book
+
+Hybrid and multicloud overview
+
+account_tree
+
+Patterns for connecting other cloud service providers with Google Cloud
+
+account_tree
+
+Authenticate workforce users in a hybrid environment
+
+More
+ 
+arrow_forward
+Migration  26
+book
+
+Migrate to Google Cloud
+
+book
+
+Database migration
+
+More
+ 
+arrow_forward
+Monitoring and logging  13
+account_tree
+
+Stream logs from Google Cloud to Splunk
+
+More
+ 
+arrow_forward
+Networking  25
+book
+
+Best practices and reference architectures for VPC design
+
+account_tree
+
+Hub-and-spoke network architecture
+
+account_tree
+
+Build internet connectivity for private VMs
+
+More
+ 
+arrow_forward
+Reliability and DR  12
+book
+
+Google Cloud infrastructure reliability guide
+
+book
+
+Disaster recovery planning guide
+
+forward_circle
+
+Load balanced managed VMs
+
+More
+ 
+arrow_forward
+Security and IAM  41
+book
+
+Identity and access management overview
+
+book
+
+Enterprise foundations blueprint
+
+account_tree
+
+Automate malware scanning for files uploaded to Cloud Storage
+
+More
+ 
+arrow_forward
+Storage  13
+book
+
+Design an optimal storage strategy for your cloud workload
+
+More
+ 
+arrow_forward
+Explore other resources
+See these other Google resources that relate to architecture.
+stars
+Google Cloud certification
+Demonstrate your expertise and validate your ability to transform businesses with Google Cloud technology.
+verified_user
+Google Cloud security best practices center
+Explore these best practices for meeting your security and compliance objectives as you deploy workloads on Google Cloud.
+Google Cloud Migration Center
+Accelerate your end-to-end migration journey from your current on-premises environment to Google Cloud.
+Google Cloud partner advantage
+Connect with a Google Cloud partner who can help you with your architecture needs.
+Was this helpful?
+Send feedback
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

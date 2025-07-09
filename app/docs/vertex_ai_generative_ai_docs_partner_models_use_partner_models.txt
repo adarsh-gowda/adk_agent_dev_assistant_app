@@ -1,0 +1,205 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Vertex AI partner model pricing with capacity assurance
+Regional and global endpoints
+Specify the global endpoint
+Supported models
+Grant user access to partner models
+Set required permissions to use partner models
+Set the organization policy for partner model access
+Partner model regulatory compliance
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Vertex AI partner models for MaaS
+bookmark_border
+Release Notes
+
+Vertex AI supports a curated list of models developed by Google partners. Partner models can be used with Vertex AI as a model as a service (MaaS) and are offered as a managed API. When you use a partner model, you continue to send your requests to Vertex AI endpoints. Partner models are serverless so there's no need to provision or manage infrastructure.
+
+Partner models can be discovered using Model Garden. You can also deploy models using Model Garden. For more information, see Explore AI models in Model Garden. While information about each available partner model can be found on its model card in Model Garden, only third-party models that perform as a MaaS with Vertex AI are documented in this guide.
+
+Anthropic's Claude and Mistral models are examples of third-party managed models that are available to use on Vertex AI.
+
+Vertex AI partner model pricing with capacity assurance
+
+Google offers provisioned throughput for some partner models that reserves throughput capacity for your models for a fixed fee. You decide on the throughput capacity and in which regions to reserve that capacity. Because provisioned throughput requests are prioritized over the standard pay-as-you-go requests, provisioned throughput provides increased availability. When the system is overloaded, your requests can still be completed as long as the throughput remains under your reserved throughput capacity. For more information or to subscribe to the service, Contact sales.
+
+Regional and global endpoints
+
+For regional endpoints, requests are served from your specified region. In cases where you have data residency requirements or if a model doesn't support the global endpoint, use the regional endpoints.
+
+When you use the global endpoint, Google can process and serve your requests from any region that is supported by the model that you are using, which might result in higher latency in some cases. The global endpoint helps improve overall availability and helps reduce errors.
+
+There is no price difference with the regional endpoints when you use the global endpoint. However, the global endpoint quotas and supported model capabilities can differ from the regional endpoints. For more information, view the related third-party model page.
+
+Specify the global endpoint
+
+To use the global endpoint, set the region to global.
+
+For example, the request URL for a curl command uses the following format: https://aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/global/publishers/PUBLISHER_NAME/models/MODEL_NAME
+
+For the Vertex AI SDK, a regional endpoint is the default. Set the region to GLOBAL to use the global endpoint.
+
+Supported models
+
+The global endpoint is available for the following models:
+
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+
+Note: Prompt Caching is supported when using the global endpoint. Provisioned Throughput isn't supported when using the global endpoint.
+Grant user access to partner models
+
+For you to enable partner models and make a prompt request, a Google Cloud administrator must set the required permissions and verify the organization policy allows the use of required APIs.
+
+Set required permissions to use partner models
+
+The following roles and permissions are required to use partner models:
+
+You must have the Consumer Procurement Entitlement Manager Identity and Access Management (IAM) role. Anyone who's been granted this role can enable partner models in Model Garden.
+
+You must have the aiplatform.endpoints.predict permission. This permission is included in the Vertex AI User IAM role. For more information, see Vertex AI User and Access control.
+
+Console
+gcloud
+
+To grant the Consumer Procurement Entitlement Manager IAM roles to a user, go to the IAM page.
+
+Go to IAM
+
+In the Principal column, find the user principal for which you want to enable access to partner models, and then click edit Edit principal in that row.
+
+In the Edit access pane, click add Add another role.
+
+In Select a role, select Consumer Procurement Entitlement Manager.
+
+In the Edit access pane, click add Add another role.
+
+In Select a role, select Vertex AI User.
+
+Click Save.
+
+Set the organization policy for partner model access
+
+To enable partner models, your organization policy must allow the following API: Cloud Commerce Consumer Procurement API - cloudcommerceconsumerprocurement.googleapis.com
+
+If your organization sets an organization policy to restrict service usage, then an organization administrator must verify that cloudcommerceconsumerprocurement.googleapis.com is allowed by setting the organization policy.
+
+Also, if you have an organization policy that restricts model usage in Model Garden, the policy must allow access to partner models. For more information, see Control model access.
+
+Partner model regulatory compliance
+
+The certifications for Generative AI on Vertex AI continue to apply when partner models are used as a managed API using Vertex AI. If you need details about the models themselves, additional information can be found in the respective Model Card, or you can contact the respective model publisher.
+
+Your data is stored at rest within the selected region or multi-region for partner models on Vertex AI, but the regionalization of data processing may vary. For a detailed list of partner models' data processing commitments, see Data residency for partner models.
+
+Customer prompts and model responses are not shared with third-parties when using the Vertex AI API, including partner models. Google only processes Customer Data as instructed by the Customer, which is further described in our Cloud Data Processing Addendum.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

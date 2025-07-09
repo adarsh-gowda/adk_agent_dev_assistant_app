@@ -1,0 +1,170 @@
+Jump to Content
+Cloud
+Blog
+Solutions & technology
+Ecosystem
+Developers & Practitioners
+Transform with Google Cloud
+Contact sales
+Get started for free
+News, tips, and inspiration to accelerate your digital transformation
+
+AI & Machine Learning
+
+Formula E accelerates its work with Google Cloud Storage and Google Workspace
+
+When it comes to innovating in motorsport, Formula E, with its focus on the future of mobility and sustainability, regularly takes the checkered flag with the help of Google Cloud.
+
+By Dan Cherowbrier • 5-minute read
+
+Read article
+AI & ML
+AI & Machine Learning
+Google is a Leader in the 2025 Gartner® Magic Quadrant™ for Search and Product Discovery
+
+By Sachin Padwal • 5-minute read
+
+AI & Machine Learning
+Announcing Vertex AI Agent Engine Memory Bank available for everyone in preview
+
+By Kimberly Milam • 5-minute read
+
+AI & Machine Learning
+A guide to converting ADK agents with MCP to the A2A framework
+
+By Neeraj Agrawal • 4-minute read
+
+Data Cloud
+Data Analytics
+This migration from Snowflake to BigQuery accelerated model building and cut costs in half
+
+By Russell Foltz-Smith • 7-minute read
+
+Business Intelligence
+Chat with confidence: Unpacking security in Looker Conversational Analytics
+
+By Richard Kuzma • 5-minute read
+
+Databases
+Is your database holding you back? Boosting database efficiency and ROI with Cloud SQL
+
+By Devin Pratt • 4-minute read
+
+Infrastructure
+Compute
+Expanding Z3 family with 9 new VMs and a bare metal instance for storage and I/O intensive workloads
+
+By Garv Sawhney • 6-minute read
+
+Storage & Data Transfer
+Accelerate your AI workloads with the Google Cloud Managed Lustre
+
+By Asad Khan • 5-minute read
+
+Hybrid & Multicloud
+Powering public sector innovation: New networking features in GDC air-gapped
+
+By Vikram Pendharkar • 4-minute read
+
+Security
+Security & Identity
+Cloud CISO Perspectives: The global threats facing EU healthcare
+
+By Thiébaut Meyer • 8-minute read
+
+Security & Identity
+Just say no: Build defense in depth with IAM Deny and Org Policies
+
+By Kevin Schmidt • 8-minute read
+
+Threat Intelligence
+Protecting the Core: Securing Protection Relays in Modern Substations
+
+By Mandiant • 37-minute read
+
+Developers & Operators
+Application Development
+Using Platform Engineering to simplify the developer experience - part one
+
+By Darren Evans • 9-minute read
+
+Serverless
+Making it easier to scale Kafka workloads with Cloud Run worker pools
+
+By Aniruddh Chaturvedi • 6-minute read
+
+Developers & Practitioners
+Tools Make an Agent: From Zero to Assistant with ADK
+
+By Jack Wotherspoon • 10-minute read
+
+News in short
+
+A quick take on updates, announcements, resources, events, and learning opportunities from Google Cloud in one handy location. Updated weekly.
+
+Click here
+All stories
+Infrastructure
+Strengthening network resilience with the Sol transatlantic cable
+
+By Brian Quigley • 4-minute read
+
+Inside Google Cloud
+London Summit: agentic AI leaders, training 100,000 civil servants, AI sovereignty, and more
+
+By Mauren Costello • 5-minute read
+
+Public Sector
+Google Public Sector supports AI-optimized HPC infrastructure for researchers at Caltech
+
+By Amanda Stange • 3-minute read
+
+Threat Intelligence
+Isolated Recovery Environments: A Critical Layer in Modern Cyber Resilience
+
+By Mandiant • 9-minute read
+
+AI & Machine Learning
+How to build a simple multi-agentic system using Google’s ADK
+
+By Ashwini Kumar • 5-minute read
+
+AI & Machine Learning
+How to build Web3 AI agents with Google Cloud
+
+By Adrien Delaroche • 5-minute read
+
+Developers & Practitioners
+Google Cloud Networking 101: Quick Reference Guide
+
+By Ammett Williams • 3-minute read
+
+AI & Machine Learning
+What Google Cloud announced in AI this month
+
+By Andrea Sanin • 24-minute read
+
+Inside Google Cloud
+What’s new with Google Cloud
+
+By Google Cloud Content & Editorial • 21-minute read
+
+Networking
+Cloud WAN under the hood: A closer look at its differentiated networking capabilities
+
+By Udit Bhatia • 4-minute read
+
+Load more stories
+Footer Links
+Follow us
+Google Cloud
+Google Cloud Products
+Privacy
+Terms
+Help
+Language
+‪English‬
+‪Deutsch‬
+‪Français‬
+‪한국어‬
+‪日本語‬

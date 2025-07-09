@@ -1,0 +1,135 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Overview of industry solutions
+Financial services
+Healthcare
+Media and entertainment
+Commerce
+Transport fleet, career, and telecom
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Modernize retail and ecommerce solutions with Google Cloud
+Media rendering with Google Cloud
+Industry solutions
+
+Documentation and resources for transforming businesses in retail, healthcare, and financial services with Google Cloud.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+school
+Modernize retail and ecommerce solutions with Google Cloud
+Study the various services Google Cloud offers for modernizing retail applications and infrastructure.open_in_new
+school
+Media rendering with Google Cloud
+Study the benefits of using Google Cloud to create large-scale visual effects rendering for image and video content.open_in_new
+Industry solutions products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Financial services
+
+Transform AML detection by replacing rules-based transaction monitoring with AI.
+
+Anti Money Laundering AI
+Detect suspicious, potential money laundering activity faster and more precisely with AI.
+Healthcare
+
+Digitally transform your healthcare and life sciences business though data-powered innovation.
+
+Media and entertainment
+
+Transform audience experiences with innovation and insights.
+
+Retail
+
+Provide Google Search-quality product search, browsing, and recommendations to your retail customers.
+
+Transport fleet, career, and telecom
+
+Use AI to solve problems at scale, increase quality hires, and improve subscriber acquisition and retention.
+
+Related products, guides, and sites
+Industry-specific cloud solutions
+View examples of how Google Cloud solutions help in various industries to improve efficiency and agility, reduce cost, participate in new business models, and capture new market opportunities.open_in_new
+Blockchain Node Engine
+Fully managed node hosting for developing on the blockchain.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

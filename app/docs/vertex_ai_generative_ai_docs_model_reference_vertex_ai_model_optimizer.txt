@@ -1,0 +1,243 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Gemini 2.5 Flash
+Gemini 2.5 Pro
+Gemini 2.5 Flash-Lite
+Gemini 2.0 Flash
+Gemini 2.0 Flash-Lite
+Vertex AI Model Optimizer
+Migrate to Gemini 2
+SDKs
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Benefits
+Supported models
+Language support
+Modality
+Getting started
+Using Vertex AI Model Optimizer
+Handling unsupported features
+Multimodal requests
+Unsupported tools
+Send feedback
+Customer discussion group
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Vertex AI Model Optimizer
+bookmark_border
+
+Preview
+
+This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the Service Specific Terms. Pre-GA features are available "as is" and might have limited support. For more information, see the launch stage descriptions.
+
+To see an example of using Vertex AI Model Optimizer, run the "Getting Started with Model Optimizer" notebook in one of the following environments:
+
+Open in Colab | Open in Colab Enterprise | Open in Vertex AI Workbench user-managed notebooks | View on GitHub
+
+Vertex AI Model Optimizer is a dynamic endpoint designed to simplify model selection by automatically applying the Gemini model which best meets your needs. This lets you point your prompts at a single meta-endpoint and the service intelligently selects the most appropriate Gemini model for your query (Pro, Flash, etc.) based on your cost and quality preferences.
+
+For more information on Model Optimizer pricing, see Pricing.
+
+Benefits
+
+Model Optimizer lets you:
+
+Simplify your model selection rather than choosing a model for each application
+Optimize for cost, quality, or both, letting you balance performance and budget
+Integrate seamlessly with existing Gemini APIs and SDKs
+Track usage and identify potential for cost savings
+Efficiently handle text-based tasks without a need for manual endpoint selection
+Supported models
+Gemini 2.0 Flash (GA)
+Gemini 2.5 Pro (preview, 03-25)
+Language support
+
+Model Optimizer supports all languages that are also supported by the Gemini models. (See Gemini Language support)
+
+Modality
+
+Model Optimizer supports text use cases, including:
+
+Coding, including function calling and code execution
+Summarization
+Single and multi-turn chat
+Question and answering
+
+For limitations and how to handle them, see Handling unsupported features.
+
+Getting started
+
+To get started with Model Optimizer, see our quickstart Colab notebook.
+
+Using Vertex AI Model Optimizer
+Python
+Install
+pip install --upgrade google-genai
+
+To learn more, see the SDK reference documentation.
+
+Set environment variables to use the Gen AI SDK with Vertex AI:
+
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT=GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION=global
+export GOOGLE_GENAI_USE_VERTEXAI=True
+
+from google import genai
+from google.genai.types import (
+    FeatureSelectionPreference,
+    GenerateContentConfig,
+    HttpOptions,
+    ModelSelectionConfig
+)
+
+client = genai.Client(http_options=HttpOptions(api_version="v1beta1"))
+response = client.models.generate_content(
+    model="model-optimizer-exp-04-09",
+    contents="How does AI work?",
+    config=GenerateContentConfig(
+        model_selection_config=ModelSelectionConfig(
+            feature_selection_preference=FeatureSelectionPreference.BALANCED  # Options: PRIORITIZE_QUALITY, BALANCED, PRIORITIZE_COST
+        ),
+    ),
+)
+print(response.text)
+# Example response:
+# Okay, let's break down how AI works. It's a broad field, so I'll focus on the ...
+#
+# Here's a simplified overview:
+# ...
+
+Handling unsupported features
+
+Model Optimizer only supports text input and output. However, the request could include different modalities or tools that aren't supported. The following sections cover how Model Optimizer handles these unsupported features.
+
+Multimodal requests
+
+Requests that include prompts with multimodal data, such as video, images or audio, will throw an INVALID_ARGUMENT error.
+
+Unsupported tools
+
+Model Optimizer only supports function declaration for requests. If a request contains other tool types including google_maps, google_search, enterprise_web_search, retrieval, or browse, an INVALID_ARGUMENT error is thrown.
+
+Send feedback
+
+To send feedback about your experience with Model Optimizer, fill out our feedback survey.
+
+If you have questions, technical issues, or feedback about Model Optimizer, contact model-optimizer-support@google.com.
+
+Customer discussion group
+
+To connect directly with the development team, you can join the Vertex AI Model Optimizer Listening Group, where you can learn about the product and help us understand how to make the features work better for you. The group's activities include:
+
+Virtual workshops to learn more about the features
+Feedback surveys to share your needs and priorities
+1:1 sessions with Google Cloud employees as we explore new features
+
+Activities are offered about once every 6-8 weeks. You can take part in as many or as few as you'd like, or you can opt out entirely at any time. To join the group, complete the Vertex AI Model Optimizer discussion group sign up form.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

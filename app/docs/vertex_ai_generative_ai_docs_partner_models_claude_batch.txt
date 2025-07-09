@@ -1,0 +1,323 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+AI21 Labs
+Claude
+Overview
+Request predictions
+Batch predictions
+Prompt caching
+Count tokens
+Model details
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+Claude 3.5 Haiku
+Claude 3 Haiku
+Claude 3.5 Sonnet
+Mistral AI
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Supported Anthropic Claude models
+Quotas
+Prepare input
+Request a batch prediction
+BigQuery
+Cloud Storage
+Get the status of a batch prediction job
+Retrieve batch prediction output
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Batch predictions with Anthropic Claude models
+bookmark_border
+
+Batch predictions lets you send multiple prompts that aren't latency sensitive to an Anthropic Claude model. Compared to online predictions, where you send one input prompt for each request, you can batch a large number of input prompts in a single request.
+
+Supported Anthropic Claude models
+
+Vertex AI supports batch predictions for the following Anthropic Claude models:
+
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+Claude 3.5 Haiku
+
+Quotas
+
+By default, the number of concurrent batch requests that you can make in a single project is 4.
+
+Prepare input
+
+Before you begin, prepare your input dataset in a BigQuery table or as a JSONL file in Cloud Storage. The input for both sources must follow the Anthropic Claude API Schema JSON format, as shown in the following example:
+
+{
+  "custom_id": "request-1",
+  "request":  {
+    "messages": [{"role": "user", "content": "Hello!"}],
+    "anthropic_version": "vertex-2023-10-16",
+    "max_tokens": 50
+  }
+}
+
+BigQuery
+Cloud Storage
+
+Your BigQuery input table must adhere to the following schema:
+
+Column name	Description
+custom_id	An ID for each request to match the input with the output.
+request	The request body, which is your input prompt and must follow the Anthropic Claude API Schema
+Your input table can have other columns, which are ignored by the batch job.
+Batch prediction jobs reserve two column names for the batch prediction output: response(JSON) and status. Don't use these columns in the input table.
+Request a batch prediction
+
+Make a batch prediction against a Claude model by using input from BigQuery or Cloud Storage. You can independently choose to output predictions to either a BigQuery table or a JSONL file in a Cloud Storage bucket.
+
+BigQuery
+
+Specify your BigQuery input table, model, and output location. The batch prediction job and your table must be in the same region.
+
+Python
+REST
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+import time
+
+from google import genai
+from google.genai.types import CreateBatchJobConfig, JobState, HttpOptions
+
+client = genai.Client(http_options=HttpOptions(api_version="v1"))
+
+# TODO(developer): Update and un-comment below line
+# output_uri = f"bq://your-project.your_dataset.your_table"
+
+job = client.batches.create(
+    # Check Anthropic Claude region availability in https://cloud.devsite.corp.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude#regions
+    # More about Anthropic model: https://console.cloud.google.com/vertex-ai/publishers/anthropic/model-garden/claude-3-5-haiku
+    model="publishers/anthropic/models/claude-3-5-haiku",
+    # The source dataset needs to be created specifically in us-east5
+    src="bq://python-docs-samples-tests.anthropic_bq_sample.test_data",
+    config=CreateBatchJobConfig(dest=output_uri),
+)
+print(f"Job name: {job.name}")
+print(f"Job state: {job.state}")
+# Example response:
+# Job name: projects/%PROJECT_ID%/locations/us-central1/batchPredictionJobs/9876453210000000000
+# Job state: JOB_STATE_PENDING
+
+# See the documentation: https://googleapis.github.io/python-genai/genai.html#genai.types.BatchJob
+completed_states = {
+    JobState.JOB_STATE_SUCCEEDED,
+    JobState.JOB_STATE_FAILED,
+    JobState.JOB_STATE_CANCELLED,
+    JobState.JOB_STATE_PAUSED,
+}
+
+while job.state not in completed_states:
+    time.sleep(30)
+    job = client.batches.get(name=job.name)
+    print(f"Job state: {job.state}")
+# Example response:
+# Job state: JOB_STATE_PENDING
+# Job state: JOB_STATE_RUNNING
+# Job state: JOB_STATE_RUNNING
+# ...
+# Job state: JOB_STATE_SUCCEEDED
+
+
+Cloud Storage
+
+Specify your JSONL file's Cloud Storage location, model, and output location.
+
+Python
+REST
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+import time
+
+from google import genai
+from google.genai.types import CreateBatchJobConfig, JobState, HttpOptions
+
+client = genai.Client(http_options=HttpOptions(api_version="v1"))
+# TODO(developer): Update and un-comment below line
+# output_uri = "gs://your-bucket/your-prefix"
+
+# See the documentation: https://googleapis.github.io/python-genai/genai.html#genai.batches.Batches.create
+job = client.batches.create(
+    # More about Anthropic model: https://console.cloud.google.com/vertex-ai/publishers/anthropic/model-garden/claude-3-5-haiku
+    model="publishers/anthropic/models/claude-3-5-haiku",
+    # Source link: https://storage.cloud.google.com/cloud-samples-data/batch/anthropic-test-data-gcs.jsonl
+    src="gs://cloud-samples-data/anthropic-test-data-gcs.jsonl",
+    config=CreateBatchJobConfig(dest=output_uri),
+)
+print(f"Job name: {job.name}")
+print(f"Job state: {job.state}")
+# Example response:
+# Job name: projects/%PROJECT_ID%/locations/us-central1/batchPredictionJobs/9876453210000000000
+# Job state: JOB_STATE_PENDING
+
+# See the documentation: https://googleapis.github.io/python-genai/genai.html#genai.types.BatchJob
+completed_states = {
+    JobState.JOB_STATE_SUCCEEDED,
+    JobState.JOB_STATE_FAILED,
+    JobState.JOB_STATE_CANCELLED,
+    JobState.JOB_STATE_PAUSED,
+}
+
+while job.state not in completed_states:
+    time.sleep(30)
+    job = client.batches.get(name=job.name)
+    print(f"Job state: {job.state}")
+# Example response:
+# Job state: JOB_STATE_PENDING
+# Job state: JOB_STATE_RUNNING
+# Job state: JOB_STATE_RUNNING
+# ...
+# Job state: JOB_STATE_SUCCEEDED
+
+
+Get the status of a batch prediction job
+
+Get the status of your batch prediction job to check whether it has completed successfully.
+
+REST
+
+Before using any of the request data, make the following replacements:
+
+PROJECT_ID: Your project ID.
+LOCATION: The region where your batch job is located.
+JOB_ID: The batch job ID that was returned when you created the job.
+
+HTTP method and URL:
+
+GET https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/batchPredictionJobs/JOB_ID
+
+To send your request, choose one of these options:
+
+curl
+PowerShell
+Note: The following command assumes that you have logged in to the gcloud CLI with your user account by running gcloud init or gcloud auth login , or by using Cloud Shell, which automatically logs you into the gcloud CLI . You can check the currently active account by running gcloud auth list.
+
+Execute the following command:
+
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/batchPredictionJobs/JOB_ID"
+
+You should receive a JSON response similar to the following.
+
+Response
+
+Retrieve batch prediction output
+
+When a batch prediction job completes, retrieve the output from the location that you specified. For BigQuery, the output is in the response(JSON) column of your destination BigQuery table. For Cloud Storage, the output is saved as a JSONL file in the output Cloud Storage location.
+
+You can access the full batch prediction results after all rows have completed or after 24 hours, whichever comes first.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

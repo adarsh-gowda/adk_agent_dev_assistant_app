@@ -1,0 +1,174 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Get an API key
+Configure application default credentials
+API quickstart
+Vertex AI Studio quickstart
+Deploy your Vertex AI Studio prompt as a web application
+Generate an image and verify its watermark using Imagen
+Vertex AI in express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Before you begin prompting in Vertex AI Studio
+Sample prompts in Vertex AI Studio
+Test Gemini Models in Vertex AI Studio
+Discover what's next with prompts
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Quickstart: Send text prompts to Gemini using Vertex AI Studio
+bookmark_border
+Release Notes
+
+You can use Vertex AI Studio to design, test, and manage prompts for Google's Gemini large language models (LLMs) and third-party models. Vertex AI Studio supports certain third-party models that are offered on Vertex AI as models as a service (MaaS), such as Anthropic's Claude models and Meta's Llama models.
+
+Note: When using third-party models for the first time, Vertex AI prompts you to accept the third-party's terms and conditions. You must do this once for each third-party provider to start using their models.
+
+In this quickstart, you learn how to use sample prompts from the generative AI prompt gallery to perform the following tasks:
+
+Send a summarization text prompt to the Gemini API.
+Send a code generation prompt to the Gemini API.
+View the code used to generate the responses.
+Before you begin prompting in Vertex AI Studio
+
+This quickstart requires you to complete the following steps to set up a Google Cloud project and enable the Vertex AI API.
+
+Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+
+In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+
+Note: If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project.
+
+Go to project selector
+
+Make sure that billing is enabled for your Google Cloud project.
+
+Enable the Vertex AI API.
+
+Enable the API
+
+Make sure that you have the following role or roles on the project: Vertex AI User
+
+Check for the roles
+Grant the roles
+
+Sample prompts in Vertex AI Studio
+
+A prompt is a natural language request submitted to a language model to generate a response. Prompts can contain questions, instructions, contextual information, few-shot examples, and partial input for the model to complete. For example, a prompt could be: "Summarize the following article:" followed by the text of the article.
+
+After the model receives a prompt, depending on the type of model used, it can generate text, embeddings, code, images, videos, music, and more.
+
+The sample prompts in the Vertex AI Studio prompt gallery are pre-designed to help demonstrate model capabilities. Each prompt is preconfigured with specified model and parameter values so you can open the sample prompt and click Submit to generate a response.
+
+Test Gemini Models in Vertex AI Studio
+
+You can test different capabilities of models by using prebuilt sample prompts from the prompt gallery. The following examples demonstrate how to use prompts for summarization and code generation.
+
+Summarization Text Prompt
+Code Generation Prompt
+Test the Gemini flash model using a summarization text prompt
+
+Send a summarization text prompt to the Gemini API in Vertex AI. A summarization task extracts the most important information from text. You can provide information in the prompt to help the model create a summary, or ask the model to create a summary on its own.
+
+Go to the Prompt gallery page from the Vertex AI section in the Google Cloud console.
+Go to prompt gallery
+
+In the Tasks drop-down menu, select Summarize.
+
+Open the Audio summarization card.
+
+This sample prompt includes an audio file and requests a summary of the file contents in a bulleted list.
+
+Notice that in the settings panel, the model's default value is set to Gemini-2.0-flash-001. You can choose a different Gemini model by clicking Switch model.
+
+Click Submit to generate the summary.
+
+The output is displayed in the response.
+
+To view the Vertex AI API code used to generate the transcript summary, click Build with code > Get code.
+
+In the Get code panel, you can choose your preferred language to get the sample code for the prompt, or you can open the Python code in a Colab Enterprise notebook.
+
+Discover what's next with prompts
+See an introduction to prompt design.
+Learn about designing multimodal prompts and chat prompts.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

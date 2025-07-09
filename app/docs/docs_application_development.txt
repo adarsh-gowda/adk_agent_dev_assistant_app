@@ -1,0 +1,213 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Overview of application development
+API management
+Build and deploy apps with CI/CD
+Development platforms and tools
+Event-driven app creation
+Industry-specific APIs
+Integration
+Source code management tools
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Learn about API management solutions
+Application development planning resources
+Introduction to planning microservices
+Cloud developer learning path
+Build enterprise-quality AI applications
+Gemini for Google Cloud learning path
+Startup cloud engineer learning path
+API developer learning path
+DevOps Engineer, SRE learning path
+Application development
+
+Documentation and resources for creating applications with Google Cloud tools and services.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore application development in Google Cloud 
+Read documentation and Cloud Architecture Center articles about application development products, capabilities, and procedures.
+description
+Learn about API management solutions
+Understand what you can do with Apigee, Google Cloud's native API management solution.
+account_tree
+Application development planning resources
+Plan your approach with resources across a variety of application development topics.open_in_new
+account_tree
+Introduction to planning microservices
+Plan how to design, build, and deploy microservices with this reference guide.open_in_new
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+school
+Cloud developer learning path
+Study how to design, build, analyze, and maintain cloud-native applications.open_in_new
+school
+Build enterprise-quality AI applications
+Walk through a full-cycle AI journey that leads to a successful, user-centric AI product.open_in_new
+school
+Gemini for Google Cloud learning path
+Study how Gemini for Google Cloud can help make engineers more efficient in their daily activities.open_in_new
+school
+Startup cloud engineer learning path
+Study Google Cloud technologies essential to the Startup Cloud Engineer role, including application development.open_in_new
+school
+API developer learning path
+Study how to design and develop secure and efficient application programming interfaces in Google Cloud.open_in_new
+school
+DevOps Engineer, SRE learning path
+Study best practices for efficient and reliable software delivery and infrastructure management.open_in_new
+expand_lessLess
+Application development products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+API management
+
+Design, build, productize, and manage APIs for your internal and external customers.
+
+API Gateway
+Provide secure access to your backend services through a well-defined REST API that is consistent across all of your services.
+API keys
+Create and manage your API keys for your projects.
+Apigee
+Develop, secure, deploy, and monitor APIs deployed on Apigee, with help from Gemini Code Assist.
+Apigee Hybrid
+Develop and manage APIs with a hybrid deployment model including on-premises and multicloud.
+Cloud Endpoints
+Develop, deploy, and manage APIs on Google Cloud.
+Apigee community
+Get answers and support from a global network of Apigee experts.open_in_new
+Build and deploy apps with CI/CD
+
+Automate code deployment using CI/CD processes and products that assist in efficient, seamless, and secure deployment of code.
+
+Development platforms and tools
+
+Write, deploy, and debug your applications faster with powerful developer tools.
+
+Event-driven app creation
+
+Orchestrate decoupled services and build message-based and event-driven solutions.
+
+Industry-specific APIs
+
+Expand this section to see relevant products and documentation.
+
+Integration
+
+Automate your business workflows with integrations that connect to enterprise applications, databases, and much more.
+
+Source code management tools
+
+Track modifications to source code.
+
+Related products, guides, and sites
+Get started with Apigee
+What is Apigee?
+Learn about Apigee API Management, features, and functionality.
+Introduction to Apigee provisioning
+Set up a new Apigee account.
+IAM Roles and Permissions for Apigee
+Use predefined and custom roles to tailor access to Apigee resources.
+Logging
+Cloud Logging
+Real-time log-management system with storage, search, analysis, and monitoring support.
+Application hosting (serverless)
+What is Cloud Run?
+Run containers directly on top of Google's scalable infrastructure.
+Cloud Run functions
+Use a serverless execution environment to build and connect cloud services.
+Overview of App Engine
+Create apps designed to run services across multiple runtimes and platforms.
+Key aspects of CI/CD to understand and utilize
+Google Kubernetes Engine (GKE)
+Managed Kubernetes service offered by Google for deploying and operating containerized applications at scale.
+BigQuery
+Fully managed enterprise data warehouse that provides built-in features like machine learning, geospatial analysis, and business intelligence to help manage and analyze data.
+Google Cloud Observability
+Google Cloud offers observability services to help monitor the behavior, health, and performance of applications.
+Additional products and guides
+Cloud Billing
+Track and understand your Google Cloud spending, pay your bill, and optimize your costs.
+Deep Learning Containers
+Take advantage of preconfigured and optimized containers for deep learning environments.
+Overview of application hosting
+Run and manage applications on a secure platform.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

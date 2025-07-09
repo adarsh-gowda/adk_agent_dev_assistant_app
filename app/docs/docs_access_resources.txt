@@ -1,0 +1,178 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Access and resource management
+Access and resource management overview
+Access management
+Control and discoverability
+Optimization and service health
+Resource management
+Costs and usage management
+Google Cloud SDK, languages, frameworks, and tools
+Infrastructure as code
+Migration
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Identity management for Google Cloud
+IAM overview
+Resource hierarchy
+Google Cloud setup checklist
+Overview of planning identity and access management
+Patterns and practices for identity and access governance
+Cloud engineer learning path
+Create and manage cloud resources
+Access and resource management
+
+Documentation and resources for organizing, analyzing, and managing access to your Google Cloud resources and services.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore access and resource management 
+Read documentation and Cloud Architecture Center articles about access and resource management.
+description
+Identity management for Google Cloud
+Explore the methods you can use to configure identities for users and workloads on Google Cloud
+description
+IAM overview
+Learn about Google Cloud's Identity and Access Management system, which lets you control who can access your Google Cloud resources.
+description
+Resource hierarchy
+Learn about the resource hierarchy in Google Cloud and how you can use that hierarchy to organize your resources.
+description
+Google Cloud setup checklist
+Configure an initial foundation to support your Google Cloud workloads, including setting up your resource hierarchy and granting initial access.
+account_tree
+Overview of planning identity and access management
+Plan your general practice of IAM.open_in_new
+account_tree
+Patterns and practices for identity and access governance
+Plan how to develop your approach for identity governance and access management for applications and workloads running on Google Cloud.open_in_new
+expand_lessLess
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Cloud engineer learning path
+Study planning, configuring, setting up, and deploying cloud solutions.open_in_new
+school
+Create and manage cloud resources
+Study creating and managing Google Cloud resources.open_in_new
+Access and resource management products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Access management
+
+Define who can access resources in your organization.
+
+Identity and Access Management (IAM) recommender
+Identify excess permissions using policy insights.
+Certificate Authority Service
+Simplify, automate, and customize the deployment, management, and security of private certificate authorities (CA).
+Identity and Access Management (IAM)
+Establish fine-grained identity and access management for Google Cloud resources.
+Policy Intelligence
+Control resources and manage access through policies to proactively improve your security configuration.
+Access Context Manager
+Allow organization administrators to define fine-grained, attribute-based access control for projects and resources in Google Cloud.
+Identity and access management planning
+Plan your design for granting the right individuals access to the right resources for the right reasons.open_in_new
+Ensure access and identity
+Study fundamental features of cloud security related to access management and identity.open_in_new
+Cloud Identity
+Manage user identities, devices, and applications from one console.
+Control and discoverability
+
+Manage internal enterprise solutions and Google Cloud APIs.
+
+Optimization and service health
+
+Optimize your service usage, monitor application and resource health, and identify disruptive events.
+
+Resource management
+
+Expand this section to see relevant products and documentation.
+
+Related products, guides, and sites
+Authentication
+Explore methods to authenticate your applications to access Google APIs and services.
+Handling compromised Google Cloud credentials
+Monitor for credential compromise and take action to keep your data secure and protected from attackers.
+Data deletion on Google Cloud
+Review the secure process that occurs when you delete your customer data stored in Google Cloud.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

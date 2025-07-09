@@ -1,0 +1,289 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Get an API key
+Configure application default credentials
+API quickstart
+Vertex AI Studio quickstart
+Deploy your Vertex AI Studio prompt as a web application
+Generate an image and verify its watermark using Imagen
+Vertex AI in express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Express mode eligibility
+About Vertex AI in express mode
+Available models and rate limits in express mode
+Vertex AI in express mode workflow
+What's different in express mode
+View and manage API keys
+View quotas
+Enable and manage billing
+Start using all Google Cloud capabilities and services
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Vertex AI in express mode overview
+bookmark_border
+
+Preview
+
+This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the Service Specific Terms. Pre-GA features are available "as is" and might have limited support. For more information, see the launch stage descriptions.
+
+Vertex AI in express mode is the fastest way to start building generative AI applications on Google Cloud. Signing up in express mode is quick and easy, and it doesn't require entering any billing information. After you sign up, you can access and use Google Cloud APIs in just a few steps.
+
+To learn more about Vertex AI in express mode, see Google Cloud express mode FAQs.
+
+Express mode eligibility
+
+Vertex AI in express mode is separate from, and not available through, the Google Cloud Free Program. If you are in the Google Cloud Free Program, see the other quickstarts in the Get Started section to start using Generative AI on Vertex AI.
+
+Vertex AI is available in express mode for developers that click the Try Vertex AI Studio free button and sign up using a @gmail.com Google Account. Accounts used previously to access Google Cloud are ineligible for express mode and are not shown the Try Vertex AI Studio free button. For example, if you used your Google Account to create a Google Cloud free trial account, you are not eligible to sign up in express mode with that same Google Account.
+
+About Vertex AI in express mode
+
+Upon completing your sign-up in express mode, you get access to the following:
+
+Core Vertex AI Studio features. You can test and customize prompts for different generative AI models in Vertex AI Studio in express mode, and get the corresponding code to use in your application.
+An API key.
+90 days to try Vertex AI in express mode.
+
+During your 90 days, you can use the Vertex AI APIs that support express mode for free up to their quotas. You can increase your quota limits at any time by enabling billing.
+
+After enabling billing, the 90 day limit is removed, your quotas are increased, and you only pay for what you use. At any time, you can choose to end express mode and start using all the Google Cloud services and capabilities.
+
+The following table lists the differences between Vertex AI express mode without billing, Vertex AI with billing, and Vertex AI without express mode:
+
+Item	Vertex AI express mode	Vertex AI express mode with billing	Vertex AI
+Time limit	90 days	Unlimited	Unlimited
+Available services	Basic Generative AI on Vertex AI services.	Expanded Vertex AI services and select Google Cloud services.	All Google Cloud services, including Vertex AI.
+Data sources	Google Drive	
+Google Drive
+Web files
+YouTube video URLs
+	All data sources available in Google Cloud.
+Quota	See Available models and rate limits in express mode.	See Rate limits.	See Rate limits.
+Service level agreement (SLA)	None	Vertex AI SLA	Vertex AI SLA
+Standard format of API endpoints	Specify API key instead of project ID and location. For example:
+https://aiplatform.googleapis.com/v1/publishers/google/models/{model}:streamGenerateContent?key={API_KEY}	Specify API key instead of project ID and location. For example:
+https://aiplatform.googleapis.com/v1/publishers/google/models/{model}:streamGenerateContent?key={API_KEY}	Specify project ID and location. For example:
+https://{location}-aiplatform.googleapis.com/v1/projects/{project}/locations/{location}/publishers/google/models/{model}:streamGenerateContent
+Available models and rate limits in express mode
+
+You can try out several models in express mode, including the Gemini 2.0 Flash models. The following table lists the models that are available in express mode, along with their rate limits:
+
+Model category	Available models	Requests per minute	Discontinuation date
+Gemini	gemini-2.5-pro	30	June 17, 2026
+gemini-2.5-flash	30	June 17, 2026
+gemini-2.5-flash-lite-preview-06-17	30	
+gemini-2.5-flash-preview-05-20
+	30	July 15, 2025
+gemini-2.5-flash-preview-04-17
+	30	July 15, 2025
+gemini-2.5-pro-preview-05-06	30	July 15, 2025
+gemini-2.0-flash-001	30	February 5, 2026
+gemini-2.0-flash-lite-001	30	February 25, 2026
+
+For Gemini 2.0 models, the Multimodal Live API isn't available in the Console in express mode. To use the Multimodal Live API in express mode, use the Vertex AI API or the Google Gen AI SDK.
+
+Vertex AI in express mode workflow
+
+You can start sending requests from your application to Vertex AI APIs in three steps:
+
+Use Vertex AI Studio in express mode to quickly try Vertex AI features.
+
+For example, in the Google Cloud console in express mode, select Vertex AI > Freeform and use the Freeform page to create and optimize multimodal prompts using a variety of Gemini models.
+
+Get the code for what you implemented with the UI.
+
+On the Freeform page, click code Get code. A panel opens showing code that programmatically sends the same requests that you implemented in the UI. You can get the code for a programming language or curl. You can use Google Colab to try the Python code.
+
+Use your API key to authenticate with the Vertex AI API.
+
+In the Google Cloud console in express mode, click menu Menu and select API Keys, and then copy your key into your code where it says "YOUR_API_KEY". For example:
+
+Python
+
+The Google Gen AI SDK for Python is available on PyPI and GitHub:
+
+google-genai on PyPI
+python-genai on GitHub
+
+To learn more, see the Python SDK reference (opens in a new tab).
+
+from google import genai
+
+# TODO(developer): Update below line
+API_KEY = "YOUR_API_KEY"
+
+client = genai.Client(vertexai=True, api_key=API_KEY)
+
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="Explain bubble sort to me.",
+)
+
+print(response.text)
+# Example response:
+# Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
+
+What's different in express mode
+
+Vertex AI in express mode provides a subset of the features for Generative AI on Vertex AI. Therefore, some of the Vertex AI documentation is not relevant if you signed up in express mode. For details on the available API endpoints in express mode, see the Vertex AI in express mode REST API reference.
+
+In addition, customers in Google Cloud typically use organizations and projects to work with resources (for example, to call an API endpoint). When using Vertex AI in express mode, you don't need to worry about organizations or projects. However, you might see them mentioned in some of the Google Cloud documentation that you reference while you're using Vertex AI in express mode. You can still use the documentation, but ignore concepts and instructions that refer to organizations and projects. In addition, the location you selected when signing up in express mode is used throughout your experience.
+
+When calling REST API endpoints in express mode, you'll use the endpoint format for express mode and specify your API key. For example:
+
+Standard endpoint URL	https://{location}-aiplatform.googleapis.com/v1/projects/{project}/locations/{location}/publishers/google/models/{model}:streamGenerateContent
+Endpoint URL in express mode	https://aiplatform.googleapis.com/v1/publishers/google/models/{model}:streamGenerateContent?key={API_KEY}
+View and manage API keys
+
+To authenticate with Vertex AI API endpoints that support express mode, use the API key that was created for you during sign-up or any key that you've created in express mode. An API key is an encrypted string that is auto-generated for you when you sign up in express mode. These API keys can be viewed and managed on the API Keys page.
+
+To learn more about the best practices for managing API keys, see Best practices for managing API keys.
+
+To view and manage your API keys, do the following:
+
+Go to the Vertex AI Studio Overview page in express mode.
+
+Go to Vertex AI Studio
+
+In Google Cloud console in express mode, click menu Menu.
+
+Select API Keys.
+
+The API Keys page opens and you can use it to manage your API keys.
+
+View quotas
+
+Your free use of Vertex AI in express mode is restricted by quotas. These quotas restrict the rate at which you can use Vertex AI in express mode at no cost. A quota limits how much of a Google Cloud resource you can use.
+
+To view your current usage and quotas, do the following:
+
+Go to the Vertex AI Studio Overview page in express mode.
+
+Go to Vertex AI Studio
+
+In Google Cloud console in express mode, click menu Menu.
+
+Select Quotas.
+
+Enable and manage billing
+
+You can increase your quotas and remove the 90 day limit by enabling billing.
+
+After enabling billing, you pay only for what you use. You can also save your prompts and access additional settings in the console that are that grayed out when billing isn't enabled.
+
+To view your current usage and quotas, do the following:
+
+Go to the Vertex AI Studio Overview page in express mode.
+
+Go to Vertex AI Studio
+
+In Google Cloud console in express mode, click menu Menu.
+
+Select Billing.
+
+Start using all Google Cloud capabilities and services
+
+You can start using all the capabilities and services available in Google Cloud in your project by graduating from express mode.
+
+To graduate from express mode, do the following:
+
+Go to the Vertex AI Studio Overview page in express mode.
+
+Go to Vertex AI Studio
+
+In Google Cloud console in express mode, click menu Menu.
+
+Select Billing.
+
+In the Access all Google Cloud section, click Learn more and get started.
+
+After you graduate from express mode, specify your project ID and location instead of your API key when you call the REST API endpoints. For example:
+https://{location}-aiplatform.googleapis.com/v1/projects/{projectid}/locations/{location}/publishers/google/models/{model}:streamGenerateContent
+
+What's next
+Try the Vertex AI Studio tutorial for Vertex AI in express mode.
+Try the API tutorial for Vertex AI in express mode.
+See the complete API reference for Vertex AI in express mode.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

@@ -1,0 +1,123 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Frequently asked questions
+FAQ
+On this page
+Gemini 2 general FAQ
+Help! The model I'm using isn't available anymore!
+How do the Gemini 2 models compare to the 1.5 generation?
+How do I migrate Gemini on Google AI Studio to Vertex AI Studio?
+How does Gemini 2 image generation compare to Imagen 3?
+Does Gemini 2 in Vertex AI support compositional function calling?
+What locations are supported for Gemini 2?
+What are the default quotas for Gemini 2?
+Monitoring
+Why does my quota usage show as 0% percent on API dashboard when I'm sending requests?
+Provisioned Throughput
+When should I use Provisioned Throughput?
+What models are supported for Provisioned Throughput?
+How can I monitor my Provisioned Throughput usage?
+What permissions are required to purchase and use Provisioned Throughput?
+What is a GSU?
+How can I estimate my GSU needs for Provisioned Throughput?
+How often am I billed for Provisioned Throughput?
+How long does it take to activate my Provisioned Throughput order?
+Can I test Provisioned Throughput before placing an order?
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation 
+FAQ
+Was this helpful?
+Send feedback
+Frequently asked questions
+bookmark_border
+
+Last updated: June 25, 2025
+
+Gemini 2 general FAQ
+Help! The model I'm using isn't available anymore!
+How do the Gemini 2 models compare to the 1.5 generation?
+How do I migrate Gemini on Google AI Studio to Vertex AI Studio?
+How does Gemini 2 image generation compare to Imagen 3?
+Does Gemini 2 in Vertex AI support compositional function calling?
+What locations are supported for Gemini 2?
+What are the default quotas for Gemini 2?
+Monitoring
+Why does my quota usage show as 0% percent on API dashboard when I'm sending requests?
+Provisioned Throughput
+When should I use Provisioned Throughput?
+What models are supported for Provisioned Throughput?
+How can I monitor my Provisioned Throughput usage?
+What permissions are required to purchase and use Provisioned Throughput?
+What is a GSU?
+How can I estimate my GSU needs for Provisioned Throughput?
+How often am I billed for Provisioned Throughput?
+How long does it take to activate my Provisioned Throughput order?
+Can I test Provisioned Throughput before placing an order?
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

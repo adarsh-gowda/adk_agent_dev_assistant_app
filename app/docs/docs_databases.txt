@@ -1,0 +1,152 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Overview of databases
+Non-relational databases
+Relational databases
+Migration
+Fleet Management
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Database resources
+Multicloud database management
+Database engineer learning path
+Databases
+
+Documentation and resources for migrating and managing enterprise data with security, reliability, high availability, and fully-managed data services on Google Cloud.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore databases in Google Cloud 
+Read documentation and Cloud Architecture Center articles about database-related products, capabilities, and procedures.
+account_tree
+Database resources
+Plan your approach with Architecture Center resources across a variety of database topics.open_in_new
+account_tree
+Multicloud database management
+Plan with architectures, use cases, and best practices for multicloud database management.open_in_new
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Database engineer learning path
+Study how to design, create, manage, migrate, and troubleshoot databases used by applications to store and retrieve data.open_in_new
+Database products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Non-relational databases
+
+Expand this section to see relevant products and documentation.
+
+Bigtable
+Store terabytes or petabytes of data using a NoSQL wide-column database service.
+Datastore
+A NoSQL document database built for automatic scaling, high performance, and ease of application development.
+Firestore with MongoDB compatibility
+A NoSQL document database with MongoDB compatibility built for automatic scaling, high performance, and ease of application development.
+Firestore in Native mode
+A flexible, scalable NoSQL document database for mobile, web, and server development.
+Memorystore for Memcached
+Applications running on Google Cloud can achieve extreme performance by leveraging the scalable, available, secure, and managed Memcached service.
+Memorystore for Redis
+Achieve extreme performance using a managed in-memory data store service.
+Memorystore for Redis Cluster
+Achieve extreme performance using a managed in-memory Redis Cluster service.
+Spanner Graph
+Get high-performance graph database capabilities with unparalleled scalability, availability, and consistency.
+Relational databases
+
+Expand this section to see relevant products and documentation.
+
+Migration
+
+Expand this section to see relevant products and documentation.
+
+Fleet Management
+
+Expand this section to see relevant products and documentation.
+
+Related products, guides, and sites
+BigQuery
+Understand your data using a fully managed, highly scalable data warehouse with built-in ML.
+BigLake in BigQuery
+Query structured data in external data stores with access delegation.
+BigQuery Storage
+Storage optimized for running analytic queries over large datasets and high-throughput streaming ingestion and high-throughput reads.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

@@ -1,0 +1,212 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Overview of observabililty and monitoring
+Observability and monitoring
+Observability optimization
+Security
+Storage
+On this page
+Observability in Google Cloud
+Google Cloud Managed Service for Prometheus
+Instrumentation and observability
+Google Cloud Observability overview
+Cloud Logging overview
+Cloud Monitoring overview
+Monitoring and logging resources
+Hybrid and multicloud monitoring and logging patterns
+Troubleshoot distributed applications
+Explore log analytics: must-have tools for cloud security professionals
+Effective alerting in Google Cloud
+Google Cloud synthetic monitoring tutorial
+Gleaning security insights from Audit Logs with Log Analytics
+Four steps to managing your Cloud Logging costs on a budget
+Observability in Google Cloud
+DevOps engineer and SRE learning path
+Observability and monitoring
+
+Documentation and resources for observability and monitoring across Google Cloud products and services.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore observability and monitoring in Google Cloud 
+Read documentation and Cloud Architecture Center articles about observability and monitoring products, capabilities, and procedures.
+description
+Observability in Google Cloud
+Monitoring, logging, tracing, profiling, and debugging for observability.
+description
+Google Cloud Managed Service for Prometheus
+Collect Prometheus metrics for your workloads.
+description
+Instrumentation and observability
+Collect telemetry from your applications with instrumentation.
+description
+Google Cloud Observability overview
+Collect telemetry from your Compute Engine instances.
+description
+Cloud Logging overview
+Collect and manage logs with storage, search, analysis, and monitoring support.
+description
+Cloud Monitoring overview
+Learn about Cloud Monitoring, the integrated monitoring service for Google Cloud.
+account_tree
+Monitoring and logging resources
+Plan your approach with Architecture Center resources across a variety of monitoring and logging topics.open_in_new
+account_tree
+Hybrid and multicloud monitoring and logging patterns
+Plan how to implmement monitoring and logging architectures for hybrid and multi-cloud deployments.open_in_new
+expand_lessLess
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+cloud
+Troubleshoot distributed applications
+View how to troubleshoot distributed applications by using Cloud Trace and Cloud Logging together.open_in_new
+public
+Explore log analytics: must-have tools for cloud security professionals
+View how to access detailed logs of events and activities within your cloud environment.open_in_new
+cloud
+Effective alerting in Google Cloud
+View how the relevance of what we are monitoring can help us support triage in advance.open_in_new
+public
+Google Cloud synthetic monitoring tutorial
+View step by step instructions on how you can get started with Google Cloud synthetic monitoring.open_in_new
+cloud
+Gleaning security insights from Audit Logs with Log Analytics
+View how Cloud Audit logs can help customers meet their compliance and security requirements.open_in_new
+cloud
+Four steps to managing your Cloud Logging costs on a budget
+View these best practices to learn how to get the most out of your Google Cloud and third-party logging tools.open_in_new
+school
+Observability in Google Cloud
+Study how to use application performance management tools, including Error Reporting, Cloud Trace, and Cloud Profiler.open_in_new
+school
+DevOps engineer and SRE learning path
+Study how to implement efficient and reliable software delivery and infrastructure management.open_in_new
+expand_lessLess
+Observability and monitoring products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Observability and monitoring
+
+Integrated monitoring, logging, and trace managed services for applications and systems running on Google Cloud and beyond.
+
+Google Cloud Observability
+Monitor, log, trace, and profile your apps and services.
+Cloud Logging
+Store, search, analyze, monitor, and alert on log data and events from Google Cloud and AWS.
+Cloud Monitoring
+Analyze, monitor, and display the performance data collected from your applications and the Google Cloud services that you use.
+Cloud Trace
+Find performance bottlenecks in production.
+Error Reporting
+Identify and understand application errors.
+Observability optimization
+
+Continuous profiling of production systems for large-scale operations.
+
+Related products, guides, and sites
+Guides and blog posts
+Observability for Google Kubernetes Engine
+Understand the health of your applications and maintain application availability and reliability.
+Virtual machine instances
+Use Compute Engine instances that run the public images for Linux and Windows Server that Google provides, or that run your own private custom images.
+Observe and monitor Compute Engine VMs
+Access and view virtual machine (VM) metrics.
+Cloud Run functions overview
+Build and connect cloud services in a serverless execution environment.
+Write Prometheus metrics from Cloud Run
+Use the Prometheus sidecar to get Prometheus-style monitoring for Cloud Run services.
+Terraform
+Learn how to use Terraform to reliably provision infrastructure on Google Cloud.
+App Hub
+Discover and organize infrastructure resources into applications.
+Moving to Log Analytics for BigQuery export users
+View a post for migrating from BigQuery log sink to Log Analytics.
+Creating custom notifications with Cloud Monitoring and Cloud Run
+Learn how to deliver Cloud Monitoring alert notifications to third-party services that don't have supported notification channels.
+APIs and reference
+Google Cloud CLI logging
+Manage Cloud Logging.
+Google Cloud CLI monitoring
+Manage Monitoring dashboards.
+Monitoring APIs and reference
+View a list of the available monitoring APIs and reference content.
+Logging APIs and reference
+View a list of the available logging APIs and reference content.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

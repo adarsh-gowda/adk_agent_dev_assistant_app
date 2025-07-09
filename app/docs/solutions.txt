@@ -1,0 +1,419 @@
+Google Cloud solutions
+
+Browse Google Cloud solutions or visit our Solutions Center to discover and deploy solutions based on your readiness.
+
+Contact sales
+Visit Solutions Center
+
+Navigate to
+
+Reference architectures
+
+Products directory
+
+Pricing information
+
+FILTER BY
+Filters
+Industry solutions
+Jump Start Solutions
+Application modernization
+Artificial intelligence
+APIs and applications
+Data analytics
+Databases
+Infrastructure modernization
+Productivity and collaboration
+Security
+Startups and small and medium-sized businesses
+Featured partner solutions
+search
+send
+Industry solutions
+
+Whatever your industry's challenge or use case, explore how Google Cloud solutions can help improve efficiency and agility, reduce cost, participate in new business models, and capture new market opportunities.
+
+Retail
+Analytics and collaboration tools for the retail value chain.
+Consumer packaged goods
+Solutions for CPG digital transformation and brand growth.
+Manufacturing
+Migration and AI tools to optimize the manufacturing value chain.
+Automotive
+Digital transformation along the automotive value chain.
+Supply chain and logistics
+Enable sustainable, efficient, and resilient data-driven operations across supply chain and logistics operations.
+Energy
+Multicloud and hybrid solutions for energy companies.
+Healthcare and life sciences
+Advance R&D and improve the clinician and patient experience with AI-driven tools.
+Media and entertainment
+Solutions for content production and distribution operations.
+Games
+AI-driven solutions to build and scale games faster.
+Telecommunications
+Hybrid and multicloud services to deploy and monetize 5G.
+Financial services
+Computing, databases, and analytics tools for financial services.
+Capital markets
+Modern cloud-based architectures, high performance computing, and AI/ML.
+Banking
+Reduce risk, improve customer experiences and data insights.
+Insurance
+Strengthen decision making and deliver customer-centric experiences.
+Payments
+Add new revenue streams, ensure secure transactions and scale globally.
+
+Government and public sector
+
+Government
+Data storage, AI, and analytics solutions for government agencies.
+State and local government
+Cloud platform helps public sector workforces better serve constituents.
+Federal government
+Tools that increase federal agencies’ innovation and operational effectiveness.
+Federal cybersecurity
+Solutions spanning Zero Trust, analytics, and asset protection.
+Education
+Teaching tools to provide more engaging learning experiences.
+Education technology
+AI, analytics, and app development solutions designed for EdTech.
+Canada public sector
+Solutions that help keep your organization secure and compliant.
+Department of Defense
+Google Cloud supports the critical missions of the DoD by providing them with the most secure, reliable, innovative cloud solutions.
+Google Workspace for Government
+Secure collaboration solutions and program management resources to help fulfill the unique needs of today's government.
+Jump Start Solutions
+
+To get started, choose pre-configured, interactive solutions that you can deploy directly from the Google Cloud console.
+
+Deploy a dynamic website
+Build, deploy, and operate a sample dynamic website using responsive web frameworks.
+Deploy load-balanced virtual machines
+Learn best practices for creating and deploying a sample load-balanced VM cluster.
+Summarize large documents
+Learn how to detect text in raw files and automate document summaries with generative AI.
+Build a three-tier web app
+Create a model web app using a three-tiered architecture (frontend, middle tier, backend).
+Create an analytics lakehouse
+Store, process, analyze, and activate data using a unified data stack.
+Deploy a data warehouse using BigQuery
+Learn the basics of building a data warehouse and visualizing data.
+Build an internal knowledge base
+Extract question-and-answer pairs from your documents for a knowledge base.
+Deploy a RAG application
+Learn how to use retrieval-augmented generation (RAG) to create a chat application.
+Deploy an ecommerce platform with serverless computing
+Build and run a simple ecommerce application for retail organizations using serverless capabilities.
+Use a cloud SDK client library
+Learn key skills for successfully making API calls to identify trends and observations on aggregate data.
+See all solutions in console
+Application modernization
+
+Assess, plan, implement, and measure software practices and capabilities to modernize and simplify your organization’s business application portfolios.
+
+CAMP
+Program that uses DORA to improve your software delivery capabilities.
+Modernize Traditional Applications
+Analyze, categorize, and get started with cloud migration on traditional workloads.
+Migrate from PaaS: Cloud Foundry, Openshift
+Tools for moving your existing containers into Google's managed container services.
+Migrate from Mainframe
+Automated tools and prescriptive guidance for moving your mainframe apps to the cloud.
+Modernize Software Delivery
+Software supply chain best practices - innerloop productivity, CI/CD and S3C.
+DevOps Best Practices
+Processes and resources for implementing DevOps in your org.
+SRE Principles
+Tools and resources for adopting SRE in your org.
+Day 2 Operations for GKE
+Tools and guidance for effective GKE management and monitoring.
+FinOps and Optimization of GKE
+Best practices for running reliable, performant, and cost effective applications on GKE.
+Run Applications at the Edge
+Guidance for localized and low latency apps on Google’s hardware agnostic edge solution.
+Architect for Multicloud
+Manage workloads across multiple clouds with a consistent platform.
+Go Serverless
+Fully managed environment for developing, deploying and scaling apps.
+API Management
+Modernize old applications and accelerate new development with an API-FIRST approach.
+Learn more
+Artificial intelligence
+
+Add intelligence and efficiency to your business with AI and machine learning.
+
+AI Hypercomputer
+AI optimized hardware, software, and consumption, combined to improve productivity and efficiency.
+Contact Center AI
+AI model for speaking with customers and assisting human agents.
+Document AI
+Machine learning and AI to unlock insights from your documents.
+Gemini for Google Cloud
+AI-powered collaborator integrated across Google Workspace and Google Cloud.
+Vertex AI Search for commerce
+Google-quality search and recommendations for retailers' digital properties help increase conversions and reduce search abandonment.
+Learn more
+APIs and applications
+
+Securely unlock your data with APIs, automate processes, and create applications across clouds and on-premises without coding.
+
+New business channels using APIs
+Attract and empower an ecosystem of developers and partners.
+Open Banking APIx
+Simplify and accelerate secure delivery of open banking compliant APIs.
+Unlocking legacy applications using APIs
+Cloud services for extending and modernizing legacy apps.
+Learn more
+Data analytics
+
+Generate instant insights from data at any scale with a serverless, fully managed analytics platform that significantly simplifies analytics.
+
+Data warehouse modernization
+Data warehouse to jumpstart your migration and unlock insights.
+Data lake modernization
+Services for building and modernizing your data lake.
+Spark on Google Cloud
+Run and write Spark where you need it, serverless and integrated.
+Stream analytics
+Insights from ingesting, processing, and analyzing event streams.
+Business intelligence
+Solutions for modernizing your BI stack and creating rich data experiences.
+Data science
+Put your data to work with Data Science on Google Cloud.
+Marketing analytics
+Solutions for collecting, analyzing, and activating customer data.
+Datasets
+Data from Google, public, and commercial providers to enrich your analytics and AI initiatives.
+Cortex Framework
+Reduce the time to value with reference architectures, packaged services, and deployment templates.
+
+Geospatial analytics
+
+Geospatial analytics and AI
+Solutions for building a more prosperous and sustainable business.
+Earth Engine
+Access a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities.
+Earth Engine in BigQuery
+Enrich your geospatial data in BigQuery with Earth Engine data, all from within BigQuery Studio.
+Places Insights
+Combine your geospatial data with Google Maps POI data in BigQuery’s data clean rooms.
+Roads Management Insights
+Improve roads with data-driven traffic management. Proactively respond to congestion and traffic.
+Imagery Insights
+Transform your operations and workflows with large-scale remote sensing and AI-powered insights.
+Databases
+
+Migrate and manage enterprise data with security, reliability, high availability, and fully managed data services.
+
+Databases for Games
+Build global, live games with Google Cloud databases.
+Database migration
+Guides and tools to simplify your database migration life cycle.
+Database modernization
+Upgrades to modernize your operational database infrastructure.
+Google Cloud database portfolio
+Database services to migrate, manage, and modernize data.
+Migrate Oracle workloads to Google Cloud
+Rehost, replatform, rewrite your Oracle workloads.
+Open source databases
+Fully managed open source databases with enterprise-grade support.
+SQL Server on Google Cloud
+Options for running SQL Server virtual machines on Google Cloud.
+Learn more
+Infrastructure modernization
+
+Migrate and modernize workloads on Google's global, secure, and reliable infrastructure.
+
+Active Assist
+Automatic cloud resource optimization and increased security.
+Application migration
+Discovery and analysis tools for moving to the cloud.
+Backup and Disaster Recovery
+Ensure your business continuity needs are met.
+Data center migration
+Migration solutions for VMs, apps, databases, and more.
+Rapid Migration and Modernization Program
+Simplify your path to success in the cloud.
+High performance computing
+Compute, storage, and networking options to support any workload.
+Mainframe modernization
+Automated tools and prescriptive guidance for moving to the cloud.
+Observability
+Deliver deep cloud observability with Google Cloud and partners.
+SAP on Google Cloud
+Certifications for running SAP applications and SAP HANA.
+Virtual desktops
+Remote work solutions for desktops and applications (VDI & DaaS).
+Windows on Google Cloud
+Tools and partners for running Windows workloads.
+Red Hat on Google Cloud
+Enterprise-grade platform for traditional on-prem and custom applications.
+Cross-cloud Network
+Simplify hybrid and multicloud networking and secure your workloads, data, and users.
+Learn more
+Productivity and collaboration
+
+Change the way teams work with solutions designed for humans and built for impact.
+
+Google Workspace
+Collaboration and productivity tools for enterprises.
+Chrome Enterprise
+Chrome OS, Chrome Browser, and Chrome devices built for business.
+Google Workspace Essentials
+Secure video meetings and modern collaboration for teams.
+Cloud Identity
+Unified platform for IT admins to manage user devices and apps.
+Cloud Search
+Enterprise search for employees to quickly find company information.
+Learn more
+Security
+
+Detect, investigate, and protect against online threats.
+
+Digital Sovereignty
+A comprehensive set of sovereign capabilities, allowing you to adopt the right controls on a workload-by-workload basis.
+Security Foundation
+Solution with recommended products and guidance to help achieve a strong security posture.
+Security analytics and operations
+Solution for analyzing petabytes of security telemetry.
+Web App and API Protection (WAAP)
+Threat and fraud protection for your web applications and APIs.
+Security and resilience framework
+Solutions for each phase of the security and resilience life cycle.
+Risk and compliance as code (RCaC)
+Solution to modernize your governance, risk, and compliance function with automation.
+Software Supply Chain Security
+Solution for strengthening end-to-end software supply chain security.
+Google Cloud Cybershield™
+Strengthen nationwide cyber defense.
+Learn more
+Startups and small and medium-sized businesses
+
+Accelerate startup and small and medium-sized businesses growth with tailored solutions and programs.
+
+Google Cloud for Web3
+Build and scale faster with simple, secure tools, and infrastructure for Web3.
+Startup solutions
+Grow your startup and solve your toughest challenges using Google’s proven technology.
+Startup program
+Get financial, business, and technical support to take your startup to the next level.
+Small and medium-sized businesses
+Explore solutions for web hosting, app development, AI, and analytics.
+Software as a service
+Build better SaaS products, scale efficiently, and grow your business.
+Featured partner solutions
+
+Google Cloud works with some of the most trusted, innovative partners to help enterprises innovate faster, scale smarter, and stay secure. Here are just a few of them.
+
+Cisco
+Combine Cisco's networking, multicloud, and security portfolio with Google Cloud services to innovate on your own terms.
+Databricks
+Databricks on Google Cloud offers enterprise flexibility for AI-driven analytics on one open cloud platform.
+Dell Technologies
+The Dell and Google Cloud partnership delivers a variety of solutions to help transform how enterprises operate their business.
+Intel
+Get performance on your own terms with customizable Google Cloud and Intel technologies designed for the most demanding enterprise workloads and applications.
+MongoDB
+MongoDB Atlas provides customers a fully managed service on Google’s globally scalable and reliable infrastructure.
+NetApp
+Discover advanced hybrid cloud data services that simplify how you migrate and run enterprise workloads in the cloud.
+Palo Alto Networks
+Combine Google’s secure-by-design infrastructure with dedicated protection from Palo Alto Networks to help secure your applications and data in hybrid environments and on Google Cloud.
+SAP
+Drive agility and economic value with VM-based infrastructure, analytics, and machine learning innovations.
+Splunk
+Splunk and Google Cloud have partnered to help organizations ingest, normalize, and analyze data at scale.
+VMware
+Migrate and run your VMware workloads natively on Google Cloud.
+Red Hat
+Enterprise-grade platform for traditional on-prem and custom applications with the security, performance, scalability, and simplicity of Google Cloud.
+Take the next step
+
+Tell us what you’re solving for. A Google Cloud expert will help you find the best solution.
+
+Contact sales
+Work with a trusted partner
+Find a partner
+Start using Google Cloud
+Try it free
+Deploy ready-to-go solutions
+Explore marketplace
+Overview
+Solutions
+Products
+Pricing
+Resources
+
+search_spark
+send_spark
+Docs
+Support
+Sign in
+Start free
+Contact Us
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Blog
+Products and pricing
+Google Cloud pricing
+Google Workspace pricing
+See all products
+Solutions
+Infrastructure modernization
+Databases
+Application modernization
+Smart analytics
+Artificial Intelligence
+Security
+Productivity & work transformation
+Industry solutions
+DevOps solutions
+Small business solutions
+See all solutions
+Resources
+Google Cloud Affiliate Program
+Google Cloud documentation
+Google Cloud quickstarts
+Google Cloud Marketplace
+Learn about cloud computing
+Support
+Code samples
+Cloud Architecture Center
+Training
+Certifications
+Google for Developers
+Google Cloud for Startups
+System status
+Release Notes
+Engage
+Contact sales
+Find a Partner
+Become a Partner
+Events
+Podcasts
+Developer Center
+Press Corner
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Follow on X
+Join User Research
+We're hiring. Join Google Cloud!
+Google Cloud Community
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+language
+‪English‬

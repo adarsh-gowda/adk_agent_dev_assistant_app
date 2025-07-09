@@ -1,0 +1,213 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Supported models
+Before you begin
+Try out Gemma 2
+Clean up
+Delete the project
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Try it: Test model capabilities using demo playgrounds in Model Garden
+bookmark_border
+Model Garden hosts public demo playgrounds for supported models. The playgrounds are powered by predeployed Vertex AI online prediction endpoints.
+
+When you open the model card for a supported model, a Try out panel is embedded in the card. You can quickly test the model's capabilities by sending a text prompt in the Try out panel. The Try out panel also lets you set some of the most common parameters such as temperature and number of output tokens.
+
+Supported models
+
+The following models have demo playgrounds available.
+
+Provider	Models
+Google	
+Gemma 2 2B it (instruction tuned)
+Gemma 2 9B it (instruction tuned)
+Gemma 2 27B it (instruction tuned)
+Gemma 2B
+Gemma 2B it (instruction tuned)
+Gemma 7B
+Gemma 7B it (instruction tuned)
+
+Meta	
+Llama 3 8B Instruct
+Llama 3 70B Instruct
+Llama 2 7B
+Llama 2 7B Chat
+Llama 2 13B Chat
+Llama 2 70B Chat (Int8)
+Code Llama 7B Python
+
+TII	
+Falcon 7B
+
+Mistral AI	
+Mixtral 8x7B
+Before you begin
+
+This tutorial requires you to set up a Google Cloud project and enable the Vertex AI API.
+
+Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+
+In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+
+Note: If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project.
+
+Go to project selector
+
+Make sure that billing is enabled for your Google Cloud project.
+
+Enable the Vertex AI API.
+
+Enable the API
+
+Try out Gemma 2
+
+In this quickstart, you try out the Gemma-2b-it model. Note that -it stands for instruction-tuned.
+
+In the Google Cloud console, go to the Gemma 2 model card.
+
+Go to Gemma 2
+
+In the Try out panel:
+
+For Region, accept the default or choose your region.
+For Endpoint, select Demo playground (Free)2b-it.
+In the Prompt box, enter Why is the sky blue?.
+
+Expand the Advanced options section and view the default parameters.
+
+Click Submit. The output appears below the Submit button.
+
+Clean up
+
+To avoid incurring charges to your Google Cloud account for the resources used on this page, follow these steps.
+
+Delete the project
+
+The easiest way to eliminate billing is to delete the project that you created for the tutorial.
+
+To delete the project:
+
+Caution: Deleting a project has the following effects:
+Everything in the project is deleted. If you used an existing project for the tasks in this document, when you delete it, you also delete any other work you've done in the project.
+Custom project IDs are lost. When you created this project, you might have created a custom project ID that you want to use in the future. To preserve the URLs that use the project ID, such as an appspot.com URL, delete selected resources inside the project instead of deleting the whole project.
+
+If you plan to explore multiple architectures, tutorials, or quickstarts, reusing projects can help you avoid exceeding project quota limits.
+
+In the Google Cloud console, go to the Manage resources page.
+
+Go to Manage resources
+
+In the project list, select the project that you want to delete, and then click Delete.
+In the dialog, type the project ID, and then click Shut down to delete the project.
+
+What's next
+
+See an overview of Model Garden.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

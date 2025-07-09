@@ -1,0 +1,298 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Build
+Agents
+Overview
+Agent Development Kit
+Agent Engine
+Overview
+Quickstart
+Set up the environment
+Develop an agent
+Evaluate an agent
+Deploy an agent
+Use an agent
+Manage deployed agents
+Manage context
+Getting help
+Agent2Agent (A2A) Protocol
+Agent Tools
+Prompt design
+Introduction to prompting
+Prompting strategies
+Task-specific prompt guidance
+Capabilities
+Safety
+Text and code generation
+Image generation
+Video generation
+Music generation
+Media analysis
+Grounding
+Thinking
+Live API
+Embeddings
+Translation
+Generate speech from text
+Transcribe speech
+Development tools
+Use AI-powered prompt writing tools
+RAG Engine
+Tokenizer
+Multimodal datasets
+Model tuning
+Introduction to tuning
+Gemini models
+Embeddings models
+Imagen models
+Translation models
+Tuning recommendations with LoRA and QLoRA
+Migrate
+Call Vertex AI models using OpenAI libraries
+Migrate from Google AI to Vertex AI
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Create and deploy on Vertex AI Agent Engine
+Supported frameworks
+Deploy in production with Agent Starter Pack
+Use cases
+Enterprise security
+Supported regions
+Quota
+Pricing
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Vertex AI Agent Engine overview
+bookmark_border
+Release Notes
+
+The VPC-SC security control is supported by Vertex AI Agent Engine. Data residency, CMEK, and AXT security controls aren't supported.
+
+To see an example of getting started with Vertex AI Agent Engine, run the "Building and Deploying an Agent with " notebook in one of the following environments:
+
+Open in Colab | Open in Colab Enterprise | Open in Vertex AI Workbench user-managed notebooks | View on GitHub
+
+Vertex AI Agent Engine (formerly known as LangChain on Vertex AI or Vertex AI Reasoning Engine) is a set of services that enables developers to deploy, manage, and scale AI agents in production. Agent Engine handles the infrastructure to scale agents in production so you can focus on creating applications. Vertex AI Agent Engine offers the following services that you can use individually or in combination:
+
+Managed runtime:
+
+Deploy and scale agents with a managed runtime and end-to-end management capabilities.
+Customize the agent's container image with build-time installation scripts for system dependencies.
+Use security features including VPC-SC compliance and configuration of authentication and IAM.
+Access models and tools such as function calling.
+Deploy agents built using different Python frameworks:
+
+Context management:
+
+Sessions (Preview): Agent Engine Sessions lets you store individual interactions between users and agents, providing definitive sources for conversation context.
+
+Memory Bank (Preview): Agent Engine Memory Bank lets you store and retrieve information from sessions to personalize agent interactions.
+
+Example Store (Preview): Example Store lets you store and dynamically retrieve few-shot examples.
+
+Quality and evaluation (Preview):
+
+Evaluate agent quality with the integrated Gen AI Evaluation service.
+Improve agent performance with Example Store.
+Optimize agents with Gemini model training runs.
+
+Observability:
+
+Understand agent behavior with Google Cloud Trace (supporting OpenTelemetry), Cloud Monitoring, and Cloud Logging.
+
+Vertex AI Agent Engine is part of Vertex AI Agent Builder, a suite of features for discovering, building, and deploying AI agents.
+
+Note: Because the name of Vertex AI Agent Engine changed over time, the name of the resource in the API reference is ReasoningEngine to maintain backwards compatibility.
+Create and deploy on Vertex AI Agent Engine
+
+Note: For a streamlined, IDE-based development and deployment experience with Vertex AI Agent Engine, consider the agent-starter-pack. It provides ready-to-use templates, a built-in UI for experimentation, and simplifies deployment, operations, evaluation, customization, and observability.
+
+The workflow for building an agent on Vertex AI Agent Engine is:
+
+Steps	Description
+1. Set up the environment	Set up your Google project and install the latest version of the Vertex AI SDK for Python.
+2. Develop an agent	Develop an agent that can be deployed on Vertex AI Agent Engine.
+3. Deploy the agent	Deploy the agent on the Vertex AI Agent Engine managed runtime.
+4. Use the agent	Query the agent by sending an API request.
+5. Manage the deployed agent	Manage and delete agents that you have deployed to Vertex AI Agent Engine.
+
+The steps are illustrated by the following diagram:
+
+ 
+
+
+Supported frameworks
+
+The following table describes the level of support Vertex AI Agent Engine provides for various agent frameworks:
+
+Support level	Agent frameworks
+Custom template: You can adapt a custom template to support deployment to Vertex AI Agent Engine from your framework.	CrewAI, custom frameworks
+Vertex AI SDK integration: Vertex AI Agent Engine provides managed templates per framework in the Vertex AI SDK and documentation.	AG2, LlamaIndex
+Full integration: Features are integrated to work across the framework, Vertex AI Agent Engine, and broader Google Cloud ecosystem.	Agent Development Kit (ADK), LangChain, LangGraph
+Deploy in production with Agent Starter Pack
+
+The Agent Starter Pack is a collection of production-ready generative AI agent templates built for Vertex AI Agent Engine. The Agent Starter Pack provides the following:
+
+Pre-built agent templates: ReAct, RAG, multi-agent, and other templates.
+Interactive playground: Test and interact with your agent.
+Automated infrastructure: Uses Terraform for streamlined resource management.
+CI/CD pipelines: Automated deployment workflows leveraging Cloud Build.
+Observability: Built-in support for Cloud Trace and Cloud Logging.
+
+To get started, see the Quickstart.
+
+Use cases
+
+To learn about Vertex AI Agent Engine with end-to-end examples, see the following resources:
+
+Use Case	Description	Links
+Build agents by connecting to public APIs	Convert between currencies.
+
+Create a function that connects to a currency exchange app, allowing the model to provide accurate answers to queries such as "What's the exchange rate for euros to dollars today?"	Vertex AI SDK for Python notebook - Intro to Building and Deploying an Agent with Vertex AI Agent Engine
+Designing a community solar project.
+
+Identify potential locations, look up relevant government offices and suppliers, and review satellite images and solar potential of regions and buildings to find the optimal location to install your solar panels.	Vertex AI SDK for Python notebook - Building and Deploying a Google Maps API Agent with Vertex AI Agent Engine
+Build agents by connecting to databases	Integration with AlloyDB and Cloud SQL for PostgreSQL.	Blog post - Announcing LangChain on Vertex AI for AlloyDB and Cloud SQL for PostgreSQL
+
+Vertex AI SDK for Python notebook - Deploying a RAG Application with Cloud SQL for PostgreSQL to Vertex AI Agent Engine
+
+Vertex AI SDK for Python notebook - Deploying a RAG Application with AlloyDB for PostgreSQL to Vertex AI Agent Engine
+Build agents with tools that access data in your database.	Vertex AI SDK for Python notebook - Deploying an Agent with Vertex AI Agent Engine and MCP Toolbox for Databases
+Query and understand structured datastores using natural language.	Vertex AI SDK for Python notebook - Building a Conversational Search Agent with Vertex AI Agent Engine and RAG on Vertex AI Search
+Query and understand graph databases using natural language	Blog post - GenAI GraphRAG and AI agents using Vertex AI Agent Engine with LangChain and Neo4j
+Query and understand vector stores using natural language	Blog post - Simplify GenAI RAG with MongoDB Atlas and Vertex AI Agent Engine
+Build agents with Agent Development Kit (preview)	Build and deploy agents using Agent Development Kit.	Agent Development Kit -- Deploy to Vertex AI Agent Engine
+Manage context with Vertex AI Agent Engine Sessions and Memory Bank in Vertex AI express mode without billing.	Agent Development Kit -- Vertex AI Agent Engine Sessions and Memory Bank in Vertex AI express mode.
+Build agents with OSS frameworks	Build and deploy agents using the OneTwo open-source framework.	Blog post - OneTwo and Vertex AI Agent Engine: exploring advanced AI agent development on Google Cloud
+Build and deploy agents using the LangGraph open-source framework.	Vertex AI SDK for Python notebook - Building and Deploying a LangGraph Application with Vertex AI Agent Engine
+Debugging and optimizing agents	Build and trace agents using OpenTelemetry and Cloud Trace.	Vertex AI SDK for Python notebook - Debugging and Optimizing Agents: A Guide to Tracing in Vertex AI Agent Engine
+Enterprise security
+
+Vertex AI Agent Engine supports VPC Service Controls to strengthen data security and mitigate the risks of data exfiltration. When VPC Service Controls is configured, the deployed agent retains secure access to Google APIs and services, such as BigQuery API, Cloud SQL Admin API, and Vertex AI API, verifying seamless operation within your defined perimeter. Critically, VPC Service Controls effectively blocks all public internet access, confining data movement to your authorized network boundaries and significantly enhancing your enterprise security posture.
+
+Note: If you use Vertex AI Agent Engine in a VPC-SC environment, you must create an ingress rule in your perimeter to allow ingress from the Reasoning Engine Service Agent (service-PROJECT_NUMBER@gcp-sa-aiplatform-re.iam.gserviceaccount.com) to storage.googleapis.com service and artifactregistry.googleapis.com service.
+Supported regions
+
+Vertex AI Agent Engine is supported in the following regions:
+
+Region	Location	Supported versions
+us-central1	Iowa	v1 is supported for GA features. v1beta1 is supported for Preview features.
+us-east4	Northern Virginia	v1 is supported for GA features. v1beta1 is supported for Preview features.
+us-west1	Oregon	v1 is supported for GA features. v1beta1 is supported for Preview features.
+europe-west1	Belgium	v1 is supported for GA features. v1beta1 is supported for Preview features.
+europe-west2	London	v1 is supported for GA features. v1beta1 is supported for Preview features.
+europe-west3	Frankfurt	v1 is supported for GA features. v1beta1 is supported for Preview features.
+europe-west4	Netherlands	v1 is supported for GA features. v1beta1 is supported for Preview features.
+europe-southwest1	Madrid	v1 is supported for GA features. v1beta1 is supported for Preview features.
+asia-east1	Taiwan	v1 is supported for GA features. v1beta1 is supported for Preview features.
+asia-northeast1	Tokyo	v1 is supported for GA features. v1beta1 is supported for Preview features.
+asia-south1	Mumbai	v1 is supported for GA features. v1beta1 is supported for Preview features.
+asia-southeast1	Singapore	v1 is supported for GA features. v1beta1 is supported for Preview features.
+australia-southeast2	Melbourne	v1 is supported for GA features. v1beta1 is supported for Preview features.
+
+For Agent Engine Memory Bank (Preview), the following regions are supported:
+
+Region	Location	Supported versions
+us-central1	Iowa	v1beta1 version is supported.
+Quota
+The following limits apply to Vertex AI Agent Engine for a given project in each region:
+Description	Limit
+Create, delete, or update Vertex AI Agent Engine per minute	10
+Create, delete, or update Vertex AI Agent Engine sessions per minute	100
+Create, delete, or update Vertex AI Agent Engine sessions per minute	100
+Query or StreamQuery Vertex AI Agent Engine per minute	60
+Append event to Vertex AI Agent Engine sessions per minute	100
+Maximum number of Vertex AI Agent Engine resources	100
+Create, delete, or update Vertex AI Agent Engine memory resources per minute	100
+Get, list, or retrieve from Vertex AI Agent Engine Memory Bank per minute	300
+Pricing
+
+Pricing is based on compute (vCPU hours) and memory (GiB hours) resources used by the agents that are deployed to the Vertex AI Agent Engine managed runtime.
+
+Product	SKU ID	Price
+ReasoningEngine vCPU	8A55-0B95-B7DC	$0.0994/vCPU-Hr
+ReasoningEngine Memory	0B45-6103-6EC1	$0.0105/GiB-Hr
+
+For more information, see pricing.
+
+What's next
+Set up the environment.
+Get support.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-08 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

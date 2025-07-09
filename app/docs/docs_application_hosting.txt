@@ -1,0 +1,177 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Overview of application hosting infrastructure
+Serverless
+Container orchestration
+Fleet management
+Selected related products
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Learning Path: Scalable applications
+Use GKE and Cloud Run together
+AI/ML orchestration on GKE documentation
+Choosing GKE Standard or GKE Enterprise edition
+Implement shift-left security
+Connect Cloud Run to a VPC network
+Cloud Run security design
+Create and execute a Cloud Run job
+Compare Cloud Run functions versions
+Application hosting options
+Google Cloud Skills Boost Learning Path
+Application hosting
+
+Documentation and resources for running and managing applications on Google Cloud.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore application hosting in Google Cloud 
+Read documentation and Cloud Architecture Center articles about hosting services and websites plus managing workloads without infrastructure.
+description
+Learning Path: Scalable applications
+Learn how to deploy, run, and manage modern application environments that run on GKE (GKE).
+description
+Use GKE and Cloud Run together
+Leverage Google Kubernetes Engine (GKE) and Cloud Run to deploy applications to the Google Cloud, optimizing costs, performance, and management overhead.
+info
+AI/ML orchestration on GKE documentation
+Implement a robust, production-ready AI/ML platform with all the benefits of managed Kubernetes.
+description
+Choosing GKE Standard or GKE Enterprise edition
+Choose a standard tier of core functionality or an enterprise tier with powerful features for governing, managing, and operating containerized workloads at enterprise scale.
+account_tree
+Implement shift-left security
+Recommendations that help you implement preventive security guardrails and post-deployment security controls.open_in_new
+description
+Connect Cloud Run to a VPC network
+Send outbound traffic from Cloud Run directly to a VPC network with low latency and high throughput.
+description
+Cloud Run security design
+Learn how Cloud Run implements security best practices to protect your data and meet your requirements.
+description
+Create and execute a Cloud Run job
+Create a job in Cloud Run using a sample container, execute the job, and view logs.
+description
+Compare Cloud Run functions versions
+Learn why we recommend that you choose Cloud Run functions for new functions wherever possible.
+expand_lessLess
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+cloud
+Application hosting options
+Explore common scenarios and technical requirements for using the different application hosting options.
+school
+Google Cloud Skills Boost Learning Path
+Study how to design, build, analyze, and maintain cloud-native applications.open_in_new
+Application hosting products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Serverless
+
+Develop and deploy highly scalable applications and functions on a fully managed serverless platform.
+
+App Engine
+Build and deploy an application that runs reliably even under heavy load and with large amounts of data.
+Cloud Run functions
+Create serverless, single-purpose functions that respond to events.
+Cloud Run
+Run stateless containers on a fully managed environment or on GKE Enterprise.
+Container orchestration
+
+Provision, deploy, scale, and manage containerized applications.
+
+Fleet management
+
+Simplify managing multi-cluster deployments.
+
+Related products, guides, and sites
+Compute Engine
+Configure and deploy scalable, high-performance virtual machine (VM) instances and instance groups.
+Firebase
+Google Cloud’s mobile and web application development platform.
+buildpacks
+Use Google Cloud’s Buildpacks to create and run containers on Google Cloud.
+Application development technologies
+Create applications with a comprehensive set of tools and services.
+Blockchain Node Engine
+Fully managed node hosting for developing on the blockchain.
+Blockchain RPC
+Enterprise-grade service that allows read and write access to multiple blockchains via native RPC APIs.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

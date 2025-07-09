@@ -1,0 +1,582 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+AI21 Labs
+Claude
+Overview
+Request predictions
+Batch predictions
+Prompt caching
+Count tokens
+Model details
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+Claude 3.5 Haiku
+Claude 3 Haiku
+Claude 3.5 Sonnet
+Mistral AI
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Before you begin
+Use the Anthropic SDK
+Use a curl command
+Tool use (function calling)
+Use Vertex AI Studio
+Anthropic Claude quotas and region availability
+Input tokens
+Quotas by model and region
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Request predictions with Claude models
+bookmark_border
+
+You can use Anthropic's SDK or curl commands to send requests to the Vertex AI endpoint using the following model names:
+
+For Claude Opus 4, use claude-opus-4@20250514
+For Claude Sonnet 4, use claude-sonnet-4@20250514
+For Claude 3.7 Sonnet, use claude-3-7-sonnet@20250219
+For Claude 3.5 Sonnet v2, use claude-3-5-sonnet-v2@20241022
+For Claude 3.5 Haiku, use claude-3-5-haiku@20241022
+For Claude 3.5 Sonnet, use claude-3-5-sonnet@20240620
+For Claude 3 Opus, use claude-3-opus@20240229
+For Claude 3 Haiku, use claude-3-haiku@20240307
+
+Anthropic Claude model versions must be used with a suffix that starts with an @ symbol (such as claude-3-7-sonnet@20250219 or claude-3-5-haiku@20241022) to guarantee consistent behavior.
+
+Note: The maximum allowed image file size is 5 MB and you can include up to 20 images in one request.
+Before you begin
+
+To use the Anthropic Claude models with Vertex AI, you must perform the following steps. The Vertex AI API (aiplatform.googleapis.com) must be enabled to use Vertex AI. If you already have an existing project with the Vertex AI API enabled, you can use that project instead of creating a new project.
+
+Make sure you have the required permissions to enable and use partner models. For more information, see Grant the required permissions.
+
+Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+
+In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+
+Go to project selector
+
+Make sure that billing is enabled for your Google Cloud project.
+
+Enable the Vertex AI API.
+
+Enable the API
+
+Go to one of the following Model Garden model cards, then click Enable:
+Go to the Claude Opus 4 model card
+Go to the Claude Sonnet 4 model card
+Go to the Claude 3.7 Sonnet model card
+Go to the Claude 3.5 Sonnet v2 model card
+Go to the Claude 3.5 Haiku model card
+Go to the Claude 3.5 Sonnet model card
+Go to the Claude 3 Opus model card
+Go to the Claude 3 Haiku model card
+Anthropic recommends that you enable 30-day logging of your prompt and completion activity to record any model misuse. To enable logging, see [Log requests and responses][logging].
+Use the Anthropic SDK
+
+You can make API requests to the Anthropic Claude models using the Anthropic Claude SDK. To learn more, see the following:
+
+Claude messages API reference
+Anthropic Python API library
+Anthropic Vertex AI TypeScript API Library
+Make a streaming call to a Claude model using the Anthropic Vertex SDK
+
+The following code sample uses the Anthropic Vertex SDK to perform a streaming call to a Claude model.
+
+Python
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+The following sample uses regional endpoints. To use the global endpoint, see Specify the global endpoint.
+# TODO(developer): Vertex AI SDK - uncomment below & run
+# pip3 install --upgrade --user google-cloud-aiplatform
+# gcloud auth application-default login
+# pip3 install -U 'anthropic[vertex]'
+
+# TODO(developer): Update and un-comment below line
+# PROJECT_ID = "your-project-id"
+
+from anthropic import AnthropicVertex
+
+client = AnthropicVertex(project_id=PROJECT_ID, region="us-east5")
+result = []
+
+with client.messages.stream(
+    model="claude-3-5-sonnet-v2@20241022",
+    max_tokens=1024,
+    messages=[
+        {
+            "role": "user",
+            "content": "Send me a recipe for banana bread.",
+        }
+    ],
+) as stream:
+    for text in stream.text_stream:
+        print(text, end="", flush=True)
+        result.append(text)
+
+# Example response:
+# Here's a simple recipe for delicious banana bread:
+# Ingredients:
+# - 2-3 ripe bananas, mashed
+# - 1/3 cup melted butter
+# ...
+# ...
+# 8. Bake for 50-60 minutes, or until a toothpick inserted into the center comes out clean.
+# 9. Let cool in the pan for a few minutes, then remove and cool completely on a wire rack.
+
+Make a unary call to a Claude model using the Anthropic Vertex SDK
+
+The following code sample uses the Anthropic Vertex SDK to perform a unary call to a Claude model.
+
+Python
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+The following sample uses regional endpoints. To use the global endpoint, see Specify the global endpoint.
+# TODO(developer): Vertex AI SDK - uncomment below & run
+# pip3 install --upgrade --user google-cloud-aiplatform
+# gcloud auth application-default login
+# pip3 install -U 'anthropic[vertex]'
+
+# TODO(developer): Update and un-comment below line
+# PROJECT_ID = "your-project-id"
+
+from anthropic import AnthropicVertex
+
+client = AnthropicVertex(project_id=PROJECT_ID, region="us-east5")
+message = client.messages.create(
+    model="claude-3-5-sonnet-v2@20241022",
+    max_tokens=1024,
+    messages=[
+        {
+            "role": "user",
+            "content": "Send me a recipe for banana bread.",
+        }
+    ],
+)
+print(message.model_dump_json(indent=2))
+# Example response:
+# {
+#   "id": "msg_vrtx_0162rhgehxa9rvJM5BSVLZ9j",
+#   "content": [
+#     {
+#       "text": "Here's a simple recipe for delicious banana bread:\n\nIngredients:\n- 2-3 ripe bananas...
+#   ...
+
+Use a curl command
+
+You can use a curl command to make a request to the Vertex AI endpoint. The curl command specifies which supported Claude model you want to use.
+
+Anthropic Claude model versions must be used with a suffix that starts with an @ symbol (such as claude-3-7-sonnet@20250219 or claude-3-5-haiku@20241022) to guarantee consistent behavior.
+
+The following topic shows you how to create a curl command and includes a sample curl command.
+
+REST
+
+To test a text prompt by using the Vertex AI API, send a POST request to the publisher model endpoint.
+
+The following sample uses regional endpoints. To use the global endpoint, see Specify the global endpoint.
+
+Before using any of the request data, make the following replacements:
+
+LOCATION: A region that supports Anthropic Claude models. To use the global endpoint, see Specify the global endpoint.
+MODEL: The model name you want to use.
+ROLE: The role associated with a message. You can specify a user or an assistant. The first message must use the user role. Claude models operate with alternating user and assistant turns. If the final message uses the assistant role, then the response content continues immediately from the content in that message. You can use this to constrain part of the model's response.
+STREAM: A boolean that specifies whether the response is streamed or not. Stream your response to reduce the end-use latency perception. Set to true to stream the response and false to return the response all at once.
+CONTENT: The content, such as text, of the user or assistant message.
+MAX_TOKENS: Maximum number of tokens that can be generated in the response. A token is approximately 3.5 characters. 100 tokens correspond to roughly 60-80 words.
+
+Specify a lower value for shorter responses and a higher value for potentially longer responses.
+
+TOP_P (Optional): Top-P changes how the model selects tokens for output. Tokens are selected from the most probable to least probable until the sum of their probabilities equals the top-P value. For example, if tokens A, B, and C have a probability of 0.3, 0.2, and 0.1 and the top-P value is 0.5, then the model will select either A or B as the next token by using temperature and excludes C as a candidate.
+
+Specify a lower value for less random responses and a higher value for more random responses.
+
+TOP_K(Optional): Top-K changes how the model selects tokens for output. A top-K of 1 means the next selected token is the most probable among all tokens in the model's vocabulary (also called greedy decoding), while a top-K of 3 means that the next token is selected from among the three most probable tokens by using temperature.
+
+For each token selection step, the top-K tokens with the highest probabilities are sampled. Then tokens are further filtered based on top-P with the final token selected using temperature sampling.
+
+Specify a lower value for less random responses and a higher value for more random responses.
+
+TYPE: For Claude 3.7 Sonnet and later Claude models, to enable extended thinking mode, specify enable.
+BUDGET_TOKENS: If you enable extended thinking, you must specify the number of tokens that the model can use for its internal reasoning as part of the output. Larger budgets can enable more thorough analysis for complex problems and improve response quality. You must specify a value greater than or equal to 1024 but less than MAX_TOKENS.
+
+HTTP method and URL:
+
+POST https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/anthropic/models/MODEL:streamRawPredict
+
+Request JSON body:
+
+{
+  "anthropic_version": "vertex-2023-10-16",
+  "messages": [
+   {
+    "role": "ROLE",
+    "content": "CONTENT"
+   }],
+  "max_tokens": MAX_TOKENS,
+  "stream": STREAM,
+  "thinking": {
+    "type": "TYPE",
+    "budget_tokens": BUDGET_TOKENS
+  }
+}
+
+
+To send your request, choose one of these options:
+
+curl
+PowerShell
+Note: The following command assumes that you have logged in to the gcloud CLI with your user account by running gcloud init or gcloud auth login , or by using Cloud Shell, which automatically logs you into the gcloud CLI . You can check the currently active account by running gcloud auth list.
+
+Save the request body in a file named request.json, and execute the following command:
+
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/anthropic/models/MODEL:streamRawPredict"
+
+You should receive a JSON response similar to the following.
+
+Response
+Example curl command
+MODEL_ID="MODEL"
+LOCATION="us-central1"
+PROJECT_ID="PROJECT_ID"
+
+curl \
+-X POST \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" \
+-H "Content-Type: application/json" \
+https://${LOCATION}-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/${LOCATION}/publishers/anthropic/models/${MODEL_ID}:streamRawPredict -d \
+'{
+  "anthropic_version": "vertex-2023-10-16",
+  "messages": [{
+    "role": "user",
+    "content": "Hello!"
+  }],
+  "max_tokens": 50,
+  "stream": true}'
+
+Tool use (function calling)
+
+The Anthropic Claude models support tools and function calling to enhance a model's capabilities. For more information, see the Tool use overview in the Anthropic documentation.
+
+The following samples demonstrate how to use tools by using an SDK or curl command. The samples search for nearby restaurants in San Francisco that are open.
+
+Python
+REST
+The following sample uses regional endpoints. To use the global endpoint, see Specify the global endpoint.
+
+Before using any of the request data, make the following replacements:
+
+LOCATION: A region that supports Anthropic Claude models. To use the global endpoint, see Specify the global endpoint.
+MODEL: The model name to use.
+ROLE: The role associated with a message. You can specify a user or an assistant. The first message must use the user role. Claude models operate with alternating user and assistant turns. If the final message uses the assistant role, then the response content continues immediately from the content in that message. You can use this to constrain part of the model's response.
+STREAM: A boolean that specifies whether the response is streamed or not. Stream your response to reduce the end-use latency perception. Set to true to stream the response and false to return the response all at once.
+CONTENT: The content, such as text, of the user or assistant message.
+MAX_TOKENS: Maximum number of tokens that can be generated in the response. A token is approximately 3.5 characters. 100 tokens correspond to roughly 60-80 words.
+
+Specify a lower value for shorter responses and a higher value for potentially longer responses.
+
+HTTP method and URL:
+
+POST https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/anthropic/models/MODEL:rawPredict
+
+Request JSON body:
+
+
+{
+  "anthropic_version": "vertex-2023-10-16",
+  "max_tokens": MAX_TOKENS,
+  "stream": STREAM,
+  "tools": [
+    {
+      "name": "text_search_places_api",
+      "description": "Returns information about a set of places based on a string",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "textQuery": {
+            "type": "string",
+            "description": "The text string on which to search"
+          },
+          "priceLevels": {
+            "type": "array",
+            "description": "Price levels to query places, value can be one of [PRICE_LEVEL_INEXPENSIVE, PRICE_LEVEL_MODERATE, PRICE_LEVEL_EXPENSIVE, PRICE_LEVEL_VERY_EXPENSIVE]",
+          },
+          "openNow": {
+            "type": "boolean",
+            "description": "Describes whether a place is open for business at
+            the time of the query."
+          },
+        },
+        "required": ["textQuery"]
+      }
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are some affordable and good Italian restaurants that are open now in San Francisco??"
+    }
+  ]
+}
+
+
+To send your request, choose one of these options:
+
+curl
+PowerShell
+Note: The following command assumes that you have logged in to the gcloud CLI with your user account by running gcloud init or gcloud auth login , or by using Cloud Shell, which automatically logs you into the gcloud CLI . You can check the currently active account by running gcloud auth list.
+
+Save the request body in a file named request.json, and execute the following command:
+
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/anthropic/models/MODEL:rawPredict"
+
+You should receive a JSON response similar to the following.
+
+Response
+
+Use Vertex AI Studio
+
+For some of the Anthropic Claude models, you can use Vertex AI Studio to quickly prototype and test generative AI models in the Google Cloud console. As an example, you can use Vertex AI Studio to compare Claude model responses with other supported models such as Google Gemini.
+
+For more information, see Quickstart: Send text prompts to Gemini using Vertex AI Studio.
+
+Anthropic Claude quotas and region availability
+
+Claude models have regional quotas and, for models that support a global endpoint, a global quota. The quota is specified in queries per minute (QPM) and tokens per minute (TPM). TPM includes both input and output tokens.
+
+To maintain overall service performance and acceptable use, the maximum quotas might vary by account and, in some cases, access might be restricted. View your project's quotas on the Quotas & Systems Limits page in the Google Cloud console. You must also have the following quotas available:
+
+online_prediction_requests_per_base_model and global_online_prediction_requests_per_base_model defines your QPM quota.
+
+For TPM, there are three quota values that apply to particular models:
+
+For models that count input and output tokens together, online_prediction_tokens_per_minute_per_base_model and global_online_prediction_tokens_per_minute_per_base_model defines the model TPM quota.
+For models that count input and output tokens separately, online_prediction_input_tokens_per_minute_per_base_model and global_online_prediction_input_tokens_per_minute_per_base_model defines the input TPM quota and online_prediction_output_tokens_per_minute_per_base_model and global_online_prediction_output_tokens_per_minute_per_base_model defines the output TPM quota.
+
+To see which models count input and output tokens separately, see Quotas by model and region.
+
+Input tokens
+
+The following list defines the input tokens that can count towards your input TPM quota. The input tokens that each model counts can vary. To see which input tokens a model counts, see Quotas by model and region.
+
+Input tokens includes all input tokens, including cache read and cache write tokens.
+Uncached input tokens includes only the input tokens that weren't read from a cache (cache read tokens).
+Cache write tokens includes tokens that were used to create or update a cache.
+Quotas by model and region
+
+The following table shows the default quotas and supported context length for each model in each region.
+
+Important: Machine learning (ML) processing for all available Anthropic models occurs within the US when requests are made to regionally-available APIs in the US, or within the EU when requests are made to regionally-available APIs in Europe.
+Model	Region	Quotas	Context length
+Claude Opus 4
+us-east5	
+QPM: 25
+Input TPM: 60,000 uncached and cache write
+Output TPM: 6,000
+	200,000
+global endpoint	
+QPM: 25
+Input TPM: 60,000 uncached and cache write
+Output TPM: 6,000
+	200,000
+Claude Sonnet 4
+us-east5	
+QPM: 35
+Input TPM: 280,000 uncached and cache write
+Output TPM: 20,000
+	200,000
+europe-west1	
+QPM: 25
+Input TPM: 180,000 uncached and cache write
+Output TPM: 20,000
+	200,000
+asia-east1	
+QPM: 70
+Input TPM: 550,000 uncached and cache write
+Output TPM: 50,000
+	200,000
+global endpoint	
+QPM: 35
+Input TPM: 276,000 uncached and cache write
+Output TPM: 24,000
+	200,000
+Claude 3.7 Sonnet
+us-east5	
+QPM: 55
+TPM: 500,000 (uncached input and output)
+	200,000
+europe-west1	
+QPM: 40
+TPM: 300,000 (uncached input and output)
+	200,000
+global endpoint	
+QPM: 35
+TPM: 300,000 (uncached input and output)
+	200,000
+Claude 3.5 Sonnet v2
+us-east5	
+QPM: 90
+TPM: 540,000 (input and output)
+	200,000
+europe-west1	
+QPM: 55
+TPM: 330,000 (input and output)
+	200,000
+global endpoint	
+QPM: 25
+TPM: 140,000 (input and output)
+	200,000
+Claude 3.5 Haiku
+us-east5	
+QPM: 80
+TPM: 350,000 (input and output)
+	200,000
+Claude 3.5 Sonnet
+us-east5	
+QPM: 80
+TPM: 350,000 (input and output)
+	200,000
+europe-west1	
+QPM: 130
+TPM: 600,000 (input and output)
+	200,000
+asia-southeast1	
+QPM: 35
+TPM: 150,000 (input and output)
+	200,000
+Claude 3 Opus
+us-east5	
+QPM: 20
+TPM: 105,000 (input and output)
+	200,000
+Claude 3 Haiku
+us-east5	
+QPM: 245
+TPM: 600,000 (input and output)
+	200,000
+europe-west1	
+QPM: 75
+TPM: 181,000 (input and output)
+	200,000
+asia-southeast1	
+QPM: 70
+TPM: 174,000 (input and output)
+	200,000
+
+If you want to increase any of your quotas for Generative AI on Vertex AI, you can use the Google Cloud console to request a quota increase. To learn more about quotas, see Work with quotas.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

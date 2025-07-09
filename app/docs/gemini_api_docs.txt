@@ -1,0 +1,124 @@
+Skip to main content
+Models
+Solutions
+Code assistance
+More
+/
+Sign in
+Gemini API docs
+API Reference
+Cookbook
+Community
+Get started
+Overview
+Quickstart
+API keys
+Libraries
+OpenAI compatibility
+Models
+All models
+Pricing
+Rate limits
+Billing info
+Model Capabilities
+Text generation
+Image generation
+Video generation
+Speech generation
+Music generation
+Long context
+Structured output
+Thinking
+Function calling
+Document understanding
+Image understanding
+Video understanding
+Audio understanding
+Code execution
+URL context
+Google Search
+Guides
+Prompt engineering
+Live API
+Context caching
+Files API
+Batch mode
+Token counting
+Embeddings
+Safety
+Resources
+Migrate to Gen AI SDK
+Release notes
+API troubleshooting
+Fine-tuning
+Open-Source Frameworks
+Google AI Studio
+Google Cloud Platform
+Policies
+Terms of service
+Available regions
+Additional usage polices
+Introducing updates to our 2.5 family of thinking models. Learn more
+Home
+Gemini API
+Models
+
+Gemini Developer API
+Get a Gemini API Key
+
+Get a Gemini API key and make your first API request in minutes.
+
+Python
+JavaScript
+Go
+Java
+REST
+from google import genai
+
+client = genai.Client()
+
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="Explain how AI works in a few words",
+)
+
+print(response.text)
+
+Meet the models
+
+Use Gemini in Google AI Studio
+
+2.5 Pro spark
+
+Our most powerful thinking model with features for complex reasoning and much more
+
+2.5 Flash spark
+
+Our newest multimodal model, with next generation features and improved capabilities
+
+2.5 Flash-Lite spark
+
+Our fastest and most cost-efficient multimodal model with great performance for high-frequency tasks
+
+Explore the API
+Native Image Generation
+
+Generate and edit highly contextual images natively with Gemini 2.0 Flash.
+
+Explore long context
+
+Input millions of tokens to Gemini models and derive understanding from unstructured images, videos, and documents.
+
+Generate structured outputs
+
+Constrain Gemini to respond with JSON, a structured data format suitable for automated processing.
+
+Start building with the Gemini API
+Get started
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-06-27 UTC.
+
+Terms
+Privacy

@@ -1,0 +1,188 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Overview of Generative AI on Vertex AI
+Generative AI beginner's guide
+Glossary
+Get started
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Content generation
+Get started
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Generative AI beginner's guide
+bookmark_border
+
+This beginner's guide introduces you to the core technologies of generative AI and explains how they fit together to power chatbots and applications. Generative AI (also known as genAI or gen AI) is a field of machine learning (ML) that develops and uses ML models for generating new content.
+
+Generative AI models are often called large language models (LLMs) because of their large size and ability to understand and generate natural language. However, depending on the data that the models are trained on, these models can understand and generate content from multiple modalities, including text, images, videos, and audio. Models that work with multiple modalities of data are called multimodal models.
+
+Google provides the Gemini family of generative AI models designed for multimodal use cases; capable of processing information from multiple modalities, including images, videos, and text.
+
+Content generation
+
+In order for generative AI models to generate content that's useful in real-world applications, they need to have the following capabilities:
+
+Learn how to perform new tasks:
+
+Generative AI models are designed to perform general tasks. If you want a model to perform tasks that are unique to your use case, then you need to be able to customize the model. On Vertex AI, you can customize your model through model tuning.
+
+Access external information:
+
+Generative AI models are trained on vast amounts of data. However, in order for these models to be useful, they need to be able to access information outside of their training data. For example, if you want to create a customer service chatbot that's powered by a generative AI model, the model needs to have access to information about the products and services that you offer. In Vertex AI, you use the grounding and function calling features to help the model access external information.
+
+Block harmful content:
+
+Generative AI models might generate output that you don't expect, including text that's offensive or insensitive. To maintain safety and prevent misuse, the models need safety filters to block prompts and responses that are determined to be potentially harmful. Vertex AI has built-in safety features that promote the responsible use of our generative AI services.
+
+The following diagram shows how these different capabilities work together to generate content that you want:
+
+Prompt
+
+	
+
+The generative AI workflow typically starts with prompting. A prompt is a natural language request sent to a generative AI model to elicit a response back. Depending on the model, a prompt can contain text, images, videos, audio, documents, and other modalities or even multiple modalities (multimodal).
+
+Creating a prompt to get the desired response from the model is a practice called prompt design. While prompt design is a process of trial and error, there are prompt design principles and strategies that you can use to nudge the model to behave in the desired way. Vertex AI Studio offers a prompt management tool to help you manage your prompts.
+
+Foundation models
+
+	
+
+Prompts are sent to a generative AI model for response generation. Vertex AI has a variety of generative AI foundation models that are accessible through a managed API, including the following:
+
+Gemini API: Advanced reasoning, multiturn chat, code generation, and multimodal prompts.
+Imagen API: Image generation, image editing, and visual captioning.
+MedLM: Medical question answering and summarization. (Deprecated)
+
+The models differ in size, modality, and cost. You can explore Google models, as well as open models and models from Google partners, in Model Garden.
+
+Model customization
+
+	
+
+You can customize the default behavior of Google's foundation models so that they consistently generate the desired results without using complex prompts. This customization process is called model tuning. Model tuning helps you reduce the cost and latency of your requests by allowing you to simplify your prompts.
+
+Vertex AI also offers model evaluation tools to help you evaluate the performance of your tuned model. After your tuned model is production-ready, you can deploy it to an endpoint and monitor performance like in standard MLOps workflows.
+
+Access external information
+
+	
+
+Vertex AI offers multiple ways to give the model access to external APIs and real-time information.
+
+Grounding: Connects model responses to a source of truth, such as your own data or web search, helping to reduce hallucinations.
+RAG: Connects models to external knowledge sources, such as documents and databases, to generate more accurate and informative responses.
+Function calling: Lets the model interact with external APIs to get real-time information and perform real-world tasks.
+
+Citation check
+
+	
+
+After the response is generated, Vertex AI checks whether citations need to be included with the response. If a significant amount of the text in the response comes from a particular source, that source is added to the citation metadata in the response.
+
+Responsible AI and safety
+
+	
+
+The last layer of checks that the prompt and response go through before being returned is the safety filters. Vertex AI checks both the prompt and response for how much the prompt or response belongs to a safety category. If the threshold is exceed for one or more categories, the response is blocked and Vertex AI returns a fallback response.
+
+Response
+
+	
+
+If the prompt and response passes the safety filter checks, the response is returned. Typically, the response is returned all at once. However, with Vertex AI you can also receive responses progressively as it generates by enabling streaming.
+
+Get started
+
+Try one of these quickstarts to get started with generative AI on Vertex AI.
+
+Generate text using the Vertex AI Gemini API
+
+Use the SDK to send requests to the Vertex AI Gemini API.
+
+Send prompts to Gemini using the Vertex AI Studio Prompt Gallery
+
+Test prompts with no setup required.
+
+Generate an image and verify its watermark using Imagen
+
+Create a watermarked image using Imagen on Vertex AI.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

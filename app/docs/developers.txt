@@ -1,0 +1,279 @@
+Innovate faster with enterprise-ready AI, enhanced by Gemini models. Try Gemini in Vertex AI
+
+Google Cloud Developer Center
+
+Access resources, learn in-demand skills, build solutions with real sample code, and connect with our global community of developers.
+
+ARTICLE
+
+Build with Agent Development Kit
+
+Start building AI agents with our powerful new framework and tooling.
+
+ARTICLE
+
+Gemini for Google Cloud
+
+Learn more about using AI assistance throughout your entire Cloud experience.
+
+ANNOUNCEMENT
+
+Upgrade to Google Developer Program premium
+
+Get access to Gemini Code Assist Standard, Google AI Studio & Vertex AI Credits in the Google Developer Program premium membership. Learn more.
+
+What do you want to do today?
+
+
+
+
+Build with Google Cloud
+Your fast track to app development, AI solutions, and quick start resources.
+Learn with Google Cloud
+Personalized learning to excel in your role. Explore tutorials, videos, and more.
+Connect with the Community
+Join our active Cloud community, get updates, and connect with our experts.
+
+Build with Google Cloud
+
+Build intelligent apps using your favorite programming languages leveraging Google Cloud APIs/SDKs and our best developer services
+
+
+
+
+Programming languages
+Developer tools
+Coding inspiration
+Python
+Go
+Java
+JavaScript and Node.js
+C#
+C++
+Quick-start resources
+Use these quick-start resources to jumpstart your building process
+Google Cloud free tier and free trials
+Within our free usage tier, you can use our latest models, deploy serverless apps, run a VM, perform continuous integration, and analyze data with BigQuery.
+Check out the free tier
+Jump start solutions
+
+Choose from pre-configured, interactive solutions that you can deploy directly from the Google Cloud console.
+
+Deploy a dynamic website with Python and JavaScript
+
+Build a generative AI knowledge base
+
+Perform AI/ML image processing on serverless Cloud Functions
+
+View all jump start solutions
+Developer use cases
+
+New to Google Cloud? Here are some common use cases we see.
+
+Code with Gemini Code Assist
+
+Automate builds with Cloud Build
+
+Query and view application logs
+
+View all developer use cases
+Reference architectures
+
+Ready to build complex architectures with multiple Google Cloud products? These reference architectures can get you started.
+
+Patterns for scalable and resilient apps
+
+Infrastructure for a RAG-capable generative AI application using GKE
+
+Architectures for high availability of MySQL clusters on Compute Engine
+
+View all reference architectures
+Migrating from AWS or Azure?
+You’re in good company. Check out our service comparison – it’s the fastest way to discover how our offerings stack up against what you’re used to.
+Compare services
+
+What's trending on the blog and YouTube channel?
+
+Stay ahead of the curve with coverage on our latest AI and technology breakthroughs
+
+Read the latest DORA report
+
+Read the 10th edition of the Accelerate State of DevOps Report to learn about high performing software teams
+
+Read the post
+
+Google Cloud: Building with Hugging Face
+
+Working with open AI models? Watch this playlist that shows how to evaluate, deploy, and fine-tune Hugging Face models with Google Cloud.
+
+Watch video
+
+Generate images and video with Google AI
+
+Use Google's latest models to generate high-quality images and videos. Imagen 3 is available now, with Veo 2 in private preview.
+
+Read the post
+
+Learn with Google Cloud
+
+Time to gain new cloud skills and demonstrate your expertise
+
+
+
+
+Cloud Videos
+Master Google Cloud in minutes by watching our bite-sized product videos
+Tutorials
+Deepen your knowledge in under 10 minutes with quick-starts, tutorials, and interactive walkthroughs
+Google Cloud Skills Boost
+Get hands-on experience through interactive labs that accelerate your cloud learning
+Google Cloud Certification
+Show off your cloud expertise and advance your career with a Google Cloud certification
+
+
+
+
+Start a free learning path in Generative AI
+
+This learning path provides an overview of generative AI concepts, from the fundamentals of large language models to responsible AI principles
+
+Start learning path
+
+
+
+
+Explore role-specific developer resources
+
+Ready to further level up your skills and unlock new career opportunities? Our personalized resources are tailored to your specific role, helping you achieve your goals even faster. Select your role to get started.
+
+
+
+
+Data Engineer
+
+Go deeper on analytics, data warehouses, and data processing.
+
+Cloud Architect
+
+Design scalable, cloud-ready systems by exploring architecture guidance.
+
+
+
+
+
+
+
+Data Professional
+
+Explore guidance and resources for getting the post out of your databases.
+
+
+
+
+Connect with the Cloud Community
+
+Grow your skills and expand your network! Join our Google Cloud developer community for exclusive learning opportunities, expert support, and global connections.
+
+
+
+
+Innovators program
+
+Join our Innovators program to gain access to exclusive offers that help you learn, grow, and build with Google Cloud.
+
+View innovators program
+
+Upcoming events
+
+Don’t miss out! Mark your calendar for our exciting upcoming events.
+
+View upcoming events
+
+Community blog
+
+Read our blog and find inspiration to help accelerate your digital transformation.
+
+Read Community blog
+Overview
+Solutions
+Products
+Pricing
+Resources
+
+search_spark
+send_spark
+Docs
+Support
+Sign in
+Developer Center
+Home
+For data engineers
+For cloud architects
+For database professionals
+Developer Use Cases
+Start free
+Contact Us
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Blog
+Products and pricing
+Google Cloud pricing
+Google Workspace pricing
+See all products
+Solutions
+Infrastructure modernization
+Databases
+Application modernization
+Smart analytics
+Artificial Intelligence
+Security
+Productivity & work transformation
+Industry solutions
+DevOps solutions
+Small business solutions
+See all solutions
+Resources
+Google Cloud Affiliate Program
+Google Cloud documentation
+Google Cloud quickstarts
+Google Cloud Marketplace
+Learn about cloud computing
+Support
+Code samples
+Cloud Architecture Center
+Training
+Certifications
+Google for Developers
+Google Cloud for Startups
+System status
+Release Notes
+Engage
+Contact sales
+Find a Partner
+Become a Partner
+Events
+Podcasts
+Developer Center
+Press Corner
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Follow on X
+Join User Research
+We're hiring. Join Google Cloud!
+Google Cloud Community
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+language
+‪English‬

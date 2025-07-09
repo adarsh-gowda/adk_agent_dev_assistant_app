@@ -1,0 +1,467 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Send test prompts
+Tune a model
+Tune in a notebook
+Deploy an open model
+Deploy a partner model and make prediction requests
+View or manage an endpoint
+Undeploy models and delete resources
+Undeploy models
+Delete endpoints
+Delete models
+View code samples
+Create a vision app
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Use models in Model Garden
+bookmark_border
+
+Discover, test, tune, and deploy models by using Model Garden in the Google Cloud console. You can also deploy Model Garden models by using the Google Cloud CLI.
+
+Send test prompts
+
+In the Google Cloud console, go to the Model Garden page.
+
+Go to Model Garden
+
+Find a supported model that you want to test and click View details.
+
+Click Open prompt design.
+
+You're taken to the Prompt design page.
+
+In Prompt, enter the prompt that you want to test.
+
+Optional: Configure the model parameters.
+
+Click Submit.
+
+Tune a model
+
+In the Google Cloud console, go to the Model Garden page.
+
+Go to Model Garden
+
+In Search models, enter BERT or T5-FLAN, then click the magnifying glass to search.
+
+Click View details on the T5-FLAN or the BERT model card.
+
+Click Open fine-tuning pipeline.
+
+You're taken to the Vertex AI pipelines page.
+
+To start tuning, click Create run.
+
+Tune in a notebook
+
+The model cards for most open source foundation models and fine-tunable models support tuning in a notebook.
+
+In the Google Cloud console, go to the Model Garden page.
+
+Go to Model Garden
+
+Find a supported model that you want to tune and go to its model card.
+
+Click Open notebook.
+
+Deploy an open model
+
+You can deploy a model by using its model card in the Google Cloud console or programmatically.
+
+For more information about setting up the Google Gen AI SDK or Google Cloud CLI, see the Google Gen AI SDK overview or Install the Google Cloud CLI.
+
+Python
+gcloud
+REST
+Console
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+List the models that you can deploy and record the model ID to deploy. You can optionally list the supported Hugging Face models in Model Garden and even filter them by model names. The output doesn't include any tuned models.
+
+
+import vertexai
+from vertexai.preview import model_garden
+
+# TODO(developer): Update and un-comment below lines
+# PROJECT_ID = "your-project-id"
+vertexai.init(project=PROJECT_ID, location="us-central1")
+
+# List deployable models, optionally list Hugging Face models only or filter by model name.
+deployable_models = model_garden.list_deployable_models(list_hf_models=False, model_filter="gemma")
+print(deployable_models)
+# Example response:
+# ['google/gemma2@gemma-2-27b','google/gemma2@gemma-2-27b-it', ...]
+
+
+View the deployment specifications for a model by using the model ID from the previous step. You can view the machine type, accelerator type, and container image URI that Model Garden has verified for a particular model.
+
+
+import vertexai
+from vertexai.preview import model_garden
+
+# TODO(developer): Update and un-comment below lines
+# PROJECT_ID = "your-project-id"
+# model = "google/gemma3@gemma-3-1b-it"
+vertexai.init(project=PROJECT_ID, location="us-central1")
+
+# For Hugging Face modelsm the format is the Hugging Face model name, as in
+# "meta-llama/Llama-3.3-70B-Instruct".
+# Go to https://console.cloud.google.com/vertex-ai/model-garden to find all deployable
+# model names.
+
+model = model_garden.OpenModel(model)
+deploy_options = model.list_deploy_options()
+print(deploy_options)
+# Example response:
+# [
+#   dedicated_resources {
+#     machine_spec {
+#       machine_type: "g2-standard-12"
+#       accelerator_type: NVIDIA_L4
+#       accelerator_count: 1
+#     }
+#   }
+#   container_spec {
+#     ...
+#   }
+#   ...
+# ]
+
+
+Deploy a model to an endpoint. Model Garden uses the default deployment configuration unless you specify additional argument and values.
+
+
+import vertexai
+from vertexai.preview import model_garden
+
+# TODO(developer): Update and un-comment below lines
+# PROJECT_ID = "your-project-id"
+vertexai.init(project=PROJECT_ID, location="us-central1")
+
+open_model = model_garden.OpenModel("google/gemma3@gemma-3-12b-it")
+endpoint = open_model.deploy(
+    machine_type="g2-standard-48",
+    accelerator_type="NVIDIA_L4",
+    accelerator_count=4,
+    accept_eula=True,
+)
+
+# Optional. Run predictions on the deployed endoint.
+# endpoint.predict(instances=[{"prompt": "What is Generative AI?"}])
+
+
+Deploy a partner model and make prediction requests
+
+Preview
+
+This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the Service Specific Terms. Pre-GA features are available "as is" and might have limited support. For more information, see the launch stage descriptions.
+
+Before you begin, you must have an agreement with the partner. This agreement includes agreeing to any partner specific terms and licensing requirements and pricing. For more information or to initiate contact with a partner, see the partner documentation on their Model Garden model card and click Contact sales.
+
+You must deploy on the partner's required machine types, as described in the "Recommended hardware configuration" section on their Model Garden model card. When deployed, the model serving resources are located in a secure Google-managed project.
+
+Note: For self-deploy partner models, if you have sufficient quotas but encounter serving quota issues during deployment, contact your Google Cloud account team for assistance.
+Python
+REST
+Console
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+In your code, replace the following placeholders:
+
+Note: The values for the machine type, accelerator type, and accelerator count, must all match one of the partner's recommended configurations. View the partner's Model Garden model card to see the recommended configurations.
+LOCATION: The region where you plan to deploy the model and endpoint.
+PROJECT_ID: Your project ID.
+DISPLAY_NAME: A descriptive name for the associated resource.
+PUBLISHER_NAME: The name of partner that provides the model to upload or deploy.
+PUBLISHER_MODEL_NAME: The name of the model to upload.
+MACHINE_TYPE: Defines the set of resources to deploy for your model, such as g2-standard-4. You must match one of the confirgurations provided by the partner.
+ACCELERATOR_TYPE: Specifies accelerators to add to your deployment to help improve performance when working with intensive workloads, such as NVIDIA_L4. You must match one of the confirgurations provided by the partner.
+ACCELERATOR_COUNT: The number of accelerators to use. You must match one of the confirgurations provided by the partner.
+REQUEST_PAYLOAD: The fields and values to include in your prediction request. View the partner's Model Garden model card to see the available fields.
+from google.cloud import aiplatform
+
+aiplatform.init(project=PROJECT_ID, location=LOCATION)
+
+# Upload a model
+model = aiplatform.Model.upload(
+    display_name="DISPLAY_NAME_MODEL",
+    model_garden_source_model_name = f"publishers/PUBLISHER_NAME/models/PUBLISHER_MODEL_NAME",
+)
+
+# Create endpoint
+my_endpoint = aiplatform.Endpoint.create(display_name="DISPLAY_NAME_ENDPOINT")
+
+# Deploy model
+MACHINE_TYPE = "MACHINE_TYPE"  # @param {type: "string"}
+ACCELERATOR_TYPE = "ACCELERATOR_TYPE" # @param {type: "string"}
+ACCELERATOR_COUNT = ACCELERATOR_COUNT # @param {type: "number"}
+
+model.deploy(
+    endpoint=my_endpoint,
+    deployed_model_display_name="DISPLAY_NAME_DEPLOYED_MODEL",
+    traffic_split={"0": 100},
+    machine_type=MACHINE_TYPE,
+    accelerator_type=ACCELERATOR_TYPE,
+    accelerator_count=ACCELERATOR_COUNT,
+    min_replica_count=1,
+    max_replica_count=1,
+)
+
+# Unary call for predictions
+PAYLOAD = {
+    REQUEST_PAYLOAD
+}
+
+request = json.dumps(PAYLOAD)
+
+response = my_endpoint.raw_predict(
+    body = request,
+    headers = {'Content-Type':'application/json'}
+)
+
+print(response)
+
+# Streaming call for predictions
+PAYLOAD = {
+    REQUEST_PAYLOAD
+}
+
+request = json.dumps(PAYLOAD)
+
+for stream_response in my_endpoint.stream_raw_predict(
+    body = request,
+    headers = {'Content-Type':'application/json'}
+):
+    print(stream_response)
+
+View or manage an endpoint
+
+To view and manage your endpoint, go to the Vertex AI Online prediction page.
+
+Go to Online prediction
+
+Vertex AI lists all endpoints in your project for a particular region. Click an endpoint to view its details such as which models are deployed to the endpoint.
+
+Undeploy models and delete resources
+
+To stop a deployed model from using resources in your project, undeploy your model from its endpoint. You must undeploy a model before you can delete the endpoint and the model.
+
+Undeploy models
+
+Undeploy a model from its endpoint.
+
+Python
+gcloud
+Console
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+In your code, replace:
+
+PROJECT_ID with your project ID
+LOCATION with your region, for example, "us-central1"
+ENDPOINT_ID with your endpoint ID
+from google.cloud import aiplatform
+
+aiplatform.init(project=PROJECT_ID, location=LOCATION)
+
+# To find out which endpoints are available, un-comment the line below:
+# endpoints = aiplatform.Endpoint.list()
+
+endpoint = aiplatform.Endpoint(ENDPOINT_ID)
+endpoint.undeploy_all()
+
+
+Delete endpoints
+
+Delete the Vertex AI endpoint that was associated with your model deployment.
+
+Python
+gcloud
+Console
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+In your code, replace:
+
+PROJECT_ID with your project ID
+LOCATION with your region, for example, "us-central1"
+ENDPOINT_ID with your endpoint ID
+from google.cloud import aiplatform
+
+aiplatform.init(project=PROJECT_ID, location=LOCATION)
+
+# To find out which endpoints are available, un-comment the line below:
+# endpoints = aiplatform.Endpoint.list()
+
+endpoint = aiplatform.Endpoint(ENDPOINT_ID)
+endpoint.delete()
+
+
+Delete models
+
+Delete the model resource that was associated with your model deployment.
+
+Python
+gcloud
+Console
+
+To learn how to install or update the Vertex AI SDK for Python, see Install the Vertex AI SDK for Python. For more information, see the Python API reference documentation.
+
+In your code, replace:
+
+PROJECT_ID with your project ID
+LOCATION with your region, for example, "us-central1"
+MODEL_ID with your model ID
+from google.cloud import aiplatform
+
+aiplatform.init(project=PROJECT_ID, location=LOCATION)
+
+# To find out which models are available in Model Registry, un-comment the line below:
+# models = aiplatform.Model.list()
+
+model = aiplatform.Model(MODEL_ID)
+model.delete()
+
+
+View code samples
+
+Most of the model cards for task-specific solutions models contain code samples that you can copy and test.
+
+In the Google Cloud console, go to the Model Garden page.
+
+Go to Model Garden
+
+Find a supported model that you want to view code samples for and click the Documentation tab.
+
+The page scrolls to the documentation section with sample code embedded in place.
+
+Create a vision app
+
+The model cards for applicable computer vision models support creating a vision application.
+
+In the Google Cloud console, go to the Model Garden page.
+
+Go to Model Garden
+
+Find a vision model in the Task specific solutions section that you want to use to create a vision application and click View details.
+
+Click Build app.
+
+You're taken to Vertex AI Vision.
+
+In Application name, enter a name for your application and click Continue.
+
+Select a billing plan and click Create.
+
+You're taken to Vertex AI Vision Studio where you can continue creating your computer vision application.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

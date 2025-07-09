@@ -1,0 +1,182 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+AI21 Labs
+Claude
+Overview
+Request predictions
+Batch predictions
+Prompt caching
+Count tokens
+Model details
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+Claude 3.5 Haiku
+Claude 3 Haiku
+Claude 3.5 Sonnet
+Mistral AI
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Supported Anthropic Claude models
+Data processing
+Use prompt caching
+Pricing
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Prompt caching
+bookmark_border
+
+The Anthropic Claude models offer prompt caching to reduce latency and costs when reusing the same content in multiple requests. When you send a query, you can cache all or specific parts of your input so that subsequent queries can use the cached results from the previous request. This avoids additional compute and network costs. Caches are unique to your Google Cloud project and cannot be used by other projects.
+
+For details about how to structure your prompts, see the Anthropic Prompt caching documentation.
+
+Supported Anthropic Claude models
+
+Vertex AI supports prompt caching for the following Anthropic Claude models:
+
+Claude Opus 4
+Claude Sonnet 4
+Claude 3.7 Sonnet
+Claude 3.5 Sonnet v2
+Claude 3.5 Haiku
+Claude 3.5 Sonnet
+Claude 3 Opus
+Claude 3 Haiku
+
+Data processing
+
+Anthropic explicit prompt caching is a feature of Anthropic Claude models. The Vertex AI offering of these Anthropic models behaves as described in the Anthropic documentation.
+
+Prompt caching is an optional feature. Claude computes the hashes (fingerprints) of requests for caching keys. These hashes are only computed for requests that have caching enabled.
+
+Although prompt caching is a feature implemented by the Claude models, from a data handling perspective, Google considers these hashes to be a type of "User Metadata". They are treated as customer "Service Data" under the Google Cloud Privacy Notice and not as "Customer Data" under the Cloud Data Processing Addendum (Customers). In particular, additional protections for "Customer Data" don't apply to these hashes. Google does not use these hashes for any other purpose.
+
+If you want to completely disable this prompt caching feature and make it unavailable in particular Google Cloud projects, you can request this by contacting customer support and providing the relevant project numbers. After explicit caching is disabled for a project, requests from the project with prompt caching enabled are rejected.
+
+Use prompt caching
+
+You can use the Anthropic Claude SDK or the Vertex AI REST API to send requests to the Vertex AI endpoint.
+
+For more information, see How prompt caching works.
+
+For additional examples, see the Prompt caching examples in the Anthropic documentation.
+
+Caching automatically occurs when subsequent requests contain the identical text, images, and cache_control parameter as the first request. All requests must also include the cache_control parameter in the same blocks.
+
+The cache has a five minute lifetime. It is refreshed each time the cached content is accessed.
+
+Pricing
+
+Prompt caching can affect billing costs. Note that:
+
+Cache write tokens are 25% more expensive than base input tokens
+Cache read tokens are 90% cheaper than base input tokens
+Regular input and output tokens are priced at standard rates
+
+For more information, see the Pricing page.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

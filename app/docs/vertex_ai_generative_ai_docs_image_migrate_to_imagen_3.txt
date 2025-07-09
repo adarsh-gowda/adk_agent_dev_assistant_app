@@ -1,0 +1,166 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Resources
+Getting help
+Pricing
+Provisioned Throughput
+Dynamic shared quota
+Release notes
+Security bulletins
+Locations
+Data governance
+Service Level Agreement
+Deprecations and migrations
+Deprecations
+Generative AI module in Vertex AI SDK
+Migrate to Imagen 3
+On this page
+Why migrate to Imagen 3?
+Which Imagen 3 model should I migrate to?
+How do I migrate?
+Image Captioning and Visual Question Answering
+Inpainting, outpainting, and product editing
+Personalization
+Are there pricing changes?
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation 
+Resources
+Was this helpful?
+Send feedback
+Migrate to Imagen 3
+bookmark_border
+
+This guide explains how to migrate your applications from Imagen 1 and Imagen 2 to Imagen 3.
+
+Why migrate to Imagen 3?
+
+Starting on June 24, 2025, Imagen versions 1 and 2, Image Captioning, and Visual Questioning Answering are deprecated. Imagen models imagegeneration@002, imagegeneration@005, and imagegeneration@006 will be removed on September 24, 2025 .
+
+Imagen 3 offers performance improvements over Imagen 1 and Imagen 2.
+
+Upgrading most Imagen applications to Imagen 3 shouldn't require significant reengineering of prompts or code. But some applications may require prompt changes, and these changes are difficult to predict without running a prompt through Imagen 3 first.
+
+Which Imagen 3 model should I migrate to?
+
+The Imagen workloads that you use determine which Imagen 3 model we recommend for your migration.
+
+The following table shows common workloads for Imagen 1 and Imagen 2 models and their support by Imagen 3 models:
+
+Feature	imagegeneration@002	imagegeneration@005	imagegeneration@006	imagen-3.0-
+capability-001	generate-002
+Image generation	Yes	Yes	Yes	No	Yes
+Digital watermarking and verification	Yes	Yes	Yes	No	Yes
+User-configurable safety settings	No	No	Yes	Yes	Yes
+Image customization	No	No	Yes	Yes	No
+Subject customization for product, person, and animal companion	Yes	No	No	Yes	No
+Style customization	Yes	No	No	Yes	No
+Mask-based image editing	Yes	No	No	Yes	No
+Mask-free image editing	Yes	No	No	No	No
+Insertion or removal image editing (inpainting)	No	No	Yes	Yes	No
+Outpainting	No	No	Yes	Yes	No
+Product image editing	Yes	No	Yes	Yes	No
+Upscaling	Yes	No	No	No	No
+Negative prompts	Yes	Yes	Yes	Yes	No
+Person generation	No	No	Yes	No	Yes
+Non-English text prompting	No	No	Yes	Yes	Yes
+How do I migrate?
+
+In most cases you can update the model name that you are using to use an Imagen 3 model with no further changes to your parameters. The following sections provide exceptions that may affect you.
+
+Image Captioning and Visual Question Answering
+
+If you use Imagen's Image Captioning and Visual Question Answering features, we recommend that you migrate to Gemini Image Understanding for improved capabilities for analyzing and describing images.
+
+For more information, see Image understanding.
+
+Inpainting, outpainting, and product editing
+
+Inpainting, outpainting, and product editing require API changes when migrating to Imagen 3 models. For more information, see the following:
+
+Inpainting insert content (bring your own mask)
+
+Outpainting
+
+Product image editing (automatic background detection)
+
+Personalization
+
+For avatar stylization, migrate from Imagen 2 Personalization to Imagen 3's Subject customization, which provides improved capabilities.
+
+Are there pricing changes?
+
+There may be pricing changes for upgrading from earlier Imagen models.
+
+For information about pricing, see the following:
+
+Imagen
+Veo
+Gemini
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

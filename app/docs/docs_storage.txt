@@ -1,0 +1,195 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+Overview of storage
+Backing up your data resources
+Storage solutions
+Data transfer
+On this page
+Cloud Storage overview
+Filestore overview
+Backup and DR overview
+NetApp Volumes overview
+Storage for GKE clusters overview
+Storage options for Compute Engine
+NetApp Volumes PDF
+GKE plus Filestore
+Get Started with Cloud Storage
+Use APIs to Work with Cloud Storage
+NetApp: Build, Protect, and Govern your Data Infrastructure
+Decision tree for storage workloads
+Storage
+
+Documentation and resources for data storage on Google Cloud, including transfer, backup, and disaster recovery solutions.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore storage in Google Cloud 
+Read documentation and Cloud Architecture Center articles about storage products, capabilities, and procedures.
+description
+Cloud Storage overview
+Learn about Cloud Storage, including how it works and what tools you can use to store your data.
+description
+Filestore overview
+Learn about Filestore as a network-attached file storage option.
+description
+Backup and DR overview
+Back up and recover your data resources.
+description
+NetApp Volumes overview
+Get fully-managed volume provisioning for your file-based applications.
+description
+Storage for GKE clusters overview
+Learn the storage options that GKE supports and considerations for selecting the best option for your needs.
+description
+Storage options for Compute Engine
+Learn the storage options that Compute Engine supports and considerations for selecting the best option for your needs.
+expand_lessLess
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+cloud
+NetApp Volumes PDF
+Learn about how NetApp Volumes provides high-performance file storage for demanding enterprise applications and workloads.open_in_new
+cloud
+GKE plus Filestore
+View an example of how Filestore integration with GKE can significantly accelerate your AI/ML workload performance.open_in_new
+school
+Get Started with Cloud Storage
+Study creating, performing basics tasks, and managing object retention with Cloud Storage.open_in_new
+school
+Use APIs to Work with Cloud Storage
+Study using the gcloud CLI command-line tool, APIs, and the APIs Explorer tool with Cloud Storage.open_in_new
+school
+NetApp: Build, Protect, and Govern your Data Infrastructure
+Study how to store, protect, and govern your data.open_in_new
+cloud
+Decision tree for storage workloads
+View a decision tree to choose storage options to meet your workload needs.open_in_new
+expand_lessLess
+Storage products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Backing up your data resources
+
+Create and execute backup plans for databases, VMs, and file systems to protect all of your data resources consistently and efficiently.
+
+Backup and DR
+A managed backup and disaster recovery (DR) service for centralized and application-consistent data protection.
+Backup for GKE
+Protect, manage, and restore your containerized applications and data for workloads running on GKE clusters.
+Protect and recover VMware VMs
+Create and execute backup plans for your VMware VMs.
+Protect and recover Microsoft SQL Server databases
+Create and execute backup plans for your Microsoft SQL Server databases.
+Protect and recover Compute Engine instances
+Create and execute backup plans for your Compute Engine instances.
+Protect and recover SAP HANA databases in Compute Engine instances
+Create and execute backup plans for your SAP HANA databases in Compute Engine instances.
+Data backup compliance
+Review and report on the backup status of your data resources.
+Storage solutions
+
+Choose your block, file, or object storage options.
+
+Data transfer
+
+Transfer your data into, within, or from Google Cloud.
+
+Related products, guides, and sites
+Filestore multishares for GKE
+Optimize share usage within your Filestore instances.
+Migrate your data
+Transfer your data from S3 or Azure into Cloud Storage.
+Backup for GKE
+A service for backing up and restoring workloads in GKE clusters.
+What is a data lake?
+Store, process, and secure large amounts of structured, semistructured, and unstructured data in its native format and process any variety of it.open_in_new
+Cloud Storage for Firebase
+Use a powerful, simple, and cost-effective object storage service built for Google scale.open_in_new
+Storage Insights inventory reports
+Generate inventory reports containing metadata information about your objects.
+Google Drive
+Store, share, and collaborate on files and folders from your mobile device, tablet, or computer.
+Design an optimal storage strategy for your cloud workload
+Plan and evaluate the features, design options, and relative advantages of block storage, file storage, and object storage services.open_in_new
+Architecture Center storage resources
+Plan using content resources across a wide variety of storage subjects.open_in_new
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

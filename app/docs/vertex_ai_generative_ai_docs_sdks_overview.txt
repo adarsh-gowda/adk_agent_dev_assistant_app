@@ -1,0 +1,177 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+API reference
+Gemini API
+Embeddings API
+Imagen API
+Veo video generation API
+Lyria music generation API
+Batch prediction API
+Tuning API
+Gen AI Evaluation API
+RAG API
+CountTokens API
+Agent Engine API
+MedLM API
+REST and RPC reference
+Vertex AI in express mode
+REST
+RPC
+Google Gen AI SDK
+Overview
+Python
+Go
+Java
+Node.js
+Vertex AI SDK
+Overview
+Python
+Node.js
+Java
+Go
+C#
+Agent Development Kit (ADK)
+Overview
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation 
+API reference
+Was this helpful?
+Send feedback
+Google Gen AI SDK
+bookmark_border
+
+The Google Gen AI SDK provides a unified interface to Gemini 2.5 Pro and Gemini 2.0 models through both the Gemini Developer API and the Gemini API on Vertex AI. With a few exceptions, code that runs on one platform will run on both. This means that you can prototype an application using the Gemini Developer API and then migrate the application to Vertex AI without rewriting your code.
+
+To learn more about the differences between the Gemini Developer API and Gemini on Vertex AI, see Migrate from to the Gemini Developer API to the Gemini API in Vertex AI.
+
+To see an example of the Google Gen AI SDK, run the "Intro to the Google Gen AI SDK" notebook in one of the following environments:
+
+Open in Colab | Open in Colab Enterprise | Open in Vertex AI Workbench user-managed notebooks | View on GitHub
+
+Python
+Go
+Node.js
+Java
+
+The Google Gen AI SDK for Python is available on PyPI and GitHub:
+
+google-genai on PyPI
+python-genai on GitHub
+
+To learn more, see the Python SDK reference.
+
+Install
+pip install --upgrade google-genai
+
+Set environment variables to use the Gen AI SDK with Vertex AI:
+
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT=GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION=global
+export GOOGLE_GENAI_USE_VERTEXAI=True
+
+Quickstart
+
+Choose one of the following options, depending on whether you're using Vertex AI in express mode or not.
+
+Use Vertex AI (with all Google Cloud capabilities and services)
+from google import genai
+from google.genai.types import HttpOptions
+
+client = genai.Client(http_options=HttpOptions(api_version="v1"))
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="How does AI work?",
+)
+print(response.text)
+# Example response:
+# Okay, let's break down how AI works. It's a broad field, so I'll focus on the ...
+#
+# Here's a simplified overview:
+# ...
+Use Vertex AI in express mode
+from google import genai
+
+# TODO(developer): Update below line
+API_KEY = "YOUR_API_KEY"
+
+client = genai.Client(vertexai=True, api_key=API_KEY)
+
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="Explain bubble sort to me.",
+)
+
+print(response.text)
+# Example response:
+# Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

@@ -1,0 +1,174 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+Google Cloud Documentation
+Find user guides, quickstarts, tutorials, use cases, code samples, and more.
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Discover 
+Learn about Google Cloud, find prescriptive guidance, and explore migration resources.
+Google Cloud overview
+Learn about Google Cloud, including popular features with pointers to documentation and tutorials.
+Cloud Architecture Center
+Plan and design your infrastructure with architectural guidance and best practices.
+Start free
+Start building in the console with $300 in free credits for new customers. All customers get free usage of over 20 products.
+Common developer use cases
+Find documentation and tutorials to help you solve common developer problems and use cases.
+Migrate to Google Cloud
+Plan how to migrate your workloads, data, and processes.
+Google Cloud for AWS and Azure customers
+Compare AWS and Azure services to Google Cloud.
+Get started
+Find tools, resources, and training to begin building on Google Cloud.
+Get started with Google Cloud
+Explore product quickstarts, tutorials, and interactive walkthroughs.
+Boost productivity with Generative AI
+Get generative-AI powered assistance with an always-on collaborator.
+Enterprise setup checklist
+Prepare your organization for scalable, production-ready, enterprise workloads.
+Grow your skills and get certified
+Study emerging cloud technologies and get Google Cloud certified.
+Browse code samples
+Review samples to demonstrate the use of Google Cloud products.
+Jump Start Solutions
+Plan and quickly deploy pre-built solutions to solve your business challenges.
+Documentation spotlight
+New guide
+Build a generative AI application on Google Cloud
+Learn the stages of building a generative AI application, choose the best products and tools for your use case, and access the documentation you need to get started.
+Popular guide
+Install the Google Cloud CLI
+Install and initialize the Google Cloud CLI and run core gcloud CLI commands.
+SDKs, languages, frameworks, and tools
+gcloud CLI
+Python
+Java
+Go
+JavaScript and Node.js
+C# and .NET
+PHP
+C++
+Ruby
+Spring
+Terraform
+Prometheus
+Kubernetes
+Explore technology areas
+AI and ML
+Leverage the power of AI/ML solutions to transform your organization and solve real-world problems.
+Application development
+Create applications with a comprehensive set of tools and services.
+Application hosting
+Run and manage applications on a secure platform.
+Compute
+Run your workloads on virtual machines with specialized offerings for ML, high-performance computing, and other workloads to match your needs.
+Data analytics and pipelines
+Load, transform, and analyze data to provide business intelligence insights.
+Databases
+Migrate and manage enterprise data with security, reliability, high availability, and fully-managed data services.
+Distributed, hybrid, and multicloud
+Extend your Google Cloud topology to the edge, on-premises, and other cloud platforms.
+Generative AI
+Build generative AI applications using a range of products and tools across the entire development life cycle.
+Industry solutions
+Transform your business with Google Cloud solutions for specific industries like retail, healthcare, and financial services.
+Networking
+Connect your networks and workloads, load balance traffic, and secure your network.
+Observability and monitoring
+Documentation, guides, and resources for observability and monitoring across Google Cloud products and services.
+Security
+Google Cloud security products help organizations secure their cloud environment, protect their data, and comply with industry regulations.
+Storage
+Data storage, backup, and disaster recovery.
+Explore cross-product tools
+Access and resource management
+Organize, analyze, and manage access to your Google Cloud resources and services.
+Costs and usage management
+Manage costs and usage across Google Cloud products and services.
+Google Cloud SDK, languages, frameworks, and tools
+Use Google Cloud SDK, languages, frameworks, and tools effectively in cloud development.
+Infrastructure as code
+Configure your infrastructure using code instead of graphical interfaces or command-line scripts.
+Migration
+Use tools and information to help you on your journey to Google Cloud.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-02 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

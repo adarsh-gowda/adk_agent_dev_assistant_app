@@ -1,0 +1,207 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Gemini 2.5 Flash
+Gemini 2.5 Pro
+Gemini 2.5 Flash-Lite
+Gemini 2.0 Flash
+Gemini 2.0 Flash-Lite
+Vertex AI Model Optimizer
+Migrate to Gemini 2
+SDKs
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Why migrate to Gemini 2?
+Which Gemini 2 model should I migrate to?
+Migration process overview
+Before you begin
+Document model evaluation and testing requirements
+Code upgrades and testing
+Offline evaluation
+Assess evaluation results and tune the Gemini 2 prompts and hyperparameters
+Load testing
+Online evaluation
+Production deployment
+Improving model performance
+Getting help
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Migrate your application to Gemini 2 with the Gemini API in Vertex AI
+bookmark_border
+
+This guide shows how to migrate generative AI applications from Gemini 1.x and PaLM models to Gemini 2 models.
+
+Why migrate to Gemini 2?
+
+Gemini 2 delivers significant performance improvements over Gemini 1.x and PaLM models, along with new capabilities. Additionally, each model version has its own version support and availability timeline.
+
+Upgrading most generative AI applications to Gemini 2 shouldn't require significant reengineering of prompts or code. But some applications require prompt changes, and these changes are difficult to predict without running a prompt through Gemini 2 first. Therefore, Gemini 2 testing is recommended before migration.
+
+Significant code changes are only needed for certain breaking changes, or to use new Gemini 2 capabilities.
+
+Which Gemini 2 model should I migrate to?
+
+As you choose a Gemini 2 model to migrate to, you'll want to consider the features that your application requires, as well as the cost of those features.
+
+For an overview of Gemini 2 model features, see Gemini 2. For an overview of all Google models, see Google models.
+
+For a comparison of available Gemini models, see the following table.
+
+Feature	Gemini 1.5 Pro	Gemini 1.5 Flash	Gemini 2.0 Flash	Gemini 2.0 Flash-Lite	Gemini 2.5 Pro	Gemini 2.5 Flash
+Input modalities	text, documents, image, video, audio	text, documents, image, video, audio	text, documents, image, video, audio	text, documents, image, video, audio	text, documents, image, video, audio	text, documents, image, video, audio
+Output modalities	text	text	text	text	text	text
+Context window, total token limit	2,097,152	1,048,576	1,048,576	1,048,576	1,048,576	1,048,576
+Output context length	8,192	8,192	8,192	8,192	64,192	64,192
+Grounding with Search	Yes	Yes	Yes	No	Yes	Yes
+Function calling	Yes	Yes	Yes	Yes	Yes	Yes
+Code execution	No	No	Yes	No	Yes	Yes
+Context caching	Yes	Yes	Yes	No	Yes	Yes
+Batch prediction	Yes	Yes	Yes	Yes	Yes	Yes
+Live API	No	No	No	No	No	No
+Latency	Most capable in 1.5 family	Fastest in 1.5 family	Fast + good cost efficiency	Fast + most cost efficient	Slower than Flash, but good cost efficiency	Fast + most cost efficient
+Fine-tuning	Yes	Yes	Yes	Yes	Yes	Yes
+Recommended SDK	Vertex AI SDK	Vertex AI SDK	Gen AI SDK	Gen AI SDK	Gen AI SDK	Gen AI SDK
+Pricing units	Character	Character	Token	Token	Token	Token
+Migration process overview
+
+This document outlines an eight-step process for migrating your application to Gemini 2. Use the following diagram to navigate to each step.
+
+Before you begin
+Step 1: Complete prerequisites
+Document model evaluation and testing requirements
+Step 2: Document evaluation and testing requirements
+Code upgrades and testing
+Step 3: Upgrade and test code
+Offline evaluation
+Step 4: Perform offline evaluation
+Assess evaluation results and tune the Gemini 2 prompts and hyperparameters
+Step 5: Assess results and tune prompts
+Load testing
+Step 6: Conduct load testing
+Online evaluation
+Step 7: Perform online evaluation
+Production deployment
+Step 8: Deploy to production
+Improving model performance
+
+As you complete your migration, use the following tips to maximize Gemini 2 model performance:
+
+Inspect your system instructions, prompts, and few-shot learning examples for any inconsistencies, contradictions, or irrelevant instructions and examples.
+Test a more powerful model. For example, if you evaluated Gemini 2.0 Flash-Lite, try Gemini 2.0 Flash.
+Examine any automated evaluation results to make sure they match human judgment, especially results that use a judge model. Make sure your judge model instructions don't contain inconsistencies or ambiguities.
+One way to improve judge model instructions is to test the instructions with multiple humans in isolation and see if their judgments are consistent. If humans interpret the instructions differently and render different judgments, your judge model instructions are ambiguous.
+Fine-tune the Gemini 2 model.
+Examine evaluation outputs to look for patterns that show specific kinds of failures. Grouping together failures into different models, kinds, or categories gives you more targeted evaluation data, which makes it easier to adjust prompts to address these errors.
+Make sure you are independently evaluating different generative AI components.
+Experiment with adjusting token sampling parameters.
+Getting help
+
+If you need help, Google Cloud offers support packages to meet your needs, such as 24/7 coverage, phone support, and access to a technical support manager. For more information, see Google Cloud Support.
+
+What's next
+Read the list of frequently asked questions.
+Migrate from the PaLM API to the Gemini API in Vertex AI.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

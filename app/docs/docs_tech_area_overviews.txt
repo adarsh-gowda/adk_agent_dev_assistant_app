@@ -1,0 +1,194 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Overview of AI and ML
+Pre-trained models
+Customer service, conversation, and speech
+Document management
+Industry-specific products
+Video, images, vision, and augmented reality
+Search and recommendations
+Translation
+ML model training and development
+MLOps and production
+Accelerators
+Selected related products
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Introduction to machine learning on Vertex AI
+AI and ML architecture resources
+Best practices for implementing ML
+Applied AI summit learning path
+Machine learning engineer learning path
+AI and ML
+
+Documentation and resources for Google Cloud AI and ML products, covering platforms, pre-trained models, and tools for building smart applications.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore AI and ML in Google Cloud 
+Read documentation and Cloud Architecture Center articles about AI and ML products, capabilities, and procedures.
+description
+Introduction to machine learning on Vertex AI
+Support data engineering, data science, and ML engineering workflows on a unified platform, enabling you to train ML models and deploy AI solutions.
+account_tree
+AI and ML architecture resources
+Plan your approach with architecture center resources across a wide variety of AI & ML subjects. (Goes to Architecture Center.)
+account_tree
+Best practices for implementing ML
+Plan for implementing ML, with a focus on custom-trained models based on your data and code. (Goes to Architecture Center.)
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Applied AI summit learning path
+Study Vertex AI and Gemini in Google Cloud. (Goes to Google Cloud Skills Boost.)
+school
+Machine learning engineer learning path
+Study designing, building, productionalizing, optimizing, operating, and maintaining ML systems. (Goes to Google Cloud Skills Boost.)
+AI and ML products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Pretrained models
+
+Build AI applications with enterprise-grade scaling, security, and observability.
+
+Cloud Vision API
+Integrate vision detection features within applications, including image labeling, face and landmark detection, optical character recognition (OCR), and tagging of explicit content.
+Video Intelligence API
+Enable users to annotate videos stored locally or in Cloud Storage, or live-streamed, with contextual information at the level of the entire video, per segment, per shot, and per frame.
+Cloud Natural Language API
+Use natural language understanding technologies, including sentiment analysis, entity analysis, entity sentiment analysis, content classification, and syntax analysis.
+Timeseries Insights API
+Provide real-time forecasting and anomaly detection results.
+Model Garden
+Discover, test, customize, and deploy select OSS models and assets from an ML model library.
+Customer service, conversation, and speech
+
+Apply Google's state-of-the-art capabilities to handle your conversation, speech, and customer service needs.
+
+Document management
+
+Apply Google's state-of-the-art capabilities to handle your document management needs.
+
+Industry-specific products
+
+Apply Google's state-of-the-art capabilities to handle your industry-specific needs.
+
+Video, images, vision, and augmented reality
+
+Apply Google's state-of-the-art capabilities to handle your video, images, vision, and augmented reality needs.
+
+Search and recommendations
+
+Apply Google's state-of-the-art capabilities to handle your search and recommendations needs.
+
+Translation
+
+Apply Google's state-of-the-art capabilities to handle your conversation, speech, and customer service needs.
+
+Vertex AI model training and development
+
+Train ML models from your data using AutoML or your preferred ML framework.
+
+Vertex AI MLOps and production
+
+Apply operations best practices to monitor and improve your deployed ML models.
+
+Accelerators
+
+Accelerate machine learning workloads.
+
+Related products, guides, and sites
+
+Expand this section to see relevant products and documentation.
+
+AI Hypercomputer
+A supercomputer architecture that employs systems-level codesign to boost efficiency and productivity across AI training, tuning, and serving.
+Generative AI on Google Cloud
+Google Cloud offers a range of products and tools for the complete life cycle of building generative AI applications.
+Overview of industry solutions
+Find APIs and other solutions for financial services, healthcare, media, and retail.
+Gemini for Google Cloud overview
+Provides an always-on collaborator that offers generative AI-powered assistance to a wide range of Google Cloud users, including developers, data scientists, and operators.
+AutoML Tables
+Automatically build and deploy state-of-the-art machine learning models on structured data at massively increased speed and scale. (Deprecated)
+AI Platform
+Take your ML projects from ideation to production and deployment, quickly and cost-effectively. (Deprecated)
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

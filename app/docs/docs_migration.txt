@@ -1,0 +1,160 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Access and resource management
+Costs and usage management
+Google Cloud SDK, languages, frameworks, and tools
+Infrastructure as code
+Migration
+Migration overview
+Migration tools and services
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Migrate to Google Cloud: get started
+Migrate to Cloud SQL for PostgreSQL using Database Migration Service lab
+Migrating to Cloud SQL for MySQL from Amazon RDS for MySQL using Database Migration Service lab
+Startup cloud engineer learning path
+Cloud architect accelerated learning path for Azure professionals
+Google Cloud infrastructure for Azure professionals
+Cloud architect accelerated learning path for AWS professionals
+Google Cloud infrastructure for AWS professionals
+Migration
+
+Documentation, guides, and resources on tools and services to help you migrate to Google Cloud.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore migration in Google Cloud 
+Read documentation and Cloud Architecture Center articles about migration products, capabilities, and procedures.
+account_tree
+Migrate to Google Cloud: get started
+Plan, design, and implement the process of migrating your workloads.open_in_new
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+school
+Migrate to Cloud SQL for PostgreSQL using Database Migration Service lab
+Study migrating a stand-alone PostgreSQL database to Cloud SQL for PostgreSQL using a continuous Database Migration Service job and VPC peering for connectivity.open_in_new
+school
+Migrating to Cloud SQL for MySQL from Amazon RDS for MySQL using Database Migration Service lab
+Study migrating a MySQL database from an Amazon RDS instance for MySQL to Cloud SQL for MySQL using a one-time Database Migration Service job and an IP allowlist for connectivity.open_in_new
+school
+Startup cloud engineer learning path
+Study Google Cloud technologies essential to the Startup Cloud Engineer role, including migration.open_in_new
+school
+Cloud architect accelerated learning path for Azure professionals
+Study translating existing Azure knowledge to Google Cloud knowledge, while also preparing for certification.open_in_new
+school
+Google Cloud infrastructure for Azure professionals
+Study Google Cloud solutions in comparison with Azure.open_in_new
+school
+Cloud architect accelerated learning path for AWS professionals
+Study translating existing AWS knowledge to Google Cloud knowledge, while also preparing for certification.open_in_new
+school
+Google Cloud infrastructure for AWS professionals
+Study Google Cloud solutions in comparison with AWS.open_in_new
+expand_lessLess
+Migration products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Migration tools and services
+
+Tools and information to guide your migration to Google Cloud.
+
+Database Migration Service
+Facilitate database migrations to Google Cloud with minimal downtime.
+Google Cloud for AWS and Azure users
+Compare AWS and Azure services to Google Cloud.
+Google Cloud Migration Center
+Unified platform that helps you accelerate your end-to-end cloud journey from your current on-premises or cloud environments to Google Cloud.
+Migrate to Virtual Machines
+Migrate servers and VMs from on-premises or another cloud to Compute Engine. (Formerly Velostrata.)
+Migrate to Containers
+Migrate VMs from on-premises or other clouds directly into containers in GKE.
+Google Cloud NetApp Volumes
+A fully managed, cloud-based data storage service that provides advanced data management capabilities and highly scalable performance.
+Storage Transfer Service
+Transfer data between Cloud Storage services such as AWS S3 and Cloud Storage.
+Transfer Appliance
+Ship large volumes of data to Google Cloud using rackable storage.
+Introduction to migrating to BigQuery
+Migrate your data warehouse to BigQuery using free-to-use tools that help you with each phase of migration.
+Kf
+Migrate your Cloud Foundry apps to GKE or GKE Enterprise.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

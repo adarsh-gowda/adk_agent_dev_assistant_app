@@ -1,0 +1,180 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Get an API key
+Configure application default credentials
+API quickstart
+Vertex AI Studio quickstart
+Deploy your Vertex AI Studio prompt as a web application
+Generate an image and verify its watermark using Imagen
+Vertex AI in express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Before you begin
+Generate images and save a local copy
+Verify an image's digital watermark
+Clean up
+Delete the project
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Quickstart: Generate and verify an image's watermark using Imagen text-to-image (Console)
+bookmark_border
+
+API reference overview: To view an overview of the API options for image generation and editing, see the imagegeneration model API reference.
+
+Learn how to use Imagen on Vertex AI's text-to-image generation feature and verify a digital watermark (SynthID) on a generated image. This quickstart shows you how to use Imagen image generation in the Google Cloud console.
+
+Imagen on Vertex AI pricing is based on the feature you use. For more information, see Pricing.
+
+Image generated using Imagen on Vertex AI from the prompt: portrait of a french bulldog at the beach, 85mm f/2.8.
+Before you begin
+Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+
+In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+
+Note: If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project.
+
+Go to project selector
+
+Make sure that billing is enabled for your Google Cloud project.
+
+Enable the Vertex AI API.
+
+Enable the API
+
+Generate images and save a local copy
+
+Send the text-to-image generation request using the Google Cloud console.
+
+In the Google Cloud console, go to the Vertex AI > Media Studio page.
+
+Go to Media Studio
+
+In the Prompt (Write your prompt here) field, enter the following prompt:
+
+ portrait of a french bulldog at the beach, 85mm f/2.8
+
+
+If not selected, in the Model options box in the Parameters panel, select Imagen 3.
+
+If not selected, in the Aspect ratio section in the Parameters panel, select 1:1.
+
+In the Number of results section, change the Number of results to 2.
+
+Click play_arrowGenerate.
+
+Generating images produces images similar to the following images:
+
+To save a local copy of an image, click one of the images.
+
+In the Image details window that opens, click Export.
+
+In the Export image dialog box, click Export.
+
+Verify an image's digital watermark
+
+After you generate watermarked images, you can verify the digital watermark of the novel images.
+
+Create generated images and save a local copy as you did in the previous step.
+
+In the Image detail window, click Export.
+
+In the lower panel, click local_policeVerify.
+
+Click Upload image.
+
+Select a locally-saved generated image.
+
+Congratulations! You've just used the Imagen text-to-image generation feature to create novel images and verify the digital watermark of one of the images.
+
+Clean up
+
+To avoid incurring charges to your Google Cloud account for the resources used on this page, follow these steps.
+
+Delete the project
+What's next
+Learn about all image generative AI features in the Imagen on Vertex AI overview.
+Read usage guidelines for Imagen on Vertex AI.
+Explore more pretrained models in Model Garden.
+Learn about responsible AI best practices and Vertex AI's safety filters.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

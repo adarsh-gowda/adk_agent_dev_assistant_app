@@ -1,0 +1,169 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Access and resource management
+Costs and usage management
+Google Cloud SDK, languages, frameworks, and tools
+Google Cloud SDK, languages, frameworks, and tools overview
+General authentication guides
+Google Cloud SDK client libraries and languages
+Frameworks and tools
+Infrastructure as code
+Migration
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Client libraries explained
+Browse code samples
+General authentication guides
+Automating infrastructure on Google Cloud with Terraform
+Getting started with Google Kubernetes Engine
+Getting started with application development
+Getting started with Google Go on Google Cloud
+Google Cloud SDK, languages, frameworks, and tools
+
+Documentation and resources for using Google Cloud SDK, languages, frameworks, and tools effectively in cloud development.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore the Google Cloud SDK, languages, frameworks, and tools.
+Read documentation and Cloud Architecture Center articles about the Google Cloud SDK, languages, and frameworks in Google Cloud.
+description
+Client libraries explained
+Use client libraries to significantly reduce the amount of code you need to write.
+description
+Browse code samples
+Search for samples demonstrating the usage of Google Cloud products.
+description
+General authentication guides
+Review key authentication methods and concepts for Google Cloud products and services.
+Training, blog articles, and more 
+Go to training courses, blog articles, and other related resources.
+school
+Automating infrastructure on Google Cloud with Terraform
+Study how to write infrastructure as code with Terraform in Google Cloud.open_in_new
+school
+Getting started with Google Kubernetes Engine
+Study how to use Kubernetes, a software layer that sits between your applications and your hardware infrastructure, in Google Cloud.open_in_new
+school
+Getting started with application development
+Study how to design and develop cloud-native applications that seamlessly integrate managed services from Google Cloud.open_in_new
+school
+Getting started with Google Go on Google Cloud
+Study Go by reviewing Go code, and then creating and deploying simple Go apps on Google Cloud.open_in_new
+expand_lessLess
+SDKs, languages, frameworks, and tools products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Google Cloud SDK, client libraries, and languages
+
+Expand this section to see relevant products and documentation.
+
+Cloud SDK and client libraries
+Google Cloud CLI
+Create and manage Google Cloud resources and services directly on the command line or via scripts using the gcloud CLI.
+Google Cloud APIs
+Manage Google Cloud resources programmatically.
+Languages
+C# and .NET
+Learn how to use Cloud Client Libraries for .NET to access Google Cloud APIs programmatically.
+C++
+Learn how to use Cloud Client Libraries for C++ to access Google Cloud APIs programmatically.
+Go
+Learn how to use Google Cloud product libraries and frameworks to build and iterate Go apps on Google Cloud.
+Java
+Learn how to use Google Cloud product libraries and frameworks to build and iterate Java apps on Google Cloud.
+JavaScript and Node.js
+Learn how to use Google Cloud product libraries and frameworks to build and iterate Node.js apps on Google Cloud.
+PHP
+Learn how to use Google Cloud product libraries and frameworks to build and iterate PHP apps on Google Cloud.
+Python
+Learn how to use Google Cloud product libraries and frameworks to build and iterate Python apps on Google Cloud.
+Ruby
+Learn how to use Google Cloud product libraries and frameworks to build and iterate Ruby apps on Google Cloud.
+Frameworks and tools
+
+Expand this section to see relevant products and documentation.
+
+Related products, guides, and sites
+Cloud Shell
+Use an online development and operations environment accessible anywhere with your browser.
+Cloud Code
+IDE support for the full development cycle of Kubernetes and Cloud Run applications.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

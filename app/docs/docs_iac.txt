@@ -1,0 +1,137 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Access and resource management
+Costs and usage management
+Google Cloud SDK, languages, frameworks, and tools
+Infrastructure as code
+Infrastructure as code overview
+Provision deploy and manage infrastructure
+Selected related product
+Migration
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Recommendations for infrastructure as code
+Automate infrastructure on Google Cloud with Terraform
+Use Terraform with Google Cloud
+Infrastructure as code
+
+Documentation and resources for configuring your infrastructure using code with Google Cloud products and services
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore infrastructure as code in Google Cloud 
+Read documentation and Cloud Architecture Center articles about infrastructure as code products, capabilities, and procedures.
+description
+Recommendations for infrastructure as code
+Apply recommendations programmatically by integrating them into your Infrastructure as Code (IaC) pipeline.
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Automate infrastructure on Google Cloud with Terraform
+Study how to write infrastructure as code with Terraform in Google Cloud.open_in_new
+public
+Use Terraform with Google Cloud
+Study step-by-step, command-line tutorials that walk you through the Terraform basics.open_in_new
+Infrastructure as code products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Provision, deploy, and manage infrastructure
+
+Expand this section to see relevant products and documentation.
+
+Infrastructure Manager
+Automate the deployment and management of Google Cloud infrastructure resources using Terraform.
+Terraform on Google Cloud
+Define Google Cloud resources in human-readable configuration files that you can version, reuse, and share.
+Config Connector
+Configure Google Cloud services and resources using Kubernetes tooling and APIs.
+Cloud Development Kit for Terraform
+Configure Terraform to define and provision Google Cloud infrastructure and use your existing toolchain for tasks such as testing and dependency management.open_in_new
+Google Cloud provider for Pulumi
+Author infrastructure code using programming languages such as TypeScript, Python, Go, C#, Java or YAML.open_in_new
+Ansible
+Automate provisioning, configuration management, application deployment, orchestration and other IT processes.open_in_new
+Crossplane
+Connect your Kubernetes cluster to external, non-Kubernetes resources, and build custom Kubernetes APIs to consume those resources.open_in_new
+Related products, guides, and sites
+Cloud Deployment Manager
+Manage cloud resources using simple templates.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

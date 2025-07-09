@@ -1,0 +1,170 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Overview of compute
+Virtual machines
+Images
+Block storage
+Migration
+Workloads
+Selected related products
+Data analytics
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Google Cloud deployment archetypes
+Optimize resource usage
+Google Cloud Well-Architected Framework: Performance optimization
+Google Cloud computing foundations
+Hosting applications on Google Cloud
+Compute
+
+Documentation and resources for running your workloads on virtual machines for ML, high-performance computing, and more.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore compute in Google Cloud 
+Read documentation and Cloud Architecture Center articles about compute-related products, capabilities, and procedures.
+account_tree
+Google Cloud deployment archetypes
+Learn about the six deployment archetypes, including the use cases and design considerations for each deployment archetype.open_in_new
+account_tree
+Optimize resource usage
+Recommendations to help you plan and provision resources to match the requirements and consumption patterns of your cloud workloads.open_in_new
+account_tree
+Google Cloud Well-Architected Framework: Performance optimization
+Recommendations to optimize the performance of workloads in Google Cloud.open_in_new
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Google Cloud computing foundations
+Study cloud computing, ways to use Google Cloud, and different compute options.open_in_new
+cloud
+Hosting applications on Google Cloud
+Learn about the wide range of options for hosting applications on Google Cloud.open_in_new
+Compute products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Virtual machines
+
+Create a VM.
+
+Compute Engine
+Configure and deploy scalable, high-performance virtual machine (VM) instances and instance groups.
+Create and start a VM instance
+Create a virtual machine (VM) instance by using a boot disk image, a boot disk snapshot, or a container image.
+Capacity Planner
+Get visibility into your project's use of virtual machine (VM) instance resources.
+Regions and zones
+Compute Engine resources are hosted in multiple locations worldwide. These locations are composed of regions and zones.
+Images
+
+OS images for virtual machines.
+
+Block storage
+
+Expand this section to see relevant products and documentation.
+
+Confidential computing
+
+Expand this section to see relevant products and documentation.
+
+Migration
+
+Expand this section to see relevant products and documentation.
+
+Workloads
+
+Expand this section to see relevant products and documentation.
+
+Related products, guides, and sites
+Google Cloud VMware Engine
+Migrate and run your VMware workloads natively on Google Cloud.
+SAP on Google Cloud
+Leverage your SAP data in innovative ways, all while running your SAP applications more reliably, securely, and cost-effectively.
+Workload Manager
+End-to-end solutions to manage your SAP and Microsoft SQL Server workloads running on Google Cloud.
+Cluster Toolkit
+Deploy high performance computing (HPC) environments on Google Cloud.
+Cloud Networking for VMs
+Learn how to manage the network your VMs belong to.
+Identity and Access Management
+Set up permissions uses IAM roles to control access to your VMs.
+Cloud Storage
+Store objects with global edge caching.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

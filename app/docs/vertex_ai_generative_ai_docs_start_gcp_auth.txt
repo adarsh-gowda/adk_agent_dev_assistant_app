@@ -1,0 +1,118 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Get an API key
+Configure application default credentials
+API quickstart
+Vertex AI Studio quickstart
+Deploy your Vertex AI Studio prompt as a web application
+Generate an image and verify its watermark using Imagen
+Vertex AI in express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Before you begin
+Create local authentication credentials
+Make your first API request
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Configure application default credentials
+bookmark_border
+
+To use Gemini on Vertex AI, you need to authenticate by using a Google Cloud API key or by using application default credentials. We recommend using an API key for testing and using application default credentials for production. This page shows you how to configure application default credentials.
+
+Before you begin
+Select a project, enable billing, enable the Vertex AI API, install gcloud CLI
+Create local authentication credentials
+
+If you're using a local shell, then create local authentication credentials for your user account:
+
+gcloud auth application-default login
+
+You don't need to do this if you're using Cloud Shell.
+
+If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have signed in to the gcloud CLI with your federated identity.
+
+Make your first API request
+
+After configuring application default credentials, learn how to make your first request in the API quickstart.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

@@ -1,0 +1,131 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Get an API key
+Configure application default credentials
+API quickstart
+Vertex AI Studio quickstart
+Deploy your Vertex AI Studio prompt as a web application
+Generate an image and verify its watermark using Imagen
+Vertex AI in express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Create an express mode API key
+Make your first API request
+Optional: Set up your API key locally
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Get a Google Cloud API key
+bookmark_border
+
+To use Gemini on Vertex AI, you need to authenticate by using a Google Cloud API key or by using application default credentials. We recommend using an API key for testing and using application default credentials for production. This page shows you how to get a Google Cloud API key based on whether or not you already have a Google Cloud account.
+
+Select whether you have a Google Cloud account:
+
+No, I don't have an account Yes, I have an account
+Create an express mode API key
+
+If you don't have a Google Cloud account, the fastest way to get started is by registering for a Google Cloud express mode account and getting an express mode API key in the Google Cloud console. To learn more about Vertex AI in express mode, see the express mode overview page.
+
+Get an express mode account and API key
+
+Make your first API request
+
+After getting an API key, learn how to use your API key to make your first request in the API quickstart.
+
+Optional: Set up your API key locally
+
+For initial testing, you can hard code an API key, but this should only be temporary since it is not secure. The rest of this section goes through how to set up your API key locally as an environment variable with different operating systems.
+
+Click to expand instructions
+WARNING: It's important to keep your API key secure. Here are a few things to keep in mind when using your API key:
+Google Cloud recommends application default credentials as a production-safe way to authenticate your application
+Vertex AI uses API keys for authorization. If others get access to your API key, they can make calls using your project's quota, which could result in lost quota or additional charges for billed projects, in addition to accessing tuned models and files.
+Adding API key restrictions can help limit the surface area usable through each API key.
+You're responsible for keeping your API key secure.
+Do not check API keys into source control.
+Client-side applications (Android, Swift, web, and Dart/Flutter) risk exposing API keys. We don't recommend using the Google AI client SDKs in production apps to call the API directly from your mobile and web apps.
+
+For some general best practices, you can also review this support article.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+The new page has loaded.

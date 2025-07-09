@@ -1,0 +1,175 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Contact Us
+Start free
+Google Cloud Documentation home
+Get started with Google Cloud
+Product list
+Integrated AI assistance with Gemini for Google Cloud
+Recent release notes
+Cloud Customer Care
+Cross-product tools
+Generative AI
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics
+Overview of data analytics
+BigQuery
+Data analysis
+Data governance and sharing
+Data integration and orchestration
+Data migration
+Data processing
+Streaming
+AI and ML
+Selected related products
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Networking
+Observability and monitoring
+Security
+Storage
+On this page
+Introduction to Big‍Query
+Data and analytics resources
+Jump Start Solution: Analytics lakehouse
+Data analyst learning path
+BI and analytics with Looker learning path
+Decision tree for data and analytics workloads
+Data analytics
+
+Documentation and resources for unlocking your data's potential and transforming it into actionable AI insights with Google Cloud products.
+
+Get started for free
+Start your proof of concept with $300 in free credit
+Get access to Gemini 2.0 Flash Thinking
+Free monthly usage of popular products, including AI APIs and BigQuery
+No automatic charges, no commitment
+Explore data analytics in Google Cloud 
+Read documentation and Cloud Architecture Center articles about data analytics products, capabilities, and procedures.
+description
+Introduction to Big‍Query
+Learn how BigQuery helps organizations to get insights into their data.open_in_new
+account_tree
+Data and analytics resources
+Plan your approach with Architecture Center resources across a variety of data and analytics topics.open_in_new
+account_tree
+Jump Start Solution: Analytics lakehouse
+Plan how to design an analytics lakehouse to store, process, and activate data.open_in_new
+Training, blog articles, and more
+Go to training courses, blog articles, and other related resources.
+school
+Data analyst learning path
+Study Google Cloud technologies essential to the data analyst role.open_in_new
+school
+BI and analytics with Looker learning path
+Study how to explore data in Looker and set up self-serve analytics for your users.open_in_new
+cloud
+Decision tree for data and analytics workloads
+Choose the services to run your data and analytics workloads.open_in_new
+Data analytics products by use case
+Expand sections or use the filter to find products and guides for typical use cases.
+Data and AI platform
+
+Use a serverless, cost-effective, and multi-cloud data and AI platform designed to help you turn big data into valuable business insights powered by Gemini.
+
+BigQuery
+Understand your data using a fully managed, highly scalable data platform with built-in machine learning (ML).
+Data analysis
+
+Get business intelligence in real time, built on governed data, that offers repeatable analysis and inspires in-depth understanding of the data.
+
+Data governance and sharing
+
+Manage the end-to-end data lifecycle and make it easier to manage, discover, govern, and share data and AI assets.
+
+Data integration and orchestration
+
+Ingest, transform, and load data from disparate data sources in a scalable and secure fashion, and build end-to-end orchestration for the enterprise.
+
+Data migration
+
+Migrate your lakehouse or warehouse to BigQuery with easy to use tools powered by Gemini that assist in every phase of migration.
+
+Data processing
+
+Empower your data journey, from robust batch processing using managed Apache Spark and Apache Hadoop, to dynamic real-time stream processing with serverless, scalable pipelines using Apache Beam.
+
+Streaming
+
+Ingest, process, and analyze event streams in real time, and generate actionable, real-time insights.
+
+AI and ML
+
+Seamlessly integrate the power of generative AI and machine learning directly within your data to unlock deeper insights.
+
+Related products, guides, and sites
+Vertex AI
+Build and use generative AI using a fully managed, unified AI development platform.
+Blockchain Analytics
+Get indexed blockchain data made available through BigQuery for easy analysis through SQL.
+Cortex Framework
+Get reference architectures, packaged solution deployment content, and integration services to kickstart your data and AI cloud journey.
+Earth Engine
+Learn about Google Earth Engine, which is a geospatial processing service. With Earth Engine, you can perform geospatial processing at scale, powered by Google Cloud.
+Manufacturing Data Engine
+Use an end-to-end solution that delivers scalable and seamless connectivity between the factory floor and the cloud.
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-09 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

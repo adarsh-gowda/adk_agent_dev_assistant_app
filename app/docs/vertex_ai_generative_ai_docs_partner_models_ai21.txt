@@ -1,0 +1,331 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+AI21 Labs
+Overview
+Model details
+Jamba 1.5 Large
+Jamba 1.5 Mini
+Claude
+Mistral AI
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Available AI21 Labs models
+Jamba 1.5 Mini
+Jamba 1.5 Large
+Use AI21 Labs models
+Before you begin
+AI21 Labs model region availability and quotas
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+AI21 Labs models
+bookmark_border
+Release Notes
+
+Preview
+
+This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the Service Specific Terms. Pre-GA features are available "as is" and might have limited support. For more information, see the launch stage descriptions.
+
+AI21 Labs models on Vertex AI offer fully managed and serverless models as APIs. To use a AI21 Labs model on Vertex AI, send a request directly to the Vertex AI API endpoint. Because AI21 Labs models use a managed API, there's no need to provision or manage infrastructure.
+
+You can stream your responses to reduce the end-user latency perception. A streamed response uses server-sent events (SSE) to incrementally stream the response.
+
+You pay for AI21 Labs models as you use them (pay as you go). For pay-as-you-go pricing, see AI21 Labs model pricing on the Vertex AI pricing page.
+
+To see an example of getting started with AI21 Jamba on Vertex AI, run the "Getting Started with AI21 Jamba" notebook in one of the following environments:
+
+Open in Colab | Open in Colab Enterprise | Open in Vertex AI Workbench user-managed notebooks | View on GitHub
+
+Available AI21 Labs models
+
+The following models are available from AI21 Labs to use in Vertex AI. To access a AI21 Labs model, go to its Model Garden model card.
+
+Jamba 1.5 Mini
+
+AI21 Labs's Jamba 1.5 Mini is a small foundation model built from a hybrid architecture that leverages the Mamba architecture and Transformer architecture to achieve leading quality at a competitive price.
+
+With the SSM-Transformer hybrid architecture and a 256,000 context window, Jamba 1.5 Mini efficiently solves a variety of text generation and text comprehension enterprise use cases.
+
+Jamba 1.5 Mini is ideal for enterprise workflows with tasks that are data-heavy and require a model that can ingest a large amount of information to produce an accurate and thorough response, such as summarizing lengthy documents or enabling question answering across an extensive organizational knowledge base. Jamba 1.5 Mini is well balanced across quality, throughput, and low cost.
+
+Go to the Jamba 1.5 Mini model card
+
+Jamba 1.5 Large
+
+AI21 Labs's Jamba 1.5 Large is a foundation model built from a hybrid architecture that leverages the Mamba architecture and Transformer architecture to achieve leading quality at a competitive price.
+
+With the SSM-Transformer hybrid architecture and a 256,000 context window, Jamba 1.5 Large efficiently solves a variety of text generation and text comprehension enterprise use cases. Jamba 1.5 Large has 94 B active parameters and 398 B total parameters lead to highly accuracy in responses.
+
+Jamba 1.5 Large is ideal for enterprise workflows with tasks that are data-heavy and require a model that can ingest a large amount of information to produce an accurate and thorough response, such as summarizing lengthy documents or enabling question answering across an extensive organizational knowledge base. Jamba 1.5 Large is designed for superior-quality responses, high throughput, and pricing that is competitive with other models in its size class.
+
+Go to the Jamba 1.5 Large model card
+
+Use AI21 Labs models
+
+You can use curl commands to send requests to the Vertex AI endpoint using the following model names:
+
+For Jamba 1.5 Mini, use jamba-1.5-mini
+For Jamba 1.5 Large, use jamba-1.5-large
+
+We recommend that you use the model versions that include a suffix that starts with an @ symbol because of the possible differences between model versions. If you don't specify a model version, the latest version is always used, which can inadvertently affect your workflows when a model version changes.
+
+Before you begin
+
+To use AI21 Labs models with Vertex AI, you must perform the following steps. The Vertex AI API (aiplatform.googleapis.com) must be enabled to use Vertex AI. If you already have an existing project with the Vertex AI API enabled, you can use that project instead of creating a new project.
+
+Note: To use the Llama 4 Model-as-a-Service endpoints, you must accept the end-user license agreement (EULA) on the model card.
+Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+
+In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+
+Go to project selector
+
+Make sure that billing is enabled for your Google Cloud project.
+
+Enable the Vertex AI API.
+
+Enable the API
+
+Go to one of the following Model Garden model cards, then click Enable:
+Go to the Jamba 1.5 Mini model card
+Go to the Jamba 1.5 Large model card
+Make a streaming call to a AI21 Labs model
+
+The following sample makes a streaming call to a AI21 Labs model.
+
+REST
+
+After you set up your environment, you can use REST to test a text prompt. The following sample sends a request to the publisher model endpoint.
+
+Before using any of the request data, make the following replacements:
+
+LOCATION: A region that supports AI21 Labs models.
+MODEL: The model name you want to use. In the request body, exclude the @ model version number.
+ROLE: The role associated with a message. You can specify a user or an assistant. The first message must use the user role. The models operate with alternating user and assistant turns. If the final message uses the assistant role, then the response content continues immediately from the content in that message. You can use this to constrain part of the model's response.
+STREAM: A boolean that specifies whether the response is streamed or not. Stream your response to reduce the end-use latency perception. Set to true to stream the response and false to return the response all at once.
+CONTENT: The content, such as text, of the user or assistant message.
+MAX_OUTPUT_TOKENS: Maximum number of tokens that can be generated in the response. A token is approximately 3.5 characters. 100 tokens correspond to roughly 60-80 words.
+
+Specify a lower value for shorter responses and a higher value for potentially longer responses.
+
+HTTP method and URL:
+
+POST https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/ai21/models/MODEL:streamRawPredict
+
+Request JSON body:
+
+{
+  "model": MODEL,
+  "messages": [
+   {
+    "role": "ROLE",
+    "content": "CONTENT"
+   }],
+  "max_tokens": MAX_TOKENS,
+  "stream": true
+}
+
+
+To send your request, choose one of these options:
+
+curl
+PowerShell
+Note: The following command assumes that you have logged in to the gcloud CLI with your user account by running gcloud init or gcloud auth login , or by using Cloud Shell, which automatically logs you into the gcloud CLI . You can check the currently active account by running gcloud auth list.
+
+Save the request body in a file named request.json, and execute the following command:
+
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/ai21/models/MODEL:streamRawPredict"
+
+You should receive a JSON response similar to the following.
+
+Response
+
+Make a non-streaming call to a AI21 Labs model
+
+The following sample makes a non-streaming call to a AI21 Labs model.
+
+REST
+
+After you set up your environment, you can use REST to test a text prompt. The following sample sends a request to the publisher model endpoint.
+
+Before using any of the request data, make the following replacements:
+
+LOCATION: A region that supports AI21 Labs models.
+MODEL: The model name you want to use. In the request body, exclude the @ model version number.
+ROLE: The role associated with a message. You can specify a user or an assistant. The first message must use the user role. The models operate with alternating user and assistant turns. If the final message uses the assistant role, then the response content continues immediately from the content in that message. You can use this to constrain part of the model's response.
+STREAM: A boolean that specifies whether the response is streamed or not. Stream your response to reduce the end-use latency perception. Set to true to stream the response and false to return the response all at once.
+CONTENT: The content, such as text, of the user or assistant message.
+MAX_OUTPUT_TOKENS: Maximum number of tokens that can be generated in the response. A token is approximately 3.5 characters. 100 tokens correspond to roughly 60-80 words.
+
+Specify a lower value for shorter responses and a higher value for potentially longer responses.
+
+HTTP method and URL:
+
+POST https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/mistralai/models/MODEL:rawPredict
+
+Request JSON body:
+
+{
+  "model": MODEL,
+  "messages": [
+   {
+    "role": "ROLE",
+    "content": "CONTENT"
+   }],
+  "max_tokens": MAX_TOKENS,
+  "stream": false
+}
+
+
+To send your request, choose one of these options:
+
+curl
+PowerShell
+Note: The following command assumes that you have logged in to the gcloud CLI with your user account by running gcloud init or gcloud auth login , or by using Cloud Shell, which automatically logs you into the gcloud CLI . You can check the currently active account by running gcloud auth list.
+
+Save the request body in a file named request.json, and execute the following command:
+
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://LOCATION-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/publishers/mistralai/models/MODEL:rawPredict"
+
+You should receive a JSON response similar to the following.
+
+Response
+
+AI21 Labs model region availability and quotas
+
+For AI21 Labs models, a quota applies for each region where the model is available. The quota is specified in queries per minute (QPM) and tokens per minute (TPM). TPM includes both input and output tokens.
+
+Important: Machine learning (ML) processing for all available AI21 Labs models occurs within the US when requests are made to regionally-available APIs in the US, or within the EU when requests are made to regionally-available APIs in Europe.
+Model	Region	Quotas	Context length
+Jamba 1.5 Mini
+us-central1	
+QPM: 50
+TPM: 60,000
+	256,000
+europe-west4	
+QPM: 50
+TPM: 60,000
+	256,000
+Jamba 1.5 Large
+us-central1	
+QPM: 20
+TPM: 20,000
+	256,000
+europe-west4	
+QPM: 20
+TPM: 20,000
+	256,000
+
+If you want to increase any of your quotas for Generative AI on Vertex AI, you can use the Google Cloud console to request a quota increase. To learn more about quotas, see Work with quotas.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

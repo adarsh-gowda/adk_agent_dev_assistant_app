@@ -1,0 +1,257 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Featured Gemini models
+Generally available Gemini models
+Preview Gemini models
+Gemma models
+Embeddings models
+Generally available Imagen models
+Preview Imagen models
+Veo models
+Preview Veo models
+MedLM models
+Language support
+Explore all models in Model Garden
+Model versions
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Google models
+bookmark_border
+Release Notes
+
+Featured Gemini models
+
+2.5 Pro diamond
+
+Our most advanced reasoning Gemini model, made to solve complex problems
+
+Best for multimodal understanding
+Capable of processing complex prompts and providing well-rounded responses
+Best for coding, particularly for web development
+
+2.5 Flash spark
+
+Our best model in terms of price-performance, offering well-rounded capabilities
+
+Support for Live API included for some endpoints
+See the model's thinking process as part of the response
+Balances price and performance
+
+2.5 Flash-Lite preview
+
+Our most cost effective model that supports high throughput tasks
+
+The fastest model in the 2.5 line of models
+Features a 1 million token context window and multimodal input, like 2.5 Flash
+Outperforms 2.0 Flash on most evaluation benchmarks
+Generally available Gemini models
+diamond
+Gemini 2.5 Pro
+Our most advanced reasoning model to date
+spark
+Gemini 2.5 Flash
+Our best model in terms of price-performance, offering well-rounded capabilities
+spark
+Gemini 2.0 Flash
+Our newest multimodal model, with next generation features and improved capabilities
+performance_auto
+Gemini 2.0 Flash-Lite
+A Gemini 2.0 Flash model optimized for cost efficiency and low latency
+Preview Gemini models
+preview
+Gemini 2.5 Flash-Lite
+Our most cost effective model that supports high throughput tasks
+Gemma models
+Gemma 3
+Our latest Gemma open model, featuring the ability to solve a wide variety of tasks with text and image input, support for over 140 languages, and long 128K context window
+Gemma 2
+The second of generation of our open models featuring text generation, summarization, and extraction
+Gemma
+A small-sized, lightweight open model supporting text generation, summarization, and extraction
+ShieldGemma 2
+Instruction tuned models for evaluating the safety of text and images against a set of defined safety policies
+PaliGemma
+Our open vision-language model that combines SigLIP and Gemma
+CodeGemma
+Powerful, lightweight open model that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following
+TxGemma
+Generates predictions, classifications or text based on therapeutic related data and can be used to efficiently build AI models for therapeutic-related tasks with less data and less compute
+Embeddings models
+width_normal
+Embeddings for Text
+Converts text data into vector representations for semantic search, classification, clustering, and similar tasks
+width_normal
+Multimodal Embeddings
+Generates vectors based on images, which can be used for downstream tasks like image classification, image search, and more
+Generally available Imagen models
+photo_spark
+Imagen 3 for Generation
+Use text prompts to generate novel images
+image_edit_auto
+Imagen 3 for Editing and Customization
+Use text prompts to edit existing input images, or parts of an image with a mask or generate new images based upon the context provided by input reference images
+photo_spark
+Imagen 3 for Fast Generation
+Use text prompts to generate novel images with lower latency than our other image generation models
+subtitles
+Imagen for Captioning & VQA
+Use text prompts to generative novel images, edit existing ones, edit parts of an image with a mask and more
+Preview Imagen models
+photo_spark
+Imagen 4 for Generation
+Use text prompts to generate novel images with higher quality than our previous image generation models
+photo_spark
+Imagen 4 for Fast Generation
+Use text prompts to generate novel images with higher quality and lower latency than our previous image generation models
+photo_spark
+Imagen 4 for Ultra Generation
+Use text prompts to generate novel images with higher quality and better prompt adherence than our previous image generation models
+Veo models
+movie
+Veo 2 for Generation
+Use text prompts and images to generate novel videos
+Preview Veo models
+movie
+Veo 3 for Generation
+Use text prompts and images to generate novel videos with higher quality than our previous video generation model
+movie
+Veo 3 Fast for Generation
+Use text prompts and images to generate novel videos with higher quality and lower latency than our previous video generation model
+MedLM models
+Caution: MedLM is deprecated. Access to MedLM will no longer be available on or after September 29, 2025.
+medical_information
+MedLM-medium
+HIPAA-compliant suite of medically tuned models designed to help healthcare practitioners with medical question and answer tasks, and summarization tasks for healthcare and medical documents
+clinical_notes
+MedLM-large-large
+HIPAA-compliant suite of medically tuned models designed to help healthcare practitioners with medical question and answer tasks, and summarization tasks for healthcare and medical documents
+Language support
+Gemini
+Gemma
+Embeddings
+Imagen 3
+MedLM
+Explore all models in Model Garden
+
+Model Garden is a platform that helps you discover, test, customize, and deploy Google proprietary and select OSS models and assets. To explore the generative AI models and APIs that are available on Vertex AI, go to Model Garden in the Google Cloud console.
+
+Go to Model Garden
+
+To learn more about Model Garden, including available models and capabilities, see Explore AI models in Model Garden.
+
+Model versions
+
+To see all model versions, including legacy and retired models, see Model versions and lifecycle.
+
+What's next
+Try a quickstart tutorial using Vertex AI Studio or the Vertex AI API.
+Explore pretrained models in Model Garden.
+Learn how to control access to specific models in Model Garden by using a Model Garden organization policy.
+Learn about pricing.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-08 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

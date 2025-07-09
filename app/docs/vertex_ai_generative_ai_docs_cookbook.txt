@@ -1,0 +1,1681 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Vertex AI Cookbook
+All Generative AI on Vertex AI samples
+Generative AI on Vertex AI samples
+Google Gen AI SDK samples
+On this page
+Gemini Quickstarts
+Featured Tutorials
+All Tutorials
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation 
+Vertex AI Cookbook
+Was this helpful?
+Send feedback
+Generative AI on Vertex AI Cookbook
+bookmark_border
+
+A collection of guides and examples for Generative AI on Vertex AI.
+
+Explore more in the Generative AI Repository on GitHub.
+
+Gemini Quickstarts
+Intro to Gemini 2.5 Flash
+
+Get started with Gemini 2.5 Flash in Vertex AI with the Gen AI Python SDK.
+
+FUNCTION CALLING GEMINI GROUNDING MULTIMODAL PROMPTING THINKING
+
+View on GitHub
+Intro to Gemini 2.5 Pro
+
+Get started with Gemini 2.5 Pro in Vertex AI with the Gen AI Python SDK.
+
+FUNCTION CALLING GEMINI GROUNDING MULTIMODAL PROMPTING THINKING
+
+View on GitHub
+Intro to Gemini 2.5 Flash-Lite
+
+Get started with Gemini 2.5 Flash-Lite in Vertex AI with the Gen AI Python SDK.
+
+FUNCTION CALLING GEMINI GROUNDING MULTIMODAL PROMPTING THINKING
+
+View on GitHub
+Get Started with the Multimodal Live API
+
+Get started with Gemini 2.0 Multimodal Live API in Vertex AI using the Gen AI Python SDK
+
+GEMINI LIVE API MULTIMODAL
+
+View on GitHub
+Gemini 2.0 Flash Image Generation in Vertex AI
+
+Get started with Gemini Image Generation in Vertex AI.
+
+GEMINI IMAGE GENERATION MULTIMODAL
+
+View on GitHub
+Intro to Prompt Engineering
+
+Learn the essentials and best practices of prompt engineering.
+
+GEMINI PROMPTING
+
+View on GitHub
+Function Calling with Gemini
+
+Connect Gemini to external tools using function calling.
+
+FUNCTION CALLING GEMINI
+
+View on GitHub
+Grounding with Gemini
+
+Connect Gemini to real-world data from Google Search or Vertex AI Search to improve response quality.
+
+GEMINI GROUNDING RAG SEARCH
+
+View on GitHub
+Batch Prediction with Gemini
+
+Use Batch Prediction to run inference on a large number of examples.
+
+BATCH PREDICTION GEMINI
+
+View on GitHub
+Long Context Window
+
+Use the Long Context Window to process large amounts of multimodal data.
+
+GEMINI
+
+View on GitHub
+Intro to Context Caching
+
+Use context caching to store frequently used data.
+
+GEMINI
+
+View on GitHub
+Intro to Structured Output with the Gemini API
+
+Learn to control Gemini API output formats for easier data processing.
+
+GEMINI
+
+View on GitHub
+Call Gemini by using the OpenAI Library
+
+Learn how to call Gemini using Chat Completions.
+
+GEMINI
+
+View on GitHub
+Featured Tutorials
+Creating Marketing Assets using Gemini 2.0 Flash
+
+Learn how to combine the multimodal capabilities of Gemini and Grounding with Google Search to create a marketing campaign brief and marketing assets.
+
+GEMINI GROUNDING SEARCH
+
+View on GitHub
+Get started with Chirp 3 HD Voices for Text-to-Speech
+
+Learn about how to use Chirp 3 HD Voices, the latest generation of Google Text-to-Speech voices.
+
+CHIRP SPEECH
+
+View on GitHub
+Get started with Chirp 2 for Speech-to-Text
+
+Learn about how to use Chirp 2, the latest generation of Google's multilingual Automatic Speech Recognition models.
+
+CHIRP SPEECH
+
+View on GitHub
+Intro to Imagen 4 Image Generation
+
+Use Imagen 4 to create photorealistic images.
+
+IMAGEN MULTIMODAL
+
+View on GitHub
+Imagen 3 Image Editing
+
+Use Imagen 3 to edit photorealistic images using inpainting, outpainting, and Product Image Editing.
+
+IMAGEN MULTIMODAL
+
+View on GitHub
+Get Started with Text Embeddings + Vertex AI Vector Search
+
+Use AI's multitool, Embeddings, and Vertex AI Vector Search perform semantic matching.
+
+EMBEDDINGS VECTOR SEARCH
+
+View on GitHub
+Intro to LangGraph with Gemini
+
+Learn how to combine LangGraph's workflow capabilities with Gemini's language understanding and generation skills to streamline and automate complex financial analysis tasks.
+
+GEMINI LANGCHAIN LANGGRAPH ORCHESTRATION
+
+View on GitHub
+Create custom podcast episodes
+
+Use Gemini, LangGraph, and Text-to-Speech to create custom podcast episodes.
+
+GEMINI LANGCHAIN LANGGRAPH ORCHESTRATION SPEECH
+
+View on GitHub
+Storytelling with Gemini and Text-to-Speech
+
+Use Gemini and Text-to-Speech to create and read a story with multiple characters.
+
+GEMINI SPEECH
+
+View on GitHub
+Analyze a codebase
+
+Use Gemini to generate code, summarize a codebase, debug, improve code, and assess code.
+
+GEMINI MULTIMODAL
+
+View on GitHub
+LLM Security for developers
+
+Learn about prompt injection attacks and how to mitigate them.
+
+GEMINI PROMPTING SECURITY
+
+View on GitHub
+Intro to Agent Engine
+
+Learn how to build and deploy an agent (model, tools, and reasoning) using Agent Engine.
+
+AGENT ENGINE AGENTS GEMINI
+
+View on GitHub
+Intro to Gen AI Evaluation Service
+
+Evaluate Gemini responses using metrics and custom datasets.
+
+EVALUATION GEMINI
+
+View on GitHub
+Gemini Supervised Fine-tuning for Article Summarization
+
+Learn how to fine-tune Gemini for article summarization.
+
+GEMINI TUNING
+
+View on GitHub
+Intro to Vertex AI RAG Engine
+
+Build custom RAG workflows with Gemini and Vertex AI RAG Engine.
+
+GEMINI RAG
+
+View on GitHub
+Document Processing with Gemini
+
+Use Gemini to process documents for classification, extraction, and summarization.
+
+GEMINI MULTIMODAL
+
+View on GitHub
+Patents Document Understanding with Gemini
+
+Use Gemini to process patent documents using classification, entity extraction, and object detection.
+
+GEMINI MULTIMODAL
+
+View on GitHub
+Build and deploy a Hugging Face smolagent using DeepSeek on Vertex AI
+
+This notebook showcases how to deploy DeepSeek R1 Distill Qwen 32B from Hugging Face Hub on Vertex AI.
+
+AGENTS
+
+View on GitHub
+Multimodal Sentiment Analysis with Gemini
+
+This notebook demonstrates multimodal sentiment analysis with Gemini by comparing sentiment analysis performed directly on audio with analysis performed on its text transcript.
+
+GEMINI MULTIMODAL
+
+View on GitHub
+Productivity Coaching with Gemini and Google Calendar
+
+This notebook demonstrates how to use Gemini as your personal productivity coach, by connecting it to Google Workspace APIs.
+
+FUNCTION CALLING GEMINI WORKSPACE
+
+View on GitHub
+Veo 3 Video Generation
+
+In this tutorial, you will learn how to use the Google Gen AI SDK for Python to interact with Veo 3 and generate new videos from text prompts.
+
+MULTIMODAL VEO
+
+View on GitHub
+All Tutorials
+Filter by: 
+Categories
+FUNCTION CALLING
+GEMINI
+GROUNDING
+MULTIMODAL
+PROMPTING
+THINKING
+	
+
+Intro to Gemini 2.5 Flash
+
+Get started with Gemini 2.5 Flash in Vertex AI with the Gen AI Python SDK.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+GROUNDING
+MULTIMODAL
+PROMPTING
+THINKING
+	
+
+Intro to Gemini 2.5 Pro
+
+Get started with Gemini 2.5 Pro in Vertex AI with the Gen AI Python SDK.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+GROUNDING
+MULTIMODAL
+PROMPTING
+THINKING
+	
+
+Intro to Gemini 2.5 Flash-Lite
+
+Get started with Gemini 2.5 Flash-Lite in Vertex AI with the Gen AI Python SDK.
+
+	View on GitHub
+
+GEMINI
+LIVE API
+MULTIMODAL
+	
+
+Get Started with the Multimodal Live API
+
+Get started with Gemini 2.0 Multimodal Live API in Vertex AI using the Gen AI Python SDK
+
+	View on GitHub
+
+GEMINI
+IMAGE GENERATION
+MULTIMODAL
+	
+
+Gemini 2.0 Flash Image Generation in Vertex AI
+
+Get started with Gemini Image Generation in Vertex AI.
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Intro to Prompt Engineering
+
+Learn the essentials and best practices of prompt engineering.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+	
+
+Function Calling with Gemini
+
+Connect Gemini to external tools using function calling.
+
+	View on GitHub
+
+GEMINI
+GROUNDING
+RAG
+SEARCH
+	
+
+Grounding with Gemini
+
+Connect Gemini to real-world data from Google Search or Vertex AI Search to improve response quality.
+
+	View on GitHub
+
+BATCH PREDICTION
+GEMINI
+	
+
+Batch Prediction with Gemini
+
+Use Batch Prediction to run inference on a large number of examples.
+
+	View on GitHub
+
+GEMINI
+	
+
+Long Context Window
+
+Use the Long Context Window to process large amounts of multimodal data.
+
+	View on GitHub
+
+GEMINI
+	
+
+Intro to Context Caching
+
+Use context caching to store frequently used data.
+
+	View on GitHub
+
+GEMINI
+	
+
+Intro to Structured Output with the Gemini API
+
+Learn to control Gemini API output formats for easier data processing.
+
+	View on GitHub
+
+GEMINI
+	
+
+Call Gemini by using the OpenAI Library
+
+Learn how to call Gemini using Chat Completions.
+
+	View on GitHub
+
+GEMINI
+GROUNDING
+SEARCH
+	
+
+Creating Marketing Assets using Gemini 2.0 Flash
+
+Learn how to combine the multimodal capabilities of Gemini and Grounding with Google Search to create a marketing campaign brief and marketing assets.
+
+	View on GitHub
+
+CHIRP
+SPEECH
+	
+
+Get started with Chirp 3 HD Voices for Text-to-Speech
+
+Learn about how to use Chirp 3 HD Voices, the latest generation of Google Text-to-Speech voices.
+
+	View on GitHub
+
+CHIRP
+SPEECH
+	
+
+Get started with Chirp 2 for Speech-to-Text
+
+Learn about how to use Chirp 2, the latest generation of Google's multilingual Automatic Speech Recognition models.
+
+	View on GitHub
+
+IMAGEN
+MULTIMODAL
+	
+
+Intro to Imagen 4 Image Generation
+
+Use Imagen 4 to create photorealistic images.
+
+	View on GitHub
+
+IMAGEN
+MULTIMODAL
+	
+
+Imagen 3 Image Editing
+
+Use Imagen 3 to edit photorealistic images using inpainting, outpainting, and Product Image Editing.
+
+	View on GitHub
+
+EMBEDDINGS
+VECTOR SEARCH
+	
+
+Get Started with Text Embeddings + Vertex AI Vector Search
+
+Use AI's multitool, Embeddings, and Vertex AI Vector Search perform semantic matching.
+
+	View on GitHub
+
+GEMINI
+LANGCHAIN
+LANGGRAPH
+ORCHESTRATION
+	
+
+Intro to LangGraph with Gemini
+
+Learn how to combine LangGraph's workflow capabilities with Gemini's language understanding and generation skills to streamline and automate complex financial analysis tasks.
+
+	View on GitHub
+
+GEMINI
+LANGCHAIN
+LANGGRAPH
+ORCHESTRATION
+SPEECH
+	
+
+Create custom podcast episodes
+
+Use Gemini, LangGraph, and Text-to-Speech to create custom podcast episodes.
+
+	View on GitHub
+
+GEMINI
+SPEECH
+	
+
+Storytelling with Gemini and Text-to-Speech
+
+Use Gemini and Text-to-Speech to create and read a story with multiple characters.
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Analyze a codebase
+
+Use Gemini to generate code, summarize a codebase, debug, improve code, and assess code.
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+SECURITY
+	
+
+LLM Security for developers
+
+Learn about prompt injection attacks and how to mitigate them.
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+GEMINI
+	
+
+Intro to Agent Engine
+
+Learn how to build and deploy an agent (model, tools, and reasoning) using Agent Engine.
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Intro to Gen AI Evaluation Service
+
+Evaluate Gemini responses using metrics and custom datasets.
+
+	View on GitHub
+
+GEMINI
+TUNING
+	
+
+Gemini Supervised Fine-tuning for Article Summarization
+
+Learn how to fine-tune Gemini for article summarization.
+
+	View on GitHub
+
+GEMINI
+RAG
+	
+
+Intro to Vertex AI RAG Engine
+
+Build custom RAG workflows with Gemini and Vertex AI RAG Engine.
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Document Processing with Gemini
+
+Use Gemini to process documents for classification, extraction, and summarization.
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Patents Document Understanding with Gemini
+
+Use Gemini to process patent documents using classification, entity extraction, and object detection.
+
+	View on GitHub
+
+AGENTS
+	
+
+Build and deploy a Hugging Face smolagent using DeepSeek on Vertex AI
+
+This notebook showcases how to deploy DeepSeek R1 Distill Qwen 32B from Hugging Face Hub on Vertex AI.
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Multimodal Sentiment Analysis with Gemini
+
+This notebook demonstrates multimodal sentiment analysis with Gemini by comparing sentiment analysis performed directly on audio with analysis performed on its text transcript.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+WORKSPACE
+	
+
+Productivity Coaching with Gemini and Google Calendar
+
+This notebook demonstrates how to use Gemini as your personal productivity coach, by connecting it to Google Workspace APIs.
+
+	View on GitHub
+
+MULTIMODAL
+VEO
+	
+
+Veo 3 Video Generation
+
+In this tutorial, you will learn how to use the Google Gen AI SDK for Python to interact with Veo 3 and generate new videos from text prompts.
+
+	View on GitHub
+
+EMBEDDINGS
+GEMINI
+MULTIMODAL
+	
+
+Intro to the Google Gen AI SDK
+
+Intro to the Google Gen AI SDK.
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+PROMPTING
+	
+
+Gemini: An Overview of Multimodal Use Cases
+
+How to prompt Gemini with multimodal data (text, documents, images, video, and audio).
+
+	View on GitHub
+
+GEMINI
+	
+
+Introduction to Gemini with REST API/cURL
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+PROMPTING
+	
+
+Prompt Engineering, Evaluation, and Prompt Templating
+
+Use Gen AI Evaluation Service SDK for prompt engineering and evaluation.
+
+	View on GitHub
+
+EMBEDDINGS
+MULTIMODAL
+	
+
+Intro to Multimodal Embeddings
+
+Learn about multimodal embeddings.
+
+	View on GitHub
+
+EMBEDDINGS
+TUNING
+	
+
+Intro to Embeddings Tuning
+
+Learn how to tune embeddings models.
+
+	View on GitHub
+
+EMBEDDINGS
+VECTOR SEARCH
+	
+
+Task Type Embeddings
+
+Learn how to get better embeddings for your specific task.
+
+	View on GitHub
+
+EMBEDDINGS
+VECTOR SEARCH
+	
+
+Hybrid Search with Vertex AI Vector Search
+
+Learn how to use hybrid search with Vertex AI Vector Search combining semantic & keyword search.
+
+	View on GitHub
+
+AGENTS
+GEMINI
+LANGCHAIN
+LANGGRAPH
+	
+
+AI Agents for Engineers (Evolution of AI Agents)
+
+This notebook demonstrates 3 different approaches to generating essays using the Gemini API, Zero-Shot, Step-by-Step with LangChain, and Iterative with LangGraph.
+
+	View on GitHub
+
+GEMMA
+HUGGING FACE
+	
+
+Hugging Face DLCs: Serving Gemma with Text Generation Inference (TGI) on Vertex AI
+
+Learn how to deploy Google Gemma from the Hugging Face Hub on Vertex AI using the Hugging Face Deep Learning Container (DLC) for Text Generation Inference (TGI).
+
+	View on GitHub
+
+GEMMA
+LANGGRAPH
+RAG
+	
+
+Running a Gemma 2-based agentic RAG with Ollama on Vertex AI and LangGraph
+
+This notebook showcases how to run a Gemma 2-based Agent with Ollama on Vertex AI and LangGraph.
+
+	View on GitHub
+
+GEMMA
+HUGGING FACE
+	
+
+Hugging Face DLCs: Serving PaliGemma using Pytorch Inference on Vertex AI with Custom Handler
+
+Learn how to deploy Google PaliGemma from the Hugging Face Hub on Vertex AI using the Hugging Face Deep Learning Container (DLC) for Pytorch Inference in combination with a custom handler.
+
+	View on GitHub
+
+GEMMA
+HUGGING FACE
+TUNING
+	
+
+Hugging Face DLCs: Fine-tuning Gemma with Transformer Reinforcement Learning (TRL) on Vertex AI
+
+Learn how to fine-tune Gemma with Transformer Reinforcement Learning (TRL) on Vertex AI.
+
+	View on GitHub
+
+HUGGING FACE
+	
+
+Guess who or what app using Hugging Face Deep Learning container model on Vertex AI
+
+Create a"Guess who or what" application using Vertex AI, Hugging Face Deep Learning container, an image generation open model, and Gemini to solve and visualize riddles.
+
+	View on GitHub
+
+EMBEDDINGS
+	
+
+Visualizing embedding similarity from text documents using t-SNE plots
+
+Visualize embedding similarity from text documents using t-SNE plots.
+
+	View on GitHub
+
+EMBEDDINGS
+VECTOR SEARCH
+	
+
+Vertex AI Vector Search Quickstart
+
+Learn how to use Vertex AI Vector Search to find similar text documents.
+
+	View on GitHub
+
+EMBEDDINGS
+GEMINI
+VECTOR SEARCH
+	
+
+Anomaly Detection of Infrastructure Logs using Gemini and BigQuery Vector Search
+
+Learn how to large volumes of infrastructure logs using Gemini, vector embeddings and BigQuery Vector Search to perform anomaly detection.
+
+	View on GitHub
+
+EMBEDDINGS
+GEMINI
+	
+
+Log Anomaly Detection & Investigation with Text Embeddings + BigQuery Vector Search
+
+Learn how to large volumes of audit logs using Gemini, vector embeddings and BigQuery Vector Search to perform anomaly detection.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+	
+
+Working with Data Structures and Schemas in Gemini Function Calling
+
+Learn how to use Gemini Function Calling with data structures and schemas.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+	
+
+Working with Parallel Function Calls and Multiple Function Responses in Gemini
+
+Learn how to use parallel function calls and multiple function responses in Gemini.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+PROMPTING
+	
+
+Introduction to ReAct Agents with Gemini & Function Calling
+
+Learn how to use ReAct Agents with Gemini and Function Calling.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+	
+
+Forced Function Calling with Tool Configurations in Gemini
+
+Learn how to use forced function calling with tool configurations in Gemini.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+	
+
+Using Gemini Function Calling to Get Real-Time Company News and Insights
+
+Learn how to use Gemini Function Calling to get real-time company news and insights.
+
+	View on GitHub
+
+FUNCTION CALLING
+GEMINI
+MULTIMODAL
+	
+
+Multimodal Function Calling with the Gemini API & Python SDK
+
+Learn how to use Gemini Multimodal Function Calling.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Advanced RAG Techniques - Vertex RAG Engine Retrieval Quality Evaluation and Hyperparameters Tuning
+
+Learn about advanced RAG techniques with evaluation and hyperparameter tuning.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Vertex AI RAG Engine with Pinecone
+
+Learn how to use Pinecone with Vertex AI RAG Engine.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Vertex AI RAG Engine with Weaviate
+
+Learn how to use Weaviate with Vertex AI RAG Engine.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Vertex AI RAG Engine with Vertex AI Feature Store
+
+Learn how to use Vertex AI Feature Store with Vertex AI RAG Engine.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Vertex AI RAG Engine with Vertex AI Vector Search
+
+Learn how to use Vertex AI Vector Search with Vertex AI RAG Engine.
+
+	View on GitHub
+
+GEMINI
+RAG
+RAG ENGINE
+	
+
+Vertex AI RAG Engine with Vertex AI Search
+
+Learn how to use Vertex AI Search with Vertex AI RAG Engine.
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+GEMINI
+	
+
+Debugging and Optimizing Agents: A Guide to Tracing in Agent Engine
+
+Learn how to use Tracing in Agent Engine.
+
+	View on GitHub
+
+AGENT ENGINE
+GEMINI
+LANGCHAIN
+	
+
+Deploying a RAG Application with AlloyDB to Agent Engine
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+GEMINI
+RAG
+SEARCH
+	
+
+Building a Conversational Search Agent with Agent Engine and RAG on Vertex AI Search
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+GEMINI
+LANGGRAPH
+RAG
+	
+
+Building a Multi-Agent RAG Application with LangGraph and Agent Engine
+
+	View on GitHub
+
+AGENT ENGINE
+GEMINI
+LANGGRAPH
+RAG
+	
+
+Deploying a RAG Application with Cloud SQL for PostgreSQL to Agent Engine
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+GEMINI
+	
+
+Building and Deploying a Google Maps API Agent with Agent Engine
+
+	View on GitHub
+
+AGENT ENGINE
+GEMINI
+LANGGRAPH
+	
+
+Building and Deploying a LangGraph Application with Agent Engine in Vertex AI
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Video Analysis with Gemini
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+YouTube Video Analysis with Gemini
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+VECTOR SEARCH
+	
+
+Building a Multimodal Chatbot for Warranty Claims using Gemini and Vector Search in Vertex AI
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+RAG
+	
+
+Multimodal Retrieval Augmented Generation (RAG) using Gemini API in Vertex AI
+
+	View on GitHub
+
+GEMINI
+LLAMAINDEX
+RAG
+	
+
+LlamaIndex with Vertex AI Vector Search to perform question answering RAG
+
+	View on GitHub
+
+GEMINI
+LANGCHAIN
+MULTIMODAL
+RAG
+	
+
+Multimodal Retrieval Augmented Generation (RAG) with Gemini, Vertex AI Vector Search, and LangChain
+
+	View on GitHub
+
+GEMINI
+RAG
+	
+
+Small-to-big Retrieval-Augmented Generation
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+ReAct (Reasoning + Acting) + Custom tool for Healthcare NL API + Gemini + LangChain
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Using Gemini in Education
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+AI Quick Build Experience
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+RAG
+	
+
+Code Retrieval Augmented Generation (RAG) with Gemini API
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Product listing generation with Gemini
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Multimodal retail recommendation: using Gemini to recommend items based on images and image reasoning
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+PROMPTING
+	
+
+Sheet Music Analysis with Gemini
+
+	View on GitHub
+
+GEMINI
+MULTIMODAL
+	
+
+Analyzing movie posters in BigQuery with Gemini
+
+	View on GitHub
+
+GEMINI
+LANGCHAIN
+	
+
+Getting Started with LangChain 🦜️🔗 + Gemini API in Vertex AI
+
+	View on GitHub
+
+AGENTS
+GEMINI
+	
+
+Building a Weather Agent with AutoGen and Gemini
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Vertex AI Prompt Optimizer Notebook UI
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Vertex AI Prompt Optimizer - Tool usage
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Vertex AI Prompt Optimizer - Custom metric
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Intro to Vertex AI Prompt Optimizer
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Text Summarization with Generative Models on Vertex AI
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Ideation with Generative Models on Vertex AI
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Chain of Thought & ReAct
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Question Answering with Generative Models on Vertex AI
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Text Classification with Generative Models on Vertex AI
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+	
+
+Text Extraction with Generative Models on Vertex AI
+
+	View on GitHub
+
+GEMINI
+TUNING
+	
+
+Supervised Fine Tuning with Gemini 2.0 Flash for Change Detection
+
+	View on GitHub
+
+GEMINI
+TUNING
+	
+
+Supervised Fine-Tuning with Gemini 2.0 Flash for Q & A
+
+	View on GitHub
+
+GEMINI
+TUNING
+	
+
+Supervised Fine Tuning with Gemini 2.0 Flash for Image Captioning
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+MODEL GARDEN
+	
+
+Use Gen AI Evaluation SDK to Evaluate Models in Vertex AI Studio, Model Garden, and Model Registry
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+RAG
+	
+
+Evaluate Generated Answers from RAG using Rapid Evaluation and Dataflow ML with Vertex AI Pipelines
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Enhancing Quality and Explainability with Vertex AI Evaluation
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Evaluate and Compare Gen AI Model Settings
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Bring-Your-Own-Autorater using Custom Metrics
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Evaluate a Translation Model
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Compare and Migrate from PaLM to Gemini Model
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+MULTIMODAL
+	
+
+Evaluating Multimodal Tasks
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+LANGCHAIN
+	
+
+Evaluate LangChain
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Compare Generative AI Models
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+RAG
+	
+
+Evaluate Generated Answers from RAG for QA with Gen AI Evaluation Service SDK
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+	
+
+Customize Model-based Metrics to Evaluate a Gen AI Model
+
+	View on GitHub
+
+EVALUATION
+GEMINI
+RAG
+	
+
+Evaluate Generative Model Tool Use
+
+	View on GitHub
+
+GEMINI
+PROMPTING
+RAG
+SECURITY
+	
+
+Gen AI and LLM Security - ReAct and RAG Attacks & Mitigations
+
+	View on GitHub
+
+GEMINI
+SECURITY
+	
+
+Responsible AI with Gemini API in Vertex AI: Safety Ratings and Thresholds
+
+	View on GitHub
+
+BATCH PREDICTION
+GEMINI
+	
+
+Monitor Batch Prediction with Gemini API
+
+	View on GitHub
+
+IMAGEN
+MULTIMODAL
+	
+
+Imagen 3 Customized Images
+
+	View on GitHub
+
+GEMINI
+IMAGEN
+MULTIMODAL
+	
+
+Create High Quality Visual Assets with Imagen and Gemini
+
+	View on GitHub
+
+IMAGEN
+MULTIMODAL
+	
+
+Create a Photoshop Document with Image Segmentation on Vertex AI
+
+	View on GitHub
+
+GEMINI
+IMAGEN
+MULTIMODAL
+	
+
+Enhance Imagen Prompts with Gemini
+
+	View on GitHub
+
+IMAGEN
+MULTIMODAL
+	
+
+Image Segmentation on Vertex AI
+
+	View on GitHub
+
+SEARCH
+	
+
+Vertex AI Search with Filters & Metadata
+
+	View on GitHub
+
+GEMINI
+SEARCH
+	
+
+Vertex AI Search - Querying Blended Data Apps and Summarization with Gemini
+
+	View on GitHub
+
+SEARCH
+	
+
+Create a Vertex AI Search Datastore and Search Engine
+
+	View on GitHub
+
+SEARCH
+	
+
+Building Search Applications with Vertex AI Search
+
+	View on GitHub
+
+GEMINI
+LANGCHAIN
+RAG
+SEARCH
+	
+
+Question Answering Over Documents
+
+	View on GitHub
+
+GEMINI
+RAG
+SEARCH
+	
+
+Bulk Question Answering with Vertex AI Search
+
+	View on GitHub
+
+EMBEDDINGS
+SEARCH
+	
+
+Custom Embeddings with Vertex AI Search
+
+	View on GitHub
+
+CHIRP
+SPEECH
+	
+
+Get Started with Chirp 2 - Advanced Features
+
+	View on GitHub
+
+CLAUDE
+FUNCTION CALLING
+MODEL GARDEN
+	
+
+Multimodal Function Calling with Claude Models
+
+	View on GitHub
+
+AGENTS
+SEARCH
+	
+
+Vertex AI Search and Conversation Data Store Status Checker
+
+	View on GitHub
+
+AGENTS
+GEMINI
+	
+
+Building a Research Multi Agent System - a Design Pattern Overview with Gemini 2.0
+
+	View on GitHub
+
+CODE EXECUTION
+GEMINI
+	
+
+Intro to Generating and Executing Python Code with Gemini 2.0
+
+	View on GitHub
+
+AGENTS
+EVALUATION
+GEMINI
+	
+
+Evaluating Agents - Evaluate a CrewAI agent with Vertex AI Gen AI Evaluation
+
+	View on GitHub
+
+AGENTS
+EVALUATION
+GEMINI
+LANGGRAPH
+	
+
+Evaluating Agents - Evaluate a LangGraph agent with Vertex AI Gen AI Evaluation
+
+	View on GitHub
+
+GEMINI
+LIVE API
+MULTIMODAL
+RAG
+	
+
+Interactive Loan Application Assistant (Financial Services)
+
+	View on GitHub
+
+RAG
+RAG ENGINE
+SEARCH
+	
+
+Vertex AI RAG Engine with Vertex AI Search
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+EVALUATION
+	
+
+Evaluate a CrewAI agent on Vertex AI Agent Engine (Customized template)
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+EVALUATION
+LANGCHAIN
+	
+
+Evaluating a LangChain Agent on Vertex AI Agent Engine (Prebuilt template)
+
+	View on GitHub
+
+AGENT ENGINE
+AGENTS
+EVALUATION
+LANGGRAPH
+	
+
+Evaluate a LangGraph agent on Vertex AI Agent Engine (Customized template)
+
+	View on GitHub
+
+GEMINI
+SEARCH
+	
+
+Q&A Chatbot with Vertex AI Search for summarized website results
+
+	View on GitHub
+
+GEMINI
+	
+
+Getting started with Gemini using Vertex AI in Express Mode
+
+	View on GitHub
+What's next
+Learn about LLMs, Vertex AI, and Generative AI models with Generative AI beginner's guide.
+Explore more resources in the Generative AI GitHub repo.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

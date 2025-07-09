@@ -1,0 +1,156 @@
+Skip to main content
+Models
+Solutions
+Code assistance
+More
+/
+Sign in
+Gemini API docs
+API Reference
+Cookbook
+Community
+Get started
+Overview
+Quickstart
+API keys
+Libraries
+OpenAI compatibility
+Models
+All models
+Pricing
+Rate limits
+Billing info
+Model Capabilities
+Text generation
+Image generation
+Video generation
+Speech generation
+Music generation
+Long context
+Structured output
+Thinking
+Function calling
+Document understanding
+Image understanding
+Video understanding
+Audio understanding
+Code execution
+URL context
+Google Search
+Guides
+Prompt engineering
+Live API
+Context caching
+Files API
+Batch mode
+Token counting
+Embeddings
+Safety
+Resources
+Migrate to Gen AI SDK
+Release notes
+API troubleshooting
+Fine-tuning
+Open-Source Frameworks
+Google AI Studio
+Google Cloud Platform
+Policies
+Terms of service
+Available regions
+Additional usage polices
+On this page
+Before you begin
+Install the Google GenAI SDK
+Make your first request
+"Thinking" is on by default on many of our code samples
+What's next
+Introducing updates to our 2.5 family of thinking models. Learn more
+Home
+Gemini API
+Models
+Was this helpful?
+Send feedback
+Gemini API quickstart
+
+This quickstart shows you how to install our libraries and make your first Gemini API request.
+
+Before you begin
+
+You need a Gemini API key. If you don't already have one, you can get it for free in Google AI Studio.
+
+Install the Google GenAI SDK
+Python
+JavaScript
+Go
+Java
+Apps Script
+
+Using Python 3.9+, install the google-genai package using the following pip command:
+
+pip install -q -U google-genai
+
+Make your first request
+
+Here is an example that uses the generateContent method to send a request to the Gemini API using the Gemini 2.5 Flash model.
+
+If you set your API key as the environment variable GEMINI_API_KEY, it will be picked up automatically by the client when using the Gemini API libraries. Otherwise you will need to pass your API key as an argument when initializing the client.
+
+Note that all code samples in the Gemini API docs assume that you have set the environment variable GEMINI_API_KEY.
+
+Python
+JavaScript
+Go
+Java
+Apps Script
+REST
+from google import genai
+
+# The client gets the API key from the environment variable `GEMINI_API_KEY`.
+client = genai.Client()
+
+response = client.models.generate_content(
+    model="gemini-2.5-flash", contents="Explain how AI works in a few words"
+)
+print(response.text)
+
+"Thinking" is on by default on many of our code samples
+
+Many code samples on this site use the Gemini 2.5 Flash model, which has the "thinking" feature enabled by default to enhance response quality. You should be aware that this may increase response time and token usage. If you prioritize speed or wish to minimize costs, you can disable this feature by setting the thinking budget to zero, as shown in the examples below. For more details, see the thinking guide.
+
+Note: Thinking is only available on Gemini 2.5 series models and can't be disabled on Gemini 2.5 Pro.
+Python
+JavaScript
+Go
+REST
+Apps Script
+from google import genai
+from google.genai import types
+
+client = genai.Client()
+
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="Explain how AI works in a few words",
+    config=types.GenerateContentConfig(
+        thinking_config=types.ThinkingConfig(thinking_budget=0) # Disables thinking
+    ),
+)
+print(response.text)
+
+What's next
+
+Now that you made your first API request, you might want to explore the following guides that show Gemini in action:
+
+Thinking
+Text generation
+Vision
+Long context
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-06-27 UTC.
+
+Terms
+Privacy

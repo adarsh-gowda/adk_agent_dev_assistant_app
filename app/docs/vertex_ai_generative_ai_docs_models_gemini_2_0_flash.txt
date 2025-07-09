@@ -1,0 +1,307 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Gemini 2.5 Flash
+Gemini 2.5 Pro
+Gemini 2.5 Flash-Lite
+Gemini 2.0 Flash
+Gemini 2.0 Flash-Lite
+Vertex AI Model Optimizer
+Migrate to Gemini 2
+SDKs
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Gemini 2.0 Flash
+bookmark_border
+Release Notes
+
+Gemini 2.0 Flash delivers next-generation features and improved capabilities designed for the agentic era, including superior speed, built-in tool use, multimodal generation, and a 1M token context window. Gemini 2.0 Flash improves upon our previous Flash model and offers enhanced quality at similar speeds.
+
+For even more detailed technical information on Gemini 2.0 Flash (such as performance benchmarks, information on our training datasets, efforts on sustainability, intended usage and limitations, and our approach to ethics and safety), see the model card for Gemini 2.0 Flash.
+
+2.0 Flash
+Image generation
+Live API
+
+Try in Vertex AI View in Model Garden (Preview) Deploy example app
+
+Note: To use the "Deploy example app" feature, you need a Google Cloud project with billing and Vertex AI API enabled.
+Model ID	gemini-2.0-flash
+Supported inputs & outputs	
+Inputs: Text, code, images, audio, video
+Outputs: Text
+
+Token limits	
+Maximum input tokens: 1,048,576
+Maximum output tokens: 8,192 (default)
+
+Capabilities	
+Supported
+Grounding with Google Search
+Code execution
+Tuning
+System instructions
+Structured output
+Batch prediction
+Function calling
+Count Tokens
+Context caching
+Vertex AI RAG Engine
+Chat completions
+Not supported
+Live API preview
+Thinking
+
+Usage types	
+Supported
+Provisioned Throughput
+Dynamic shared quota
+Not supported
+Fixed quota
+
+Input size limit	500 MB
+Technical specifications
+
+Images
+photo
+Maximum images per prompt: 3,000
+Maximum image size: 7 MB
+Maximum tokens per minute (TPM) per project:
+High/Medium/Default media resolution:
+US/Asia: 40 M
+EU: 10 M
+Low media resolution:
+US/Asia: 10 M
+EU: 2.6 M
+Supported MIME types: image/png, image/jpeg, image/webp
+
+
+Documents
+description
+Maximum number of files per prompt: 3,000
+Maximum number of pages per file: 1,000
+Maximum file size per file: 50 MB
+Maximum tokens per minute (TPM) per project1:
+US/Asia: 3.4 M
+EU: 3.4 M
+Supported MIME types: application/pdf, text/plain
+
+
+Video
+videocam
+Maximum video length (with audio): Approximately 45 minutes
+Maximum video length (without audio): Approximately 1 hour
+Maximum number of videos per prompt: 10
+Maximum tokens per minute (TPM):
+High/Medium/Default media resolution:
+US/Asia: 38 M
+EU: 10 M
+Low media resolution:
+US/Asia: 10 M
+EU: 2.5 M
+Supported MIME types: video/x-flv, video/quicktime, video/mpeg, video/mpegs, video/mpg, video/mp4, video/webm, video/wmv, video/3gpp
+
+
+Audio
+mic
+Maximum audio length per prompt: Appropximately 8.4 hours, or up to 1 million tokens
+Maximum number of audio files per prompt: 1
+Speech understanding for: Audio summarization, transcription, and translation
+Maximum tokens per minute (TPM):
+US/Asia: 3.5 M
+EU: 3.5 M
+Supported MIME types: audio/x-aac, audio/flac, audio/mp3, audio/m4a, audio/mpeg, audio/mpga, audio/mp4, audio/opus, audio/pcm, audio/wav, audio/webm
+
+
+Parameter defaults
+tune
+Temperature: 0.0-2.0 (default 1.0)
+topP: 0.0-1.0 (default 0.95)
+topK: 64 (fixed)
+candidateCount: 1–8 (default 1)
+
+Supported regions
+
+
+Model availability
+
+(Includes dynamic shared quota & Provisioned Throughput)
+
+	
+Global
+global
+ 
+United States
+us-central1
+us-east1
+us-east4
+us-east5
+us-south1
+us-west1
+us-west4
+ 
+Europe
+europe-central2
+europe-north1
+europe-southwest1
+europe-west1
+europe-west4
+europe-west8
+europe-west9
+
+
+
+ML processing
+
+	
+United States
+Multi-region
+ 
+Europe
+Multi-region
+
+See Data residency for more information.
+Knowledge cutoff date	June 2024
+Versions	
+gemini-2.0-flash-001
+Launch stage: Generally available
+Release date: February 5, 2025
+Discontinuation date: February 5, 2026
+
+Security controls
+Online prediction	
+Data residency (at rest)
+Supported
+Customer-managed encryption keys (CMEK)
+Supported
+VPC Service Controls
+Supported
+Access Transparency (AXT)
+Supported
+
+Batch prediction	
+Data residency (at rest)
+Supported
+Customer-managed encryption keys (CMEK)
+Not supported
+VPC Service Controls
+Supported
+Access Transparency (AXT)
+Not supported
+
+Tuning	
+Data residency (at rest)
+Supported
+Customer-managed encryption keys (CMEK)
+Supported
+VPC Service Controls
+Supported
+Access Transparency (AXT)
+Not supported
+
+See Security controls for more information.
+Pricing	See Pricing.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-08 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

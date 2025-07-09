@@ -1,0 +1,173 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Imagen 3.0 Generate 002
+Imagen 3.0 Generate 001
+Imagen 3.0 Fast Generate 001
+Imagen 3.0 Capability 001
+Imagen 4.0 Generate Preview 06-06
+Imagen 4.0 Fast Generate Preview 06-06
+Imagen 4.0 Ultra Generate Preview 06-06
+Migrate to Imagen 3
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Imagen 4 Ultra Generate Preview 06-06
+bookmark_border
+
+Preview
+
+This feature is a Generative AI Preview offering, subject to the "Pre-GA Offerings Terms" of the Google Cloud Service Specific Terms, as well as the Additional Terms for Generative AI Preview Products. For this Generative AI Preview offering, Customers may elect to use it for production or commercial purpose, or disclose Generated Output to third-parties. Pre-GA products and features may have limited support, and changes to pre-GA products and features may not be compatible with other pre-GA versions. For more information, see the launch stage descriptions.
+
+Imagen 4 is our newest line of image generation models. This page documents the capabilities and features of imagen-4.0-ultra-generate-preview-06-06.
+
+Model ID	imagen-4.0-ultra-generate-preview-06-06
+Capabilities	
+Supported
+Image generation preview
+Digital watermarking and verification
+User-configurable safety settings
+Prompt enhancement using prompt rewriter preview
+Person generation
+Not supported
+Image customization using few-shot learning
+Subject customization for product, person, and animal companion
+Style customization
+Controlled customization
+Instruct customization or style transfer
+Mask-based image editing
+Mask-free image editing
+Insertion or removal image editing
+Outpainting
+Product image editing
+Upscale images
+Negative prompting
+
+Image ratios and resolutions	
+1:1: 1024x1024
+3:4: 896x1280
+4:3: 1280x896
+9:16: 768x1408
+16:9: 1408x768
+
+Prompt languages	
+English
+Chinese (simplified) preview
+Chinese (traditional) preview
+Hindi preview
+Japanese preview
+Korean preview
+Portuguese preview
+Spanish preview
+
+Limits	
+Maximum API requests per minute per project: 20
+Maximum images returned per request (text-to-image generation): 1
+Maximum image size uploaded or sent in a request (MB): 10 MB
+Maximum input tokens (text-to-image generation prompt text): 480 tokens
+
+For Imagen pricing information, see the Imagen section of the Cost of building and deploying AI models in Vertex AI page.
+
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe

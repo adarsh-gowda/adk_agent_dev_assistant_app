@@ -1,0 +1,182 @@
+Google Cloud Customer Care
+
+Check our support self-serve options or get unlimited access to technical support. Choose the service that’s right for your organization. Sign up now or contact sales.
+
+Sign up
+Contact sales
+
+Looking for something else? 
+
+Get support for personal use products like Gmail, Google One, Voice, and Drive storage
+
+FILTER BY
+Filters
+Google Cloud
+Google Workspace
+Google Maps Platform
+search
+send
+Google Cloud
+
+Basic Support is included for all Google Cloud customers. With Basic Support, you have access to our documentation, community support, and support for Cloud Billing issues.
+
+Billing support
+Our billing specialists are available to answer your questions about your account, settings, invoices, and payments.
+Check Google Cloud incidents
+Check the Service Health dashboard for incidents relevant to your projects and the products you use.
+Free Trial FAQs
+Get answers to frequently asked questions about signing up and getting started quickly.
+Community support
+Review online forums for support from Google Cloud enthusiasts, experts, and Google employees.
+Documentation
+Get in-depth tutorials, quickstart guides, tips, reference architectures, and more.
+Sign up for technical support
+Review the available services and sign up today to get tailored technical support.
+Customer Care services and pricing
+You can upgrade to Standard, Enhanced, or Premium Support for tailored technical support with Google Cloud experts.
+Getting started with Customer Care
+Learn more about Customer Care and find step by step guidance.
+Get help through a support case
+Administrators can submit a new case or review status of a current case in the Google Cloud console.
+Training
+Choose your learning path, build your skills, and validate your knowledge all in one place with Google Cloud Skills Boost.
+Google for Startups Cloud Program FAQs
+Get answers to frequently asked questions about the program to help you on your journey.
+
+Support for related products 
+
+Apigee
+Learn about popular topics, find resources, and get in touch with the Apigee support team.
+Firebase
+Get email support, review FAQs and release notes, and get answers from the Firebase community.
+Cloud Identity
+Get articles, answers, and best practices guides to help you get the most out of Cloud Identity.
+Chronicle SOAR
+Access world-class support for Chronicle SOAR. For customers requiring access to the support portal, please contact your Siemplify representative.
+Google Workspace
+Chat, phone, and written support
+24/7 support for IT administrators is included in your paid subscription.
+Google Workspace Administrator Help Center
+Explore support articles on setup and migration, billing, security, reports, and more.
+Finding your PIN
+Locate your administrator PIN, which you'll need to provide when you contact Google Workspace phone support.
+Fixing payment and billing issues
+Troubleshoot issues with a suspended account or services, including making sure you have a valid form of payment set up.
+Resetting passwords
+See simple steps to reset a user’s password if they forgot or if you think their account has been compromised.
+Verifying your domain
+Verifying is simple to do and ensures that only you can use your domain name.
+Google Maps Platform
+
+See where real-world insights and location solutions can take your business. Discover Google Maps Platform support services, including developer communities, technical guidance, and expert support.
+
+Google Maps Platform FAQs
+Learn how free Google support has been expanded to include all customers with a Google Maps Platform billing account.
+Community support
+Get answers from Google Maps Platform enthusiasts, experts, and Google employees on Stack Overflow.
+Maps API Public Issue Tracker
+View open issues, submit feature requests, track ongoing issues, and send feedback to Google's engineering and support staff.
+File a case
+Customers can create a support case by filling out the form on the Maps Platform Support page in the Google Cloud Console.
+Documentation
+Get API-specific documentation, in-depth tutorials, and more.
+Frequently asked support questions
+Collapse all
+How do I cancel my Google Cloud billing account?
+
+Closing an active Cloud Billing account stops all billable services. To close a Cloud Billing account, follow the steps in Close a Cloud Billing account. After you close your Cloud Billing account, you will be billed for the usage you accrued prior to cancelling your service. This bill will be the last bill you receive, unless you reopen the Cloud Billing account.
+
+How do I contact Google Cloud support?
+
+Basic Support is included for all Google Cloud customers. With Basic Support, you have access to our documentation, community support, and support for Cloud Billing issues. To get 1-on-1 technical support for your organization, you can upgrade to one of our Customer Care support services.
+
+Get support for personal use products like Gmail, Google Photos, and YouTube by visiting Google's Help Center. 
+
+Take the next step
+
+Tell us what you’re solving for. A Google Cloud expert will help you find the best solution.
+
+Contact sales
+Work with a trusted partner
+Find a partner
+Start using Google Cloud
+Try it free
+Deploy ready-to-go solutions
+Explore marketplace
+Overview
+Solutions
+Products
+Pricing
+Resources
+
+search_spark
+send_spark
+Docs
+Support
+Sign in
+Start free
+Contact Us
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Blog
+Products and pricing
+Google Cloud pricing
+Google Workspace pricing
+See all products
+Solutions
+Infrastructure modernization
+Databases
+Application modernization
+Smart analytics
+Artificial Intelligence
+Security
+Productivity & work transformation
+Industry solutions
+DevOps solutions
+Small business solutions
+See all solutions
+Resources
+Google Cloud Affiliate Program
+Google Cloud documentation
+Google Cloud quickstarts
+Google Cloud Marketplace
+Learn about cloud computing
+Support
+Code samples
+Cloud Architecture Center
+Training
+Certifications
+Google for Developers
+Google Cloud for Startups
+System status
+Release Notes
+Engage
+Contact sales
+Find a Partner
+Become a Partner
+Events
+Podcasts
+Developer Center
+Press Corner
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Follow on X
+Join User Research
+We're hiring. Join Google Cloud!
+Google Cloud Community
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+language
+‪English‬

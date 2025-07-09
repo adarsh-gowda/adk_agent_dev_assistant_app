@@ -1,0 +1,184 @@
+Skip to main content
+Documentation
+Technology areas
+Cross-product tools
+Related sites
+/
+Console
+Sign in
+Generative AI on Vertex AI
+Guides
+API reference
+Vertex AI Cookbook
+Prompt gallery
+Resources
+FAQ
+Contact Us
+Start free
+Discover
+Get started
+Select models
+Model Garden
+Try it: Test model capabilities using Playspaces
+Overview of Model Garden
+Use models in Model Garden
+Supported models
+Google Models
+Overview
+Gemini
+Imagen
+Veo
+Model versions
+Managed models
+Model as a Service (MaaS) overview
+Partner models
+Open models
+Model deprecations (MaaS)
+Self-deployed models
+Overview
+Google Gemma
+Llama
+Use Hugging Face Models
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+xDiT
+Tutorial: Deploy Llamma 3 models with SpotVM and Reservations
+Model Garden notebooks
+Build
+Evaluate
+Deploy
+Administer
+Go to Vertex AI documentation
+Vertex AI documentation
+On this page
+Key Terms
+Latest stable models
+Legacy stable models
+Migrate to a latest stable model
+Gemini auto-updated aliases
+Retired models
+What's next
+Starting April 29, 2025, Gemini 1.5 Pro and Gemini 1.5 Flash models are not available in projects that have no prior usage of these models, including new projects. For details, see Model versions and lifecycle.
+Generative AI on Vertex AI 
+Documentation
+Was this helpful?
+Send feedback
+Model versions and lifecycle
+bookmark_border
+Release Notes
+This document defines key terms related to the lifecycle of Gemini and embedding models on Vertex AI. It also provides recommended upgrade paths and guidance on migrating to the latest model versions.
+
+Key Terms
+Stable model: A publicly released model version that is available and supported for production use. A stable model is typically released with a retirement date, after which it will no longer be accessible or supported.
+Latest stable model: The most recent version within a model family. It is recommended for all new and active projects and should be the target for migrations from earlier.
+Legacy stable model: A model version that has been superseded by a newer stable model. While still supported, you should migrate to the latest model to access new features and improvements. Access to legacy models may be restricted for new projects.
+Retired model: A model version that is past its retirement date and has been permanently deactivated. API requests to a retired model will fail.
+Recommended upgrade: The latest stable model that we recommend switching to. Latest stable models typically offer better performance and more capabilities.
+Latest stable models
+
+The following table lists the latest stable models:
+
+Model ID	Release date	Retirement date	Details
+gemini-2.5-pro	June 17, 2025	June 17, 2026	
+gemini-2.5-flash	June 17, 2025	June 17, 2026	
+gemini-2.0-flash-001	February 5, 2025	February 5, 2026	Gemini 2.0: Flash, Flash-Lite and Pro - Google Developers Blog
+gemini-2.0-flash-lite-001	February 25, 2025	February 25, 2026	Gemini 2.0: Flash, Flash-Lite and Pro - Google Developers Blog
+gemini-embedding-001	May 20, 2025	No retirement date announced	
+text-embedding-005	November 18, 2024	No retirement date announced	
+text-multilingual-embedding-002	May 14, 2024	No retirement date announced	
+multimodalembedding@001	February 12, 2024	No Retirement date announced	
+Legacy stable models
+
+The following table lists legacy stable models:
+
+Model ID	Release date	Retirement date	Recommended upgrade
+gemini-1.5-pro-002*	September 24, 2024	September 24, 2025	gemini-2.0-flash
+gemini-1.5-flash-002*	September 24, 2024	September 24, 2025	gemini-2.0-flash-lite
+text-embedding-004	May 14, 2024	November 18, 2025	gemini-embedding-001
+
+Note: These models are restricted for new projects.
+
+Migrate to a latest stable model
+
+When a model you are using is approaching its retirement date, you must migrate your applications to a newer version. We offer two paths for migration depending on your needs.
+
+Troubleshooting
+
+If you encounter issues with code snippets or setup, refer to the Troubleshooting Guide.
+
+Recommended Migration Process
+Quick Migration
+
+For a structured migration that minimizes risk and verifies optimal performance, we recommend following our detailed guide. This guide provides a comprehensive set of steps to help you test and deploy new models effectively.
+
+Migrate your application to Gemini 2 with the Gemini API in Vertex AI
+Gemini auto-updated aliases
+
+An auto-updated alias for a Gemini model always points to the latest stable version. When a new stable model is released, the alias automatically updates to the new version. Using an alias enables your application to always use the latest stable model without requiring code changes.
+
+The following table shows the available auto-updated aliases and the stable versions they reference.
+
+Auto-updated alias	Stable version reference
+gemini-2.0-flash-lite	gemini-2.0-flash-lite-001
+gemini-2.0-flash	gemini-2.0-flash-001
+gemini-1.5-pro	gemini-1.5-pro-002
+gemini-1.5-flash	gemini-1.5-flash-002
+Retired models
+
+View retired models
+
+What's next
+To learn which regions models are available in, see Model availability and endpoints.
+For details about individual models, see Google models.
+Was this helpful?
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2025-07-07 UTC.
+
+Why Google
+Choosing Google Cloud
+Trust and security
+Modern Infrastructure Cloud
+Multicloud
+Global infrastructure
+Customers and case studies
+Analyst reports
+Whitepapers
+Products and pricing
+See all products
+See all solutions
+Google Cloud for Startups
+Google Cloud Marketplace
+Google Cloud pricing
+Contact sales
+Support
+Google Cloud Community
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Google Cloud documentation
+Code samples
+Cloud Architecture Center
+Training and Certification
+Developer Center
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Become a Partner
+Google Cloud Affiliate Program
+Press Corner
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
